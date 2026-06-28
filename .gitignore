@@ -1,0 +1,41 @@
+# Local/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Secrets and local configuration
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Builds, binaries, generated assets
+dist/
+build/
+output/
+release/
+releases/
+artifacts/
+*.zip
+*.7z
+*.rar
+*.exe
+*.msi
+*.apk
+*.aab
+*.vst3
+*.dll
+*.component
+
+# Audio and private project material
+*.wav
+*.mp3
+*.flac
+*.mid
+*.midi
+*.dw
+*.preset
