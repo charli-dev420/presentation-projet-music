@@ -17,6 +17,7 @@ This repository is a public-safe presentation surface.
 - VST binaries, APKs, installers, builds, stems, samples, presets, or release archives.
 - Secrets, server configuration, payment configuration, storage keys, admin details, or account data.
 - Internal QA evidence, device IDs, local paths, logs, screenshots, or generated artifacts.
+- Raw QA logs, CSV benchmark files, private screenshots, internal run summaries, unreleased distribution artifacts, and any synth/FX/audition material not rewritten as a public-safe summary.
 
 ## Review rule
 

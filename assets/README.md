@@ -1,18 +1,17 @@
 # Assets
 
-Only public-safe presentation assets belong here.
+This folder contains public-safe presentation assets only.
 
-Allowed:
+## Included
 
-- lightweight logos approved for public display;
-- non-sensitive diagrams;
-- compressed screenshots explicitly reviewed for public release.
+| Asset | Purpose |
+| --- | --- |
+| `brand/daw-core-logo-main.png` | Main DAWWW Core logo for presentation pages. |
+| `brand/daw-core-icon-512.png` | Compact icon/avatar. |
+| `brand/daw-core-banner.png` | Wide banner for cover sections. |
+| `brand/daw-core-watermark-opacity20.png` | Low-opacity watermark for public visual documents. |
+| `one-pager.svg` | Public-safe visual overview of the music ecosystem. |
 
-Not allowed:
+## Rule
 
-- product builds;
-- private screenshots;
-- source captures;
-- local paths;
-- QA evidence;
-- audio files, plugin binaries, installers, datasets, or generated release artifacts.
+Do not add private screenshots, secrets, product builds, plugin binaries, datasets, local paths, logs, presets, audio files, source captures, QA evidence, or unreleased artifacts.

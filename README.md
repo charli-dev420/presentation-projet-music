@@ -1,92 +1,56 @@
 # Music Project Presentation / Presentation projet musique
 
-> Public-safe presentation repository. This repository is a showcase and partnership brief, not a source-code release.
+<p align="center">
+  <img src="assets/brand/daw-core-logo-main.png" width="160" alt="DAWWW Core logo">
+</p>
 
-[FR](#francais) | [EN](#english)
+> Public-safe showcase for the music ecosystem. This repository is a product, documentation, and partnership surface, not a source-code release.
+
+[FR](#francais) | [EN](#english) | [One-pager](docs/one-pager.md) | [Public scope](docs/public-scope.md)
 
 ## Francais
 
 ### Positionnement
 
-Ce depot presente l'ecosysteme musique porte par **DAW Core** et **Unicor SoundEngine**.
+Cette vitrine presente l'ecosysteme musique autour de **DAW Core** et **Unicor SoundEngine**.
 
-Le projet principal est **DAW Core**: une station audio locale-first pensee pour composer, structurer et tester des projets musicaux sur desktop et Android, avec un format de projet portable.
+Le projet majeur est **DAW Core**: station audio locale-first pour composer, sauvegarder, tester et transporter des projets musicaux sur desktop et Android. Les projets secondaires sont regroupes sous **Unicor SoundEngine**: synthés, effets, site VST, audition et documentation produit. Ils sont presentes ensemble pour garder une lecture claire.
 
-Les projets secondaires sont regroupes sous **Unicor SoundEngine**: une suite de synthés, effets, site VST et surfaces de distribution. Les synthés et les effets sont presentes ensemble pour garder une lecture claire.
+### Lire dans le bon ordre
 
-### Ce que ce depot contient
-
-- Une presentation publique et bilingue du projet.
-- Une lecture produit: vision, surfaces, publics cibles, axes de partenariat.
-- Des informations volontairement non sensibles sur DAW Core, la suite VST, les synthés et les effets.
-- Des documents courts pour partenaires, financement, emploi ou collaboration.
-- Une cartographie des repos reels couverts, sans publier leur code.
+| Besoin | Document |
+| --- | --- |
+| Comprendre l'ensemble | [One-pager](docs/one-pager.md), [carte projet](docs/project-map.md) |
+| Evaluer les vrais repos couverts | [Repos couverts](docs/repositories.md), [index des preuves](docs/public-proof-index.md) |
+| Apprendre le parcours utilisateur | [Flux utilisateur](docs/user-flows.md), [tutoriels](docs/tutorials.md) |
+| Juger la maturite | [Preuves](docs/evidence.md), [roadmap](docs/roadmap.md) |
+| Decider comme acheteur, partenaire ou recruteur | [Buyer brief](docs/buyer-brief.md), [partenariats](docs/partnership.md) |
+| Reutiliser l'identite visuelle | [Charte](docs/brand-charter.md), [iconographie](docs/iconography.md), [assets](assets/README.md) |
 
 ### Repos reels couverts
 
-Ce depot est la vitrine publique de plusieurs repos et familles de repos:
-
-- `charli-dev420/daw-core` - repo produit principal, prive.
-- `charli-dev420/VST-site` - site et distribution Unicor SoundEngine, prive.
-- `charli-dev420/fx-*` - famille de repos effets audio, privee et regroupee.
-- famille `UWdeVST / synthe-*` - synthés et documentation produit, source privee/localisee.
+- `charli-dev420/daw-core` - projet principal, prive.
+- `charli-dev420/VST-site` - catalogue et distribution Unicor SoundEngine, prive.
+- `charli-dev420/fx-*` - famille d'effets audio, privee et regroupee.
+- `UWdeVST / synthe-*` - famille de synthés et documentation utilisateur, source privee/localisee.
 - `charli-dev420/audition-panel` - surface d'audition et preparation, privee.
 
-Les details sont dans [`docs/repositories.md`](docs/repositories.md).
+### Ce qui est public ici
 
-### Ce que ce depot ne contient pas
+- Vision produit bilingue.
+- Parcours utilisateur et tutoriels sans code sensible.
+- Preuves synthetisees et limites explicites.
+- Carte des repos reels et de leur role.
+- Charte visuelle DAWWW Core pour identifier rapidement l'ecosysteme.
+- Brief acheteur/collaborateur/financement/emploi.
 
-- Aucun code source produit.
-- Aucun binaire VST, APK, build desktop ou fichier de plugin.
-- Aucun secret, cle, configuration serveur, preuve QA interne ou chemin local.
-- Aucun dataset, preset prive, session utilisateur ou artefact de release.
+### Ce qui reste exclu
 
-### Projet majeur: DAW Core
-
-DAW Core est la piece centrale: un environnement audio local-first oriente creation, experimentation, sauvegarde portable et workflows QA reels.
-
-Axes publics:
-
-- station audio locale-first;
-- surface desktop/web;
-- surface Android;
-- format de projet portable;
-- validation audio et workflow utilisateur;
-- priorite a la robustesse produit plutot qu'a une demo superficielle.
-
-```mermaid
-flowchart LR
-    A[Creation musicale] --> B[DAW Core]
-    B --> C[Projet portable]
-    B --> D[Desktop]
-    B --> E[Android]
-    B --> F[Validation audio]
-    F --> G[Release plus fiable]
-```
-
-### Projet secondaire: Unicor SoundEngine
-
-Unicor SoundEngine regroupe la partie plugins et distribution:
-
-- synthés;
-- effets;
-- site VST;
-- presentation produit;
-- documentation et surfaces publiques;
-- distribution controlee des livrables.
-
-La presentation publique reste volontairement groupee: l'objectif est de montrer une suite musicale coherente, pas de disperser la lecture entre de nombreux petits depots.
+Aucun code produit, binaire VST/APK/build desktop, preset prive, session utilisateur, secret, configuration serveur, chemin local, log brut, preuve QA interne brute ou artefact de release n'est publie ici.
 
 ### Recherche
 
-Le projet recherche:
-
-- partenaires musique et audio software;
-- financement pour stabilisation produit, design sonore, tests, packaging et distribution;
-- collaboration technique sur audio temps reel, UX musicale, QA audio et Android;
-- missions ou emploi autour de produits audio, outils creatifs, IA appliquee et apps local-first.
-
-### Contact
+Le projet recherche des partenaires audio software, du financement pour stabilisation et distribution, des collaborations sur audio temps reel/UX/QA Android, et des opportunites emploi ou mission autour de produits audio, outils creatifs et apps local-first.
 
 Contact public recommande: [GitHub charli-dev420](https://github.com/charli-dev420).
 
@@ -94,84 +58,33 @@ Contact public recommande: [GitHub charli-dev420](https://github.com/charli-dev4
 
 ### Positioning
 
-This repository presents the music ecosystem behind **DAW Core** and **Unicor SoundEngine**.
+This showcase presents the music ecosystem around **DAW Core** and **Unicor SoundEngine**.
 
-The main project is **DAW Core**: a local-first audio workstation designed for composing, structuring, and testing music projects on desktop and Android, with a portable project format.
+The major project is **DAW Core**: a local-first audio workstation for composing, saving, testing, and moving music projects across desktop and Android. Secondary projects are grouped under **Unicor SoundEngine**: synths, effects, the VST site, audition surfaces, and product documentation.
 
-Secondary projects are grouped under **Unicor SoundEngine**: synthesizers, effects, the VST site, and distribution surfaces. Synths and effects are grouped together to keep the presentation focused.
+### Start here
 
-### What this repository contains
+| Need | Document |
+| --- | --- |
+| Understand the whole product | [One-pager](docs/one-pager.md), [project map](docs/project-map.md) |
+| Evaluate real repositories | [Covered repositories](docs/repositories.md), [public proof index](docs/public-proof-index.md) |
+| Learn user workflows | [User flows](docs/user-flows.md), [tutorials](docs/tutorials.md) |
+| Judge maturity | [Evidence](docs/evidence.md), [roadmap](docs/roadmap.md) |
+| Decide as buyer, partner, or recruiter | [Buyer brief](docs/buyer-brief.md), [partnership](docs/partnership.md) |
+| Reuse visual identity | [Brand charter](docs/brand-charter.md), [iconography](docs/iconography.md), [assets](assets/README.md) |
 
-- A public-safe bilingual project presentation.
-- A product-level view: vision, surfaces, target users, and partnership angles.
-- Non-sensitive information about DAW Core, the VST suite, synths, and effects.
-- Short documents for partners, funding, employment, or collaboration.
-- A map of the real repositories covered, without publishing their code.
+### Covered real repositories
 
-### Real repositories covered
+- `charli-dev420/daw-core` - main private product.
+- `charli-dev420/VST-site` - private Unicor SoundEngine catalog and distribution surface.
+- `charli-dev420/fx-*` - grouped private audio effects family.
+- `UWdeVST / synthe-*` - private/local synthesizer family and user docs.
+- `charli-dev420/audition-panel` - private audition and preparation surface.
 
-This repository is the public showcase for multiple real repositories and repository families:
+### Public content
 
-- `charli-dev420/daw-core` - main product repository, private.
-- `charli-dev420/VST-site` - Unicor SoundEngine site and distribution repository, private.
-- `charli-dev420/fx-*` - private grouped audio effects repository family.
-- `UWdeVST / synthe-*` family - synthesizers and product documentation, private/local source.
-- `charli-dev420/audition-panel` - audition and preparation surface, private.
+This repository publishes bilingual product material, user flows, tutorials, summarized evidence, limits, a repository map, DAWWW Core visual identity assets, and a buyer/collaboration brief.
 
-Details are in [`docs/repositories.md`](docs/repositories.md).
+It does not publish product source code, plugin binaries, builds, private presets, user sessions, secrets, server configuration, local paths, raw logs, raw internal QA evidence, or release artifacts.
 
-### What this repository does not contain
-
-- No product source code.
-- No VST binaries, APKs, desktop builds, or plugin files.
-- No secrets, keys, server configuration, internal QA evidence, or local paths.
-- No datasets, private presets, user sessions, or release artifacts.
-
-### Major project: DAW Core
-
-DAW Core is the central product: a local-first audio environment focused on creation, experimentation, portable saves, and real workflow validation.
-
-Public-safe themes:
-
-- local-first audio workstation;
-- desktop/web surface;
-- Android surface;
-- portable project format;
-- audio and user-workflow validation;
-- product robustness before superficial demos.
-
-```mermaid
-flowchart LR
-    A[Music creation] --> B[DAW Core]
-    B --> C[Portable project]
-    B --> D[Desktop]
-    B --> E[Android]
-    B --> F[Audio validation]
-    F --> G[More reliable release]
-```
-
-### Secondary project: Unicor SoundEngine
-
-Unicor SoundEngine groups the plugin and distribution work:
-
-- synthesizers;
-- effects;
-- VST site;
-- product presentation;
-- documentation and public surfaces;
-- controlled distribution of deliverables.
-
-The public presentation is deliberately grouped: the goal is to show a coherent music suite, not to overload the page with many small repositories.
-
-### Looking for
-
-The project is open to:
-
-- music and audio software partners;
-- funding for product stabilization, sound design, testing, packaging, and distribution;
-- technical collaboration around realtime audio, music UX, audio QA, and Android;
-- work opportunities around audio products, creative tools, applied AI, and local-first apps.
-
-### Contact
-
-Recommended public contact: [GitHub charli-dev420](https://github.com/charli-dev420).
+The project is open to audio-software partnerships, funding, technical collaboration, and work opportunities around audio products, creative tools, applied AI, and local-first applications.
