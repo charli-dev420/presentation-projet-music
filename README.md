@@ -20,6 +20,19 @@ Les projets secondaires sont regroupes sous **Unicor SoundEngine**: une suite de
 - Une lecture produit: vision, surfaces, publics cibles, axes de partenariat.
 - Des informations volontairement non sensibles sur DAW Core, la suite VST, les synthés et les effets.
 - Des documents courts pour partenaires, financement, emploi ou collaboration.
+- Une cartographie des repos reels couverts, sans publier leur code.
+
+### Repos reels couverts
+
+Ce depot est la vitrine publique de plusieurs repos et familles de repos:
+
+- `charli-dev420/daw-core` - repo produit principal, prive.
+- `charli-dev420/VST-site` - site et distribution Unicor SoundEngine, prive.
+- `charli-dev420/fx-*` - famille de repos effets audio, privee et regroupee.
+- famille `UWdeVST / synthe-*` - synthés et documentation produit, source privee/localisee.
+- `charli-dev420/audition-panel` - surface d'audition et preparation, privee.
+
+Les details sont dans [`docs/repositories.md`](docs/repositories.md).
 
 ### Ce que ce depot ne contient pas
 
@@ -93,6 +106,19 @@ Secondary projects are grouped under **Unicor SoundEngine**: synthesizers, effec
 - A product-level view: vision, surfaces, target users, and partnership angles.
 - Non-sensitive information about DAW Core, the VST suite, synths, and effects.
 - Short documents for partners, funding, employment, or collaboration.
+- A map of the real repositories covered, without publishing their code.
+
+### Real repositories covered
+
+This repository is the public showcase for multiple real repositories and repository families:
+
+- `charli-dev420/daw-core` - main product repository, private.
+- `charli-dev420/VST-site` - Unicor SoundEngine site and distribution repository, private.
+- `charli-dev420/fx-*` - private grouped audio effects repository family.
+- `UWdeVST / synthe-*` family - synthesizers and product documentation, private/local source.
+- `charli-dev420/audition-panel` - audition and preparation surface, private.
+
+Details are in [`docs/repositories.md`](docs/repositories.md).
 
 ### What this repository does not contain
 
