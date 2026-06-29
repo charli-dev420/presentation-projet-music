@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Music proof dashboard</title>
+  <desc id="desc">Public-safe proof status dashboard for DAW Core and Unicor SoundEngine.</desc>
+  <rect width="1200" height="675" fill="#101418"/>
+  <rect x="52" y="48" width="1096" height="579" rx="18" fill="#161d23" stroke="#2dd4aa" stroke-width="3"/>
+  <text x="84" y="112" fill="#f8fafc" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700">Music Proof Dashboard</text>
+  <text x="84" y="150" fill="#9fb3c8" font-family="Segoe UI, Arial, sans-serif" font-size="21">DAW Core first · Unicor SoundEngine grouped · public-safe evidence only</text>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="84" y="210" width="310" height="125" rx="12" fill="#20313a"/>
+    <text x="110" y="252" fill="#ffffff" font-size="24" font-weight="700">Strong signal</text>
+    <text x="110" y="288" fill="#cbd5e1" font-size="18">Desktop studio · .dw contract</text>
+    <text x="110" y="316" fill="#2dd4aa" font-size="18">usable for product discussion</text>
+    <rect x="445" y="210" width="310" height="125" rx="12" fill="#28313a"/>
+    <text x="471" y="252" fill="#ffffff" font-size="24" font-weight="700">To recertify</text>
+    <text x="471" y="288" fill="#cbd5e1" font-size="18">Android speaker · release gates</text>
+    <text x="471" y="316" fill="#facc15" font-size="18">do not over-claim release</text>
+    <rect x="806" y="210" width="310" height="125" rx="12" fill="#2b2933"/>
+    <text x="832" y="252" fill="#ffffff" font-size="24" font-weight="700">Private only</text>
+    <text x="832" y="288" fill="#cbd5e1" font-size="18">protected materials</text>
+    <text x="832" y="316" fill="#f87171" font-size="18">not published here</text>
+    <rect x="84" y="420" width="1032" height="108" rx="12" fill="#1d2730" stroke="#334756"/>
+    <text x="110" y="462" fill="#ffffff" font-size="23" font-weight="700">Decision focus</text>
+    <text x="110" y="500" fill="#cbd5e1" font-size="20">Fund QA closure, Android recertification, .dw trust proof, audio UX, packaging and distribution.</text>
+    <text x="84" y="590" fill="#9fb3c8" font-size="19">No source code, logs, private screenshots, device IDs, builds, VST binaries or presets in this showcase.</text>
+  </g>
+</svg>

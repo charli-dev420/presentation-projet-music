@@ -21,10 +21,14 @@ Le projet majeur est **DAW Core**: station audio locale-first pour composer, sau
 | Besoin | Document |
 | --- | --- |
 | Comprendre l'ensemble | [One-pager](docs/one-pager.md), [carte projet](docs/project-map.md) |
+| Voir l'etat actuel | [Statut courant](docs/current-status.md), [notes de diligence](docs/blockers.md) |
 | Evaluer les vrais repos couverts | [Repos couverts](docs/repositories.md), [index des preuves](docs/public-proof-index.md) |
+| Lire les preuves et la QA | [Proof pack](docs/proof-pack.md), [QA validation](docs/qa-validation.md), [visuels](docs/visual-index.md) |
+| Lire la release readiness | [Release readiness](docs/release-readiness.md), [publication checklist](docs/publication-checklist.md) |
 | Apprendre le parcours utilisateur | [Flux utilisateur](docs/user-flows.md), [tutoriels](docs/tutorials.md) |
 | Juger la maturite | [Preuves](docs/evidence.md), [roadmap](docs/roadmap.md) |
 | Decider comme acheteur, partenaire ou recruteur | [Buyer brief](docs/buyer-brief.md), [partenariats](docs/partnership.md) |
+| Preparer une discussion concrete | [Decision pack](docs/decision-pack.md) |
 | Reutiliser l'identite visuelle | [Charte](docs/brand-charter.md), [iconographie](docs/iconography.md), [assets](assets/README.md) |
 
 ### Repos reels couverts
@@ -39,7 +43,7 @@ Le projet majeur est **DAW Core**: station audio locale-first pour composer, sau
 
 - Vision produit bilingue.
 - Parcours utilisateur et tutoriels sans code sensible.
-- Preuves synthetisees et limites explicites.
+- Preuves synthetisees, QA et notes de diligence.
 - Carte des repos reels et de leur role.
 - Charte visuelle DAWWW Core pour identifier rapidement l'ecosysteme.
 - Brief acheteur/collaborateur/financement/emploi.
@@ -67,10 +71,14 @@ The major project is **DAW Core**: a local-first audio workstation for composing
 | Need | Document |
 | --- | --- |
 | Understand the whole product | [One-pager](docs/one-pager.md), [project map](docs/project-map.md) |
+| Review current state | [Current status](docs/current-status.md), [readiness notes](docs/blockers.md) |
 | Evaluate real repositories | [Covered repositories](docs/repositories.md), [public proof index](docs/public-proof-index.md) |
+| Read proof and QA | [Proof pack](docs/proof-pack.md), [QA validation](docs/qa-validation.md), [visuals](docs/visual-index.md) |
+| Read release readiness | [Release readiness](docs/release-readiness.md), [publication checklist](docs/publication-checklist.md) |
 | Learn user workflows | [User flows](docs/user-flows.md), [tutorials](docs/tutorials.md) |
 | Judge maturity | [Evidence](docs/evidence.md), [roadmap](docs/roadmap.md) |
 | Decide as buyer, partner, or recruiter | [Buyer brief](docs/buyer-brief.md), [partnership](docs/partnership.md) |
+| Prepare a concrete discussion | [Decision pack](docs/decision-pack.md) |
 | Reuse visual identity | [Brand charter](docs/brand-charter.md), [iconography](docs/iconography.md), [assets](assets/README.md) |
 
 ### Covered real repositories
@@ -83,7 +91,7 @@ The major project is **DAW Core**: a local-first audio workstation for composing
 
 ### Public content
 
-This repository publishes bilingual product material, user flows, tutorials, summarized evidence, limits, a repository map, DAWWW Core visual identity assets, and a buyer/collaboration brief.
+This repository publishes bilingual product material, user flows, tutorials, summarized evidence, QA notes, a repository map, DAWWW Core visual identity assets, and a buyer/collaboration brief.
 
 It does not publish product source code, plugin binaries, builds, private presets, user sessions, secrets, server configuration, local paths, raw logs, raw internal QA evidence, or release artifacts.
 

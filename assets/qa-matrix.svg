@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Music QA matrix</title>
+  <desc id="desc">Public-safe QA matrix for DAW Core music showcase.</desc>
+  <rect width="1200" height="675" fill="#111827"/>
+  <text x="72" y="86" fill="#f9fafb" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700">QA Matrix · DAW Core</text>
+  <g font-family="Segoe UI, Arial, sans-serif" font-size="20">
+    <rect x="72" y="145" width="1056" height="70" fill="#1f2937" rx="10"/>
+    <text x="100" y="188" fill="#e5e7eb" font-weight="700">Surface</text>
+    <text x="390" y="188" fill="#e5e7eb" font-weight="700">Public status</text>
+    <text x="745" y="188" fill="#e5e7eb" font-weight="700">Decision</text>
+    <g fill="#17212c">
+      <rect x="72" y="230" width="1056" height="58" rx="8"/>
+      <rect x="72" y="302" width="1056" height="58" rx="8"/>
+      <rect x="72" y="374" width="1056" height="58" rx="8"/>
+      <rect x="72" y="446" width="1056" height="58" rx="8"/>
+      <rect x="72" y="518" width="1056" height="58" rx="8"/>
+    </g>
+    <text x="100" y="267" fill="#f9fafb">Desktop studio</text><text x="390" y="267" fill="#2dd4aa">strong signal</text><text x="745" y="267" fill="#d1d5db">usable for demo</text>
+    <text x="100" y="339" fill="#f9fafb">Android APK</text><text x="390" y="339" fill="#facc15">recertify</text><text x="745" y="339" fill="#d1d5db">no release claim yet</text>
+    <text x="100" y="411" fill="#f9fafb">.dw portability</text><text x="390" y="411" fill="#2dd4aa">contracted</text><text x="745" y="411" fill="#d1d5db">replay for release</text>
+    <text x="100" y="483" fill="#f9fafb">Release gates</text><text x="390" y="483" fill="#f87171">missing summary</text><text x="745" y="483" fill="#d1d5db">P0 blocker</text>
+    <text x="100" y="555" fill="#f9fafb">Synths + FX</text><text x="390" y="555" fill="#93c5fd">documented</text><text x="745" y="555" fill="#d1d5db">grouped support layer</text>
+  </g>
+</svg>

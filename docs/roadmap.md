@@ -16,6 +16,18 @@
 
 La priorite reste **DAW Core**. Les VST, synthés, effets et surfaces de distribution doivent renforcer ce coeur et non disperser le produit.
 
+### Hors Roadmap Publique
+
+Ces sujets ne doivent pas etre promis publiquement tant qu'ils ne sont pas rediges et prouves:
+
+- release Android signee sans nouveau summary certifiant;
+- support universel de familles Android non testees;
+- publication de captures QA internes;
+- disponibilite de binaires VST/APK/installers depuis cette vitrine;
+- integration paiement/storage/admin VST-site;
+- claim DSP par effet sans preuve produit dediee;
+- suppression d'assets publics sans audit de references.
+
 ## English
 
 The roadmap prioritizes DAW Core first, then grouped Unicor SoundEngine documentation, public-safe evidence summaries, stronger desktop/Android validation, and controlled packaging/distribution partnerships.

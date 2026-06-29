@@ -8,10 +8,11 @@ Cette page publie des preuves synthetisees. Les preuves brutes restent dans les 
 
 | Sujet | Niveau public | Ce qui est montrable | Limite |
 | --- | --- | --- | --- |
-| Format `.dw` | Contrat produit documente | Format portable, checksum, assets embarques, snapshots, recharge desktop/Android. | Pas de fixtures, logs ou fichiers projet prives. |
-| DAW Core desktop | QA active resumee | Existence de gates certifiants et d'evidence packs. | Pas de commandes internes detaillees ni artefacts bruts. |
-| DAW Core Android | Parcours reel resume | Scenario Android, route audio, screenshots et logcat existent comme preuves internes. | Pas de logs ou captures non rediges. |
-| Synthés UWdeVST | Documentation utilisateur adaptee | Architecture commune: macros, LFO selon instrument, onglets FX, presets usine, sorties audio. | Pas de code JUCE/C++, installateurs ou CSV QA. |
+| Format `.dw` | Contrat produit documente | `.dw` v3, checksum, assets sampler embarques, snapshots instruments/effets, reload desktop/Android, re-export apres import. | Pas de fixtures, logs ou fichiers projet prives; cross-device release proof a rejouer. |
+| DAW Core desktop | QA active resumee | Complete-gate visible du 2026-06-23: 25/25, `findings=0`, virtual keyboard passed. | Ne remplace pas un summary release scoped. |
+| DAW Core Android | Parcours a recertifier | Le gate actif est `cert:android:studio-grade` avec summary Android attendu. | Aucun claim release Android tant que la recertification courante n'est pas redigee. |
+| Synthés UWdeVST | QA technique + docs | 7 synthés OK technique automatise; architecture commune, macros, FX, presets, sorties. | RC encore bloquee par ecoute humaine pour certaines familles. |
+| VST-site | Inventaire public | 94 assets publics referencés runtime; 7 PDF propres lies; 23 assets `screen-synth`. | Pas de details storage, paiement, admin ou binaires. |
 | Suite FX | Groupement produit | Familles de traitements et cas d'usage. | Pas d'implementation DSP ni presets prives. |
 
 ### Ce que prouve cette vitrine
@@ -20,10 +21,11 @@ Cette page publie des preuves synthetisees. Les preuves brutes restent dans les 
 - DAW Core est le projet majeur.
 - Le format portable et la validation multi-surface sont des axes concrets.
 - La suite Unicor SoundEngine existe comme ensemble synthés + FX + distribution.
+- La vitrine peut montrer des images publiques du VST site sans exposer de QA brute.
 
 ### Ce qu'elle ne pretend pas
 
-Cette vitrine ne pretend pas que toutes les surfaces sont finalisees, publiees ou commercialement disponibles. Elle documente l'etat produit public-safe et les besoins pour avancer.
+Cette vitrine ne pretend pas que toutes les surfaces sont finalisees, publiees ou commercialement disponibles. Elle ne pretend pas non plus que la release Android est signee. Elle documente l'etat produit public-safe et les besoins pour avancer.
 
 ## English
 
