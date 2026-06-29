@@ -59,17 +59,28 @@ Visual material is in [assets](assets/README.md), [visual index](docs/visual-ind
 
 <br clear="left">
 
-### Contact And Collaboration
+### What This Repository Contains
 
-Good conversations can start from concrete work: an Android closed-beta tester runs a DAW Core browser project on a real device; an audio partner reviews whether load, playback, and save behavior are stable enough; a sound designer judges the Synthé family as usable material; a distributor checks what is already packaged on the VST side.
+This repository gives a public reading path for the music projects:
 
-The strongest signal I can provide publicly is structure: product map, user flows, proof summaries, release-readiness notes, and a clear explanation of which docs belong to DAW Core and which belong to the separate Synthé / FX / VST line.
+- a clear split between **DAW Core** and **Unicor SoundEngine**;
+- project map and current status;
+- user flows for project save/reload, Android beta testing, Synthé review, FX review, and VST distribution;
+- proof notes, QA summaries, release-readiness notes, and resources;
+- visual material, brand notes, and iconography for DAW Core.
+
+### Open Needs
+
+The useful help right now is concrete:
+
+- testers for the DAW Core Android beta, especially on real devices and real audio routes;
+- feedback on the web local-first DAW workflow: create, save, reopen, playback, edit, and recover;
+- audio QA or product review for the DAW Core browser path;
+- sound-design feedback on Synthé instruments and FX families as a separate Unicor SoundEngine line;
+- packaging and distribution feedback for the VST catalog;
+- funding, mission, or job discussions around web audio, local-first creative tools, music software, QA, and release preparation.
 
 Public contact route: [GitHub - Unicorn Who Dev](https://github.com/charli-dev420).
-
-### Evaluation Scope
-
-This showcase stays focused on what helps someone evaluate the music product from the outside: visuals, user-facing docs, QA summaries, proof structure, and decision material. Detailed review material can be scoped only when there is a clear evaluation purpose.
 
 ## Francais
 
@@ -113,14 +124,25 @@ Les supports visuels sont dans [assets](assets/README.md), [index visuel](docs/v
 
 <br clear="left">
 
-### Contact Et Collaboration
+### Ce Que Contient Ce Repo
 
-Les bonnes discussions peuvent partir d'un travail concret: un testeur beta Android lance un projet DAW Core navigateur sur un vrai appareil; un partenaire audio verifie si load, playback et sauvegarde tiennent assez bien; un sound designer juge si la famille Synthé fournit une matiere utilisable; un distributeur regarde ce qui est deja package cote VST.
+Ce repo donne un chemin de lecture public pour les projets musique:
 
-Le signal public principal est la structure: carte produit, flux utilisateur, syntheses de preuves, readiness release et explication claire des docs qui concernent DAW Core et de celles qui concernent la ligne separee Synthé / FX / VST.
+- separation claire entre **DAW Core** et **Unicor SoundEngine**;
+- carte projet et statut courant;
+- flux utilisateur pour sauvegarde/reouverture projet, beta Android, revue Synthé, revue FX et distribution VST;
+- notes de preuve, syntheses QA, release-readiness et ressources;
+- visuels, charte et iconographie DAW Core.
+
+### Besoins Ouverts
+
+L'aide utile maintenant est concrete:
+
+- testeurs pour la beta Android DAW Core, surtout sur vrais appareils et vraies routes audio;
+- feedback sur le workflow web local-first DAW: creer, sauvegarder, rouvrir, lire, editer et recuperer;
+- QA audio ou revue produit sur le chemin DAW Core navigateur;
+- feedback sound design sur les instruments Synthé et familles FX comme ligne Unicor SoundEngine separee;
+- feedback packaging et distribution pour le catalogue VST;
+- financement, mission ou poste autour du web audio, des outils creatifs local-first, du logiciel musical, de la QA et de la preparation release.
 
 Contact public recommande: [GitHub - Unicorn Who Dev](https://github.com/charli-dev420).
-
-### Cadre D'Evaluation
-
-Cette vitrine reste centree sur ce qui permet d'evaluer le produit musical depuis l'exterieur: visuels, docs utilisateur, syntheses QA, structure de preuve et materiel de decision. Les elements de revue plus detailles se cadrent seulement quand l'objectif d'evaluation est clair.
