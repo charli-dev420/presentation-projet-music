@@ -1,27 +1,35 @@
 # Repositories Covered / Repos couverts
 
-This showcase repository represents several real project repositories and repository families. It publishes presentation material only.
-
-## Francais
-
-| Source reelle | Statut | Role dans la vitrine | Ce qui est publie ici |
-| --- | --- | --- | --- |
-| `charli-dev420/daw-core` | Prive | Projet principal: station audio locale-first desktop/web + Android + format `.dw`. | Vision produit, parcours utilisateur, preuves synthetisees, besoins. |
-| `charli-dev420/VST-site` | Prive | Site Unicor SoundEngine, catalogue, distribution et documentation publique des plugins. | Positionnement boutique, ressources publiques, synthés + effets regroupes. |
-| `charli-dev420/fx-*` | Prive | Famille de repos d'effets audio: analyse, delay, distortion, dynamics, EQ, modulation, pitch/time, reverb, stereo. | Lecture groupee "suite FX", sans lister chaque implementation. |
-| `UWdeVST / synthe-*` | Prive/local | Famille synthés: piano, guitar, bass, perc, drum, orch, rare/instr. | Lecture groupee "suite synthés", guides et preuves uniquement public-safe. |
-| `charli-dev420/audition-panel` | Prive | Surface d'audition, preparation et verification de rendus musicaux. | Role produit, pas de code ni captures internes. |
+[EN](#english) | [FR](#francais)
 
 ## English
 
+This showcase repository represents several real project repositories and repository families. It publishes presentation material only.
+
 | Real source | Status | Role in the showcase | What is published here |
 | --- | --- | --- | --- |
-| `charli-dev420/daw-core` | Private | Main project: local-first audio workstation for desktop/web + Android + portable `.dw` format. | Product vision, user journey, summarized evidence, needs. |
-| `charli-dev420/VST-site` | Private | Unicor SoundEngine site, catalog, distribution, and public plugin documentation. | Storefront positioning, public resources, grouped synths + effects. |
-| `charli-dev420/fx-*` | Private | Audio effects repository family: analysis, delay, distortion, dynamics, EQ, modulation, pitch/time, reverb, stereo. | Grouped "FX suite" view, without exposing implementations. |
-| `UWdeVST / synthe-*` | Private/local | Synth family: piano, guitar, bass, perc, drum, orch, rare/instr. | Grouped "synth suite" view, public-safe guides and evidence only. |
-| `charli-dev420/audition-panel` | Private | Audition, preparation, and verification surface for music renders. | Product role only, no code or internal screenshots. |
+| `charli-dev420/daw-core` | Private | Main project: local-first audio workstation for desktop/web, Android beta, and portable `.dw` projects. | Product vision, user journey, summarized evidence, readiness notes, partner questions. |
+| `charli-dev420/VST-site` | Private | Unicor SoundEngine catalog, documentation, and distribution surface. | Storefront positioning, public resources, grouped synths/FX, showcase assets. |
+| `charli-dev420/fx-*` | Private | Audio effects family: analysis, delay, distortion, dynamics, EQ, modulation, pitch/time, reverb, stereo. | Grouped FX suite view and product role around DAW Core. |
+| `UWdeVST / synthe-*` | Private/local | Synth family: Piano, Guitar, Bass, Perc, Drum, Orch, Rare / Instr. | Grouped synth suite view, user-facing roles, public-safe QA summary. |
+| `charli-dev420/audition-panel` | Private | Audition, preparation, and verification surface for music review workflows. | Product role and review criteria, without internal captures or sessions. |
 
-## Publication Rule
+### Publication Rule
 
-If a real source repository is private, this showcase can name the product area and explain its role, but it must not publish code, private URLs, build artifacts, internal screenshots, secrets, local paths, or raw QA evidence.
+If a real source repository is private, this showcase can name the product area and explain its role, but it must not publish code, private URLs, build artifacts, internal screenshots, secrets, local paths, raw QA evidence, or release objects.
+
+## Francais
+
+Ce repo vitrine représente plusieurs repositories et familles de repositories réels. Il publie uniquement du matériel de présentation.
+
+| Source réelle | Statut | Rôle dans la vitrine | Ce qui est publié ici |
+| --- | --- | --- | --- |
+| `charli-dev420/daw-core` | Privé | Projet principal: workstation audio local-first desktop/web, beta Android et projets portables `.dw`. | Vision produit, parcours utilisateur, preuves synthétisées, readiness, questions partenaires. |
+| `charli-dev420/VST-site` | Privé | Catalogue, documentation et surface de distribution Unicor SoundEngine. | Positionnement storefront, ressources publiques, synthés/FX groupés, assets showcase. |
+| `charli-dev420/fx-*` | Privé | Famille d'effets audio: analysis, delay, distortion, dynamics, EQ, modulation, pitch/time, reverb, stereo. | Vue groupée suite FX et rôle produit autour de DAW Core. |
+| `UWdeVST / synthe-*` | Privé/local | Famille synthés: Piano, Guitar, Bass, Perc, Drum, Orch, Rare / Instr. | Vue groupée suite synthés, rôles utilisateur, synthèse QA public-safe. |
+| `charli-dev420/audition-panel` | Privé | Surface d'audition, préparation et vérification pour workflows de review musicale. | Rôle produit et critères de review, sans captures ou sessions internes. |
+
+### Règle de publication
+
+Si un repo source réel est privé, cette vitrine peut nommer la zone produit et expliquer son rôle, mais elle ne doit pas publier code, URLs privées, artefacts build, captures internes, secrets, chemins locaux, preuves QA brutes ou objets release.

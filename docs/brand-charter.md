@@ -1,6 +1,29 @@
 # DAWWW Core Brand Charter / Charte DAWWW Core
 
-[FR](#francais) | [EN](#english)
+[EN](#english) | [FR](#francais)
+
+## English
+
+### Available Assets
+
+| Asset | Use |
+| --- | --- |
+| `assets/brand/daw-core-logo-main.png` | Main identity mark for README, one-pagers, and presentations. |
+| `assets/brand/daw-core-icon-512.png` | Compact icon for avatars, favicons, and badges. |
+| `assets/brand/daw-core-banner.png` | Wide cover banner. |
+| `assets/brand/daw-core-watermark-opacity20.png` | Light watermark for public visual documents. |
+
+### Usage Rules
+
+- Use the main logo as an identity signal, not repeated decoration.
+- Use the watermark lightly and never behind text that needs to be read.
+- Keep DAW Core visually dominant when the page covers the full music ecosystem.
+- Present synths, FX, VST distribution, and audition as supporting Unicor SoundEngine surfaces.
+- Do not stretch, crop, recolor, or distort the logo assets.
+
+### Tone
+
+Factual, product-oriented, and evidence-aware. Prefer concrete language: what exists, what is being validated, what is useful to review, and what kind of help or partnership is being sought.
 
 ## Francais
 
@@ -8,23 +31,19 @@
 
 | Asset | Usage |
 | --- | --- |
-| `assets/brand/daw-core-logo-main.png` | Logo principal pour README, one-pagers et presentations. |
-| `assets/brand/daw-core-icon-512.png` | Icône carree pour avatar, favicon ou badge. |
-| `assets/brand/daw-core-banner.png` | Bannière large pour couverture. |
-| `assets/brand/daw-core-watermark-opacity20.png` | Watermark discret pour documents visuels. |
+| `assets/brand/daw-core-logo-main.png` | Marque principale pour README, one-pagers et présentations. |
+| `assets/brand/daw-core-icon-512.png` | Icône compacte pour avatars, favicons et badges. |
+| `assets/brand/daw-core-banner.png` | Bannière large de couverture. |
+| `assets/brand/daw-core-watermark-opacity20.png` | Watermark léger pour documents visuels publics. |
 
-### Regles
+### Règles d'usage
 
-- Utiliser le logo principal comme signal d'identification, pas comme decoration repetee.
-- Utiliser le watermark en fond leger ou pied de page, jamais sur du texte illisible.
-- Garder un style technique, compact, sombre ou neutre selon le support.
-- Ne pas modifier les proportions du logo.
-- Ne pas presenter un projet secondaire comme plus important que DAW Core.
+- Utiliser le logo principal comme signal d'identité, pas comme décoration répétée.
+- Utiliser le watermark légèrement et jamais derrière un texte à lire.
+- Garder DAW Core visuellement dominant quand la page couvre tout l'écosystème musical.
+- Présenter synthés, FX, distribution VST et audition comme surfaces de support Unicor SoundEngine.
+- Ne pas étirer, rogner, recolorer ou déformer les assets logo.
 
 ### Ton
 
-Factuel, public-safe, oriente produit. Eviter les promesses non prouvees. Preferer: ce qui existe, ce qui est en cours, ce qui manque, ce qui est recherche.
-
-## English
-
-Use the DAWWW Core logo as the main identity signal, the 512 icon for compact contexts, the banner for covers, and the low-opacity watermark for visual documents. Keep the tone factual, product-oriented, and evidence-aware.
+Factuel, orienté produit et attentif aux preuves. Préférer le concret: ce qui existe, ce qui est en validation, ce qui vaut une review, et quel type d'aide ou partenariat est recherché.
