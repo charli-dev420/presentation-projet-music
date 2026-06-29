@@ -6,37 +6,37 @@
 
 ### Partnership Thesis
 
-DAW Core is the product center. The partnership opportunity is to turn an already structured private audio ecosystem into a clearer, better tested, easier to package, and easier to demonstrate music product.
+DAW Core is the major product. The partnership opportunity is to make the browser DAW path stronger: a project is created, saved, reopened, played, reviewed, and tested on the surfaces that matter before anyone calls it stable.
 
-Unicor SoundEngine supports that thesis with synths, FX, VST catalog material, and audition workflows. These pieces matter because they give DAW Core musical depth and make partner discussions more concrete than a single isolated app demo.
+Unicor SoundEngine is a separate music line with synths, FX, VST catalog material, and audition workflows. These pieces matter, but not because they are plugged into DAW Core. They give the portfolio another product surface: instruments to hear, effects to prioritize, packages to review, and material a partner can judge independently.
 
 ### Good Partnership Fits
 
 | Partner type | Useful contribution |
 | --- | --- |
-| Audio software studio | Real-time audio review, plugin UX, architecture review, compatibility strategy. |
-| Sound designer or musician | Practical musical feedback, usable patches/sound direction, listening review. |
+| Audio software studio | Real-time audio review, plugin UX, stability review, compatibility strategy. |
+| Sound designer or musician | Practical musical feedback, usable patches, sound direction, listening review. |
 | Android audio specialist | Device matrix, audio routing, latency review, beta certification workflow. |
-| QA or release partner | Gate design, release evidence, regression strategy, public proof summaries. |
+| QA or release partner | Gate design, release evidence, regression strategy, readable proof summaries. |
 | Distribution partner | VST packaging, catalog UX, installer flow, documentation, support readiness. |
-| Employer or mission lead | Product engineering, applied audio tooling, local-first workflow, proof discipline. |
+| Employer or mission lead | Product engineering, applied audio tooling, local-first workflow, evidence discipline. |
 
 ### What A First Collaboration Can Look Like
 
-1. Pick one surface: DAW Core desktop, Android beta, synth suite, FX suite, VST distribution, or QA process.
-2. Define one scenario with a visible outcome.
-3. Decide whether the output is a public summary, NDA review, private report, demo, or implementation task.
-4. Use the proof pack to avoid vague review: success criteria, artifacts, and next gate should be named.
-5. Keep the codebase private unless a separate legal and technical scope is agreed.
+1. Pick one track: DAW Core browser DAW, Android beta, synth suite, FX suite, VST distribution, or QA process.
+2. Define one scenario with a visible outcome, such as loading a saved project, resuming playback, validating an Android device, or reviewing a VST package.
+3. Decide whether the output is a summary, scoped review, demo, or implementation task.
+4. Use the proof pack to keep the review concrete: success criteria, artifacts, and next gate should be named.
+5. Keep the collaboration bounded to the decision being made.
 
 ### Strong First Topics
 
-- DAW Core `.dw` project continuity demo.
-- Android beta proof replay on selected devices.
+- DAW Core `.dw` project continuity demo in the web local-first DAW: create, save, reopen, inspect, play.
+- Android beta proof replay on selected devices with audio route and resume behavior noted.
 - Synth suite listening review and preset/product positioning.
-- FX family prioritization around DAW Core workflows.
+- FX family prioritization as its own Unicor SoundEngine product track.
 - VST-site catalog, manual, and distribution readiness review.
-- Release gate design and public proof wording.
+- Release gate design and proof wording a partner can act on.
 
 ### Public Material Available Now
 
@@ -49,45 +49,45 @@ Unicor SoundEngine supports that thesis with synths, FX, VST catalog material, a
 - [VST distribution](vst-distribution.md)
 - [Synth suite](synth-suite.md)
 
-### Private Material To Discuss Under Scope
+### Scoped Review Material
 
-Private demos, redacted QA artifacts, source walkthroughs, release folders, audio outputs, internal logs, installers, APKs, and storage/distribution details should only be shared with an agreed review purpose and boundary.
+Demos, selected QA artifacts, technical walkthroughs, release folders, audio outputs, installers, APKs, and storage/distribution details should be shared only when they support a clear review purpose.
 
 ## Francais
 
 ### Thèse partenariat
 
-DAW Core est le centre produit. L'opportunité de partenariat consiste à transformer un écosystème audio privé déjà structuré en produit musical plus clair, mieux testé, plus simple à packager et plus simple à démontrer.
+DAW Core est le produit majeur. L'opportunité de partenariat consiste à renforcer le chemin DAW navigateur: un projet est créé, sauvegardé, rouvert, joué, revu et testé sur les surfaces qui comptent avant de le qualifier de stable.
 
-Unicor SoundEngine soutient cette thèse avec synthés, FX, matériel catalogue VST et workflows d'audition. Ces pièces comptent parce qu'elles donnent de la profondeur musicale à DAW Core et rendent la discussion partenaire plus concrète qu'une démo d'app isolée.
+Unicor SoundEngine est une ligne musicale séparée avec synthés, FX, matériel catalogue VST et workflows d'audition. Ces pièces comptent, mais pas parce qu'elles seraient branchées à DAW Core. Elles donnent au portfolio une autre surface produit: des instruments à écouter, des effets à prioriser, des packages à reviewer et de la matière qu'un partenaire peut juger indépendamment.
 
 ### Bons profils de partenariat
 
 | Type de partenaire | Contribution utile |
 | --- | --- |
-| Studio audio software | Review temps réel, UX plugin, architecture, stratégie compatibilité. |
-| Sound designer ou musicien | Retour musical pratique, direction sonore, écoute critique. |
+| Studio audio software | Review temps réel, UX plugin, stabilité, stratégie compatibilité. |
+| Sound designer ou musicien | Retour musical pratique, patches utilisables, direction sonore, écoute critique. |
 | Spécialiste audio Android | Matrice devices, routing audio, latence, workflow certification beta. |
-| Partenaire QA ou release | Design de gates, preuves release, stratégie régression, synthèses publiques. |
+| Partenaire QA ou release | Design de gates, preuves release, stratégie régression, synthèses lisibles. |
 | Partenaire distribution | Packaging VST, UX catalogue, installer flow, documentation, support readiness. |
-| Employeur ou mission | Product engineering, tooling audio appliqué, local-first, discipline preuve. |
+| Employeur ou mission | Product engineering, tooling audio appliqué, local-first, discipline de preuve. |
 
 ### A quoi peut ressembler une première collaboration
 
-1. Choisir une surface: DAW Core desktop, beta Android, suite synthés, suite FX, distribution VST ou process QA.
-2. Définir un scénario avec résultat visible.
-3. Décider si la sortie est une synthèse publique, review NDA, rapport privé, démo ou tâche d'implémentation.
-4. Utiliser le proof pack pour éviter la review floue: critères, artefacts et prochain gate doivent être nommés.
-5. Garder le codebase privé sauf périmètre légal et technique séparé.
+1. Choisir un track: DAW Core navigateur, beta Android, suite synthés, suite FX, distribution VST ou process QA.
+2. Définir un scénario avec résultat visible, comme charger un projet sauvegardé, reprendre la lecture, valider un appareil Android ou reviewer un package VST.
+3. Décider si la sortie est une synthèse, review cadrée, démo ou tâche d'implémentation.
+4. Utiliser le proof pack pour garder la revue concrète: critères, artefacts et prochain gate doivent être nommés.
+5. Garder la collaboration bornée à la décision à prendre.
 
 ### Bons premiers sujets
 
-- Démo de continuité projet `.dw` DAW Core.
-- Replay de preuve beta Android sur devices choisis.
+- Démo de continuité projet `.dw` DAW Core dans le web local-first DAW: créer, sauvegarder, rouvrir, inspecter, lire.
+- Replay de preuve beta Android sur devices choisis avec route audio et reprise notées.
 - Review d'écoute et positionnement produit de la suite synthés.
-- Priorisation FX autour des workflows DAW Core.
+- Priorisation FX comme track produit Unicor SoundEngine séparé.
 - Review catalogue, manuel et distribution du VST-site.
-- Design de gate release et formulation de preuves publiques.
+- Design de gate release et formulation de preuves actionnables par un partenaire.
 
 ### Matériel public disponible
 
@@ -100,6 +100,6 @@ Unicor SoundEngine soutient cette thèse avec synthés, FX, matériel catalogue 
 - [VST distribution](vst-distribution.md)
 - [Synth suite](synth-suite.md)
 
-### Matériel privé à cadrer
+### Matériel de revue à cadrer
 
-Démos privées, preuves QA redacted, walkthrough source, dossiers release, sorties audio, logs internes, installateurs, APKs et détails storage/distribution doivent être partagés seulement avec un objectif et une limite de review explicites.
+Démos, preuves QA sélectionnées, walkthroughs techniques, dossiers release, sorties audio, installateurs, APKs et détails storage/distribution doivent être partagés seulement quand ils servent un objectif de review explicite.

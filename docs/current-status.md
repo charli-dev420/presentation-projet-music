@@ -10,16 +10,16 @@ This page summarizes the public state of the music showcase. It does not replace
 
 | Surface | Public state | Useful signal | Best next question |
 | --- | --- | --- | --- |
-| DAW Core desktop | Strongest current proof surface. | Gate-style desktop summary and coherent product narrative. | Which release-scope summary should be attached to a formal demo or decision? |
+| DAW Core browser DAW | Strongest current proof surface. | Gate-style browser/desktop summary and coherent product narrative. | Which release-scope summary should be attached to a formal demo or decision? |
 | DAW Core Android beta | Active recertification path. | Android gate vocabulary and beta workflow are explicit. | Which devices and audio routes should be tested next? |
 | Portable `.dw` projects | Documented product contract. | Checksums, embedded assets, snapshots, reload, and roundtrip expectations. | Which target surface should replay the proof? |
-| Unicor SoundEngine synths | Coherent support suite. | UWdeVST architecture, manuals, macros, FX tabs, presets, and output expectations. | Which instruments should receive listening sign-off first? |
-| FX suite | Grouped product capability. | Effects organized by musical treatment family. | Which FX family best strengthens the next DAW Core workflow? |
-| VST-site distribution | Presentation and catalog surface. | Public assets, manual references, showcase images, and distribution framing. | Which private distribution flow should be reviewed under scope? |
+| Unicor SoundEngine synths | Separate product line. | UWdeVST architecture, manuals, macros, FX tabs, presets, and output expectations. | Which instruments should receive listening sign-off first? |
+| FX suite | Separate product capability. | Effects organized by musical treatment family. | Which FX family should be reviewed first as its own product track? |
+| VST-site distribution | Separate presentation and catalog surface. | Public assets, manual references, showcase images, and distribution framing. | Which private distribution flow should be reviewed under scope? |
 
 ### Public Message
 
-The showcase should stay clear: **DAW Core is the major project**. Synths, FX, VST-site, and audition tooling strengthen the workstation, but they should not hide the local-first project-continuity story.
+The showcase should stay clear: **DAW Core is the major project and it is a browser-based web local-first DAW**. Synths, FX, VST-site, and audition tooling are a separate Unicor SoundEngine line, not a functional layer of DAW Core.
 
 ### Useful Next Move
 
@@ -31,16 +31,16 @@ Cette page résume l'état publiable de la vitrine music. Elle ne remplace pas l
 
 | Surface | Etat public | Signal utile | Meilleure question suivante |
 | --- | --- | --- | --- |
-| DAW Core desktop | Surface de preuve la plus forte actuellement. | Summary desktop en langage gate et narration produit cohérente. | Quel summary release-scope joindre à une démo ou décision formelle? |
+| DAW Core navigateur | Surface de preuve la plus forte actuellement. | Summary navigateur/desktop en langage gate et narration produit cohérente. | Quel summary release-scope joindre à une démo ou décision formelle? |
 | Beta Android DAW Core | Chemin de recertification actif. | Vocabulaire gate Android et workflow beta explicites. | Quels devices et routes audio tester ensuite? |
 | Projets portables `.dw` | Contrat produit documenté. | Checksums, assets embarqués, snapshots, reload et attentes roundtrip. | Quelle surface cible doit rejouer la preuve? |
-| Synthés Unicor SoundEngine | Suite de support cohérente. | Architecture UWdeVST, manuels, macros, onglets FX, presets et sorties. | Quels instruments doivent recevoir l'écoute sign-off en premier? |
-| Suite FX | Capacité produit groupée. | Effets organisés par famille de traitement musical. | Quelle famille FX renforce le mieux le prochain workflow DAW Core? |
-| Distribution VST-site | Surface présentation et catalogue. | Assets publics, références manuels, images showcase et cadrage distribution. | Quel flow privé de distribution reviewer sous périmètre? |
+| Synthés Unicor SoundEngine | Ligne produit séparée. | Architecture UWdeVST, manuels, macros, onglets FX, presets et sorties. | Quels instruments doivent recevoir l'écoute sign-off en premier? |
+| Suite FX | Capacité produit séparée. | Effets organisés par famille de traitement musical. | Quelle famille FX reviewer en premier comme track produit? |
+| Distribution VST-site | Surface présentation et catalogue séparée. | Assets publics, références manuels, images showcase et cadrage distribution. | Quel flow privé de distribution reviewer sous périmètre? |
 
 ### Message public
 
-La vitrine doit rester nette: **DAW Core est le projet majeur**. Synthés, FX, VST-site et audition renforcent la workstation, mais ne doivent pas masquer l'histoire local-first et continuité projet.
+La vitrine doit rester nette: **DAW Core est le projet majeur et c'est un web local-first DAW dans le navigateur**. Synthés, FX, VST-site et audition sont une ligne Unicor SoundEngine séparée, pas une couche fonctionnelle de DAW Core.
 
 ### Prochaine action utile
 

@@ -6,7 +6,7 @@
 
 ### Role In The Ecosystem
 
-The VST distribution surface is part of **Unicor SoundEngine**, not a separate competing project. Its job is to make the synth and FX ecosystem presentable, navigable, documented, and eventually distributable around DAW Core.
+The VST distribution surface is part of **Unicor SoundEngine**. It is separate from **DAW Core**. Its job is to make the synth and FX line presentable, navigable, documented, and distributable without implying that the VSTs are functionally tied to the browser DAW.
 
 ### Public-Safe Distribution Signals
 
@@ -15,7 +15,7 @@ The VST distribution surface is part of **Unicor SoundEngine**, not a separate c
 | Public assets | 94 public assets inventoried, 94 referenced at runtime, 0 public asset left unused in the referenced inventory. | The catalog surface has been reviewed as a real presentation layer. |
 | Synth showcase images | 23 public `screen-synth` assets; seven showcase images copied into this repo. | Reviewers can see product-facing visuals without private logs or internal folders. |
 | Manuals | Seven clean manual links by runtime metadata: Bass, Drum, Guitar, Orch, Perc, Piano, RareInstr. | The synth suite has user-facing documentation paths. |
-| Catalog positioning | Synths and FX are grouped under Unicor SoundEngine. | The portfolio reads as one music ecosystem rather than scattered repositories. |
+| Catalog positioning | Synths and FX are grouped under Unicor SoundEngine. | The plugin/sound line is readable without being confused with DAW Core. |
 | Public repo boundary | Backend, storage, payment, admin, binaries, and release artifacts are not published here. | Public review stays safe while still being useful. |
 
 ### Showcase Gallery
@@ -38,7 +38,7 @@ Ask for a scoped walkthrough of one synth product page, its manual reference, it
 
 ### Rôle dans l'écosystème
 
-La surface de distribution VST fait partie de **Unicor SoundEngine**, pas d'un projet concurrent séparé. Son rôle est de rendre l'écosystème synthés et FX présentable, navigable, documenté et progressivement distribuable autour de DAW Core.
+La surface de distribution VST fait partie de **Unicor SoundEngine**. Elle est séparée de **DAW Core**. Son rôle est de rendre la ligne synthés et FX présentable, navigable, documentée et distribuable sans laisser entendre que les VST sont fonctionnellement liés au DAW navigateur.
 
 ### Signaux distribution public-safe
 
@@ -47,7 +47,7 @@ La surface de distribution VST fait partie de **Unicor SoundEngine**, pas d'un p
 | Assets publics | 94 assets publics inventoriés, 94 référencés runtime, 0 asset public inutilisé dans l'inventaire référencé. | La surface catalogue a été relue comme vraie couche présentation. |
 | Images vitrine synthés | 23 assets publics `screen-synth`; sept images showcase copiées dans ce repo. | Les reviewers voient des visuels produit sans logs privés ni dossiers internes. |
 | Manuels | Sept liens manuels propres par métadonnée runtime: Bass, Drum, Guitar, Orch, Perc, Piano, RareInstr. | La suite synthés possède des chemins documentation utilisateur. |
-| Positionnement catalogue | Synthés et FX sont groupés sous Unicor SoundEngine. | Le portefeuille se lit comme un écosystème musical, pas comme des repos dispersés. |
+| Positionnement catalogue | Synthés et FX sont groupés sous Unicor SoundEngine. | La ligne plugin/son reste lisible sans être confondue avec DAW Core. |
 | Limite repo public | Backend, storage, paiement, admin, binaires et artefacts release ne sont pas publiés ici. | La review publique reste sûre tout en restant utile. |
 
 ### Galerie showcase

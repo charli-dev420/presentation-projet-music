@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
-  <title id="title">DAW Core music ecosystem one-pager</title>
-  <desc id="desc">Public-safe overview of DAW Core as the main project and Unicor SoundEngine as grouped synth, FX, VST site, and audition surfaces.</desc>
+  <title id="title">DAW Core and Unicor SoundEngine one-pager</title>
+  <desc id="desc">Overview of DAW Core as a browser-based web local-first DAW and Unicor SoundEngine as a separate synth, FX, VST site, and audition line.</desc>
   <rect width="1200" height="675" fill="#101418"/>
   <rect x="48" y="48" width="1104" height="579" rx="18" fill="#161d23" stroke="#2dd4aa" stroke-width="3"/>
   <text x="84" y="116" fill="#f5f7fa" font-family="Segoe UI, Arial, sans-serif" font-size="42" font-weight="700">DAW Core</text>
-  <text x="84" y="154" fill="#9fb3c8" font-family="Segoe UI, Arial, sans-serif" font-size="22">Projet majeur musique · Local-first · Desktop · Android · Format .dw</text>
+  <text x="84" y="154" fill="#9fb3c8" font-family="Segoe UI, Arial, sans-serif" font-size="22">Projet majeur · Web local-first DAW · Navigateur · Android · Format .dw</text>
   <circle cx="1012" cy="124" r="64" fill="#2dd4aa" opacity="0.16"/>
   <text x="965" y="132" fill="#2dd4aa" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">DAWWW</text>
   <g font-family="Segoe UI, Arial, sans-serif">
@@ -21,7 +21,7 @@
     <path d="M624 285 H674" stroke="#2dd4aa" stroke-width="5"/>
     <rect x="84" y="420" width="1035" height="118" rx="12" fill="#1d2730" stroke="#334756"/>
     <text x="108" y="462" fill="#ffffff" font-size="24" font-weight="700">Unicor SoundEngine</text>
-    <text x="108" y="501" fill="#c7d2de" font-size="20">Synthes UWdeVST · Suite FX · VST-site · Audition panel · Documentation produit</text>
+    <text x="108" y="501" fill="#c7d2de" font-size="20">Ligne separee: Synthes UWdeVST · Suite FX · VST-site · Audition panel</text>
     <text x="84" y="586" fill="#9fb3c8" font-size="20">Recherche: partenaires audio software · financement · QA · packaging · distribution</text>
   </g>
 </svg>

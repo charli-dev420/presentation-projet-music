@@ -17,8 +17,9 @@
 
 - Use the main logo as an identity signal, not repeated decoration.
 - Use the watermark lightly and never behind text that needs to be read.
-- Keep DAW Core visually dominant when the page covers the full music ecosystem.
-- Present synths, FX, VST distribution, and audition as supporting Unicor SoundEngine surfaces.
+- Keep DAW Core visually dominant when the page covers the full music portfolio.
+- Present DAW Core as a browser-based web local-first DAW.
+- Present synths, FX, VST distribution, and audition as separate Unicor SoundEngine surfaces.
 - Do not stretch, crop, recolor, or distort the logo assets.
 
 ### Tone
@@ -40,8 +41,9 @@ Factual, product-oriented, and evidence-aware. Prefer concrete language: what ex
 
 - Utiliser le logo principal comme signal d'identité, pas comme décoration répétée.
 - Utiliser le watermark légèrement et jamais derrière un texte à lire.
-- Garder DAW Core visuellement dominant quand la page couvre tout l'écosystème musical.
-- Présenter synthés, FX, distribution VST et audition comme surfaces de support Unicor SoundEngine.
+- Garder DAW Core visuellement dominant quand la page couvre tout le portfolio musical.
+- Présenter DAW Core comme un web local-first DAW dans le navigateur.
+- Présenter synthés, FX, distribution VST et audition comme surfaces Unicor SoundEngine séparées.
 - Ne pas étirer, rogner, recolorer ou déformer les assets logo.
 
 ### Ton

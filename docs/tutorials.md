@@ -31,10 +31,10 @@ Outcome: the reviewer understands why DAW Core is about preserving work, not jus
 1. Start from a musical need: playable instrument, rhythm layer, tonal color, spatial treatment, dynamics, or review tooling.
 2. Map the need to [synth suite](synth-suite.md) or [VST distribution](vst-distribution.md).
 3. Read the suite-level behavior first: shared UX, macros, FX tabs, presets, manuals, and output expectations.
-4. Evaluate how the plugin family strengthens DAW Core.
+4. Evaluate the plugin family as its own Unicor SoundEngine product line.
 5. Keep product feedback grouped: musical role, UX clarity, compatibility, performance, documentation.
 
-Outcome: synths and FX are understood as capabilities around DAW Core, not as competing standalone pitches.
+Outcome: synths and FX are understood as a separate Unicor SoundEngine line, not as DAW Core capabilities and not as scattered standalone pitches.
 
 ### Tutorial 4 - Prepare A Useful Tester Report
 
@@ -85,10 +85,10 @@ Résultat: le lecteur comprend que DAW Core protège le travail musical, pas seu
 1. Partir d'un besoin musical: instrument jouable, couche rythmique, couleur tonale, spatialisation, dynamics ou review tooling.
 2. Mapper le besoin vers [synth suite](synth-suite.md) ou [VST distribution](vst-distribution.md).
 3. Lire d'abord le niveau suite: UX partagée, macros, onglets FX, presets, manuels et sorties.
-4. Evaluer comment la famille plugin renforce DAW Core.
+4. Evaluer la famille plugin comme ligne produit Unicor SoundEngine séparée.
 5. Garder les retours groupés: rôle musical, clarté UX, compatibilité, performance, documentation.
 
-Résultat: synthés et FX sont compris comme des capacités autour de DAW Core, pas comme des pitchs autonomes concurrents.
+Résultat: synthés et FX sont compris comme une ligne Unicor SoundEngine séparée, pas comme des capacités DAW Core ni comme des pitchs autonomes dispersés.
 
 ### Tutoriel 4 - Préparer un retour testeur utile
 

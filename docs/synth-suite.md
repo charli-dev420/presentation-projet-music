@@ -6,7 +6,7 @@
 
 ### Suite Positioning
 
-The UWdeVST synths are presented as one **Unicor SoundEngine** instrument suite around DAW Core. The point is not to pitch seven unrelated plugins. The point is to show a coherent set of musical instruments with shared UX, documentation, QA discipline, and distribution potential.
+The UWdeVST synths are presented as one **Unicor SoundEngine** instrument suite, separate from DAW Core. The point is not to pitch seven unrelated plugins or to imply that they are DAW Core features. The point is to show a coherent set of musical instruments with shared UX, documentation, QA discipline, and distribution potential.
 
 ### Instrument Map
 
@@ -47,7 +47,7 @@ For a partner or buyer, the best next review is a focused listening and UX pass 
 
 ### Positionnement de suite
 
-Les synthés UWdeVST sont présentés comme une suite instrumentale **Unicor SoundEngine** autour de DAW Core. Le but n'est pas de pitcher sept plugins sans lien. Le but est de montrer un ensemble cohérent d'instruments avec UX partagée, documentation, discipline QA et potentiel distribution.
+Les synthés UWdeVST sont présentés comme une suite instrumentale **Unicor SoundEngine**, séparée de DAW Core. Le but n'est pas de pitcher sept plugins sans lien ni de laisser croire qu'ils sont des fonctions DAW Core. Le but est de montrer un ensemble cohérent d'instruments avec UX partagée, documentation, discipline QA et potentiel distribution.
 
 ### Carte instruments
 
