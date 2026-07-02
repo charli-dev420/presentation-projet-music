@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
   <title id="title">Music QA matrix</title>
-  <desc id="desc">Public-safe QA matrix for DAW Core music showcase.</desc>
+  <desc id="desc">Public QA matrix for the DAW Core music showcase.</desc>
   <rect width="1200" height="675" fill="#111827"/>
   <text x="72" y="86" fill="#f9fafb" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700">QA Matrix · DAW Core</text>
   <g font-family="Segoe UI, Arial, sans-serif" font-size="20">

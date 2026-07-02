@@ -2,66 +2,56 @@
 
 [EN](#english) | [FR](#francais)
 
+![VST distribution banner](../assets/project-banners/vst-site.jpg)
+
 ## English
 
-### Role In The Ecosystem
+### Role In Unicor SoundEngine
 
-The VST distribution surface is part of **Unicor SoundEngine**. It is separate from **DAW Core**. Its job is to make the synth and FX line presentable, navigable, documented, and distributable without implying that the VSTs are functionally tied to the browser DAW.
+The VST distribution track presents the plugin/catalog side of **Unicor SoundEngine**. It is separate from **DAW Core**. Its job is to make Synthé and FX understandable for users, reviewers, collaborators, and distribution discussions.
 
-### Public-Safe Distribution Signals
+### What Exists In This Showcase
 
-| Surface | Public signal | Why it matters |
-| --- | --- | --- |
-| Public assets | 94 public assets inventoried, 94 referenced at runtime, 0 public asset left unused in the referenced inventory. | The catalog surface has been reviewed as a real presentation layer. |
-| Synth showcase images | 23 public `screen-synth` assets; seven showcase images copied into this repo. | Reviewers can see product-facing visuals without private logs or internal folders. |
-| Manuals | Seven clean manual links by runtime metadata: Bass, Drum, Guitar, Orch, Perc, Piano, RareInstr. | The synth suite has user-facing documentation paths. |
-| Catalog positioning | Synths and FX are grouped under Unicor SoundEngine. | The plugin/sound line is readable without being confused with DAW Core. |
-| Public repo boundary | Backend, storage, payment, admin, binaries, and release artifacts are not published here. | Public review stays safe while still being useful. |
+The repo includes a public visual gallery in [`assets/vst-showcase`](../assets/vst-showcase/README.md), banner assets, manual references, catalog notes, evidence summaries, and documentation paths. These materials help a reader understand what the product family looks like before installation or deeper review.
 
-### Showcase Gallery
+Known distribution signals include an inventoried public asset surface, seven clean manual references for the Synthé family, showcase images for the instrument line, and grouped positioning under Unicor SoundEngine.
 
-The public presentation images live in [`assets/vst-showcase`](../assets/vst-showcase/README.md). They are meant for orientation and product review, not as raw QA proof.
+### What To Review
 
-### What A Distributor Or Buyer Should Review Next
+Review the catalog as a user would encounter it:
 
-1. Catalog clarity: can a user understand the instrument family and what to download?
-2. Manual quality: does each synth have enough guidance for a first session?
-3. Installer and support story: what happens after interest becomes installation?
-4. Version and asset discipline: do visible names, manuals, and release objects stay aligned?
-5. Privacy and compliance: what can be public, what stays private, and what needs NDA review?
+- Can the user understand the instrument family quickly?
+- Are the names, visuals, and manuals aligned?
+- Is the first-session path clear enough?
+- Which product page or manual needs the most polish?
+- What packaging or support explanation would make the line easier to trust?
 
-### Useful Demo Request
+### Relation To DAW Core
 
-Ask for a scoped walkthrough of one synth product page, its manual reference, its installer path under private review, and the expected support story. That is more useful than asking for every internal distribution detail at once.
+DAW Core is the browser DAW. VST distribution is the plugin/catalog track. Both can show audio-product seriousness, but they should be evaluated separately.
 
 ## Francais
 
-### Rôle dans l'écosystème
+### Role Dans Unicor SoundEngine
 
-La surface de distribution VST fait partie de **Unicor SoundEngine**. Elle est séparée de **DAW Core**. Son rôle est de rendre la ligne synthés et FX présentable, navigable, documentée et distribuable sans laisser entendre que les VST sont fonctionnellement liés au DAW navigateur.
+Le track distribution VST presente le cote plugin/catalogue de **Unicor SoundEngine**. Il est separe de **DAW Core**. Son role est de rendre Synthé et FX compréhensibles pour utilisateurs, reviewers, collaborateurs et discussions distribution.
 
-### Signaux distribution public-safe
+### Ce Qui Existe Dans Cette Vitrine
 
-| Surface | Signal public | Pourquoi c'est utile |
-| --- | --- | --- |
-| Assets publics | 94 assets publics inventoriés, 94 référencés runtime, 0 asset public inutilisé dans l'inventaire référencé. | La surface catalogue a été relue comme vraie couche présentation. |
-| Images vitrine synthés | 23 assets publics `screen-synth`; sept images showcase copiées dans ce repo. | Les reviewers voient des visuels produit sans logs privés ni dossiers internes. |
-| Manuels | Sept liens manuels propres par métadonnée runtime: Bass, Drum, Guitar, Orch, Perc, Piano, RareInstr. | La suite synthés possède des chemins documentation utilisateur. |
-| Positionnement catalogue | Synthés et FX sont groupés sous Unicor SoundEngine. | La ligne plugin/son reste lisible sans être confondue avec DAW Core. |
-| Limite repo public | Backend, storage, paiement, admin, binaires et artefacts release ne sont pas publiés ici. | La review publique reste sûre tout en restant utile. |
+Le repo inclut une galerie visuelle dans [`assets/vst-showcase`](../assets/vst-showcase/README.md), des bannieres, references manuels, notes catalogue, syntheses de preuve et chemins documentation. Ces elements aident un lecteur a comprendre a quoi ressemble la famille produit avant installation ou revue plus profonde.
 
-### Galerie showcase
+Les signaux distribution connus incluent une surface d'assets publics inventoriee, sept references manuels propres pour la famille Synthé, des images vitrine pour la ligne instrumentale et un positionnement groupe sous Unicor SoundEngine.
 
-Les images de présentation publiques sont dans [`assets/vst-showcase`](../assets/vst-showcase/README.md). Elles servent l'orientation et la review produit, pas la preuve QA brute.
+### Ce Qu'Il Faut Reviewer
 
-### Ce qu'un distributeur ou acheteur doit reviewer ensuite
+Reviewer le catalogue comme un utilisateur le rencontrerait:
 
-1. Clarté catalogue: l'utilisateur comprend-il la famille d'instruments et quoi télécharger?
-2. Qualité manuel: chaque synthé donne-t-il assez de guidance pour une première session?
-3. Histoire installer/support: que se passe-t-il après l'intérêt utilisateur?
-4. Discipline version/assets: noms visibles, manuels et objets release restent-ils alignés?
-5. Privacy et compliance: qu'est-ce qui peut être public, privé ou sous NDA?
+- L'utilisateur comprend-il rapidement la famille instrumentale ?
+- Les noms, visuels et manuels sont-ils alignes ?
+- Le chemin premiere session est-il assez clair ?
+- Quelle page produit ou manuel demande le plus de polish ?
+- Quelle explication packaging ou support rendrait la ligne plus facile a faire confiance ?
 
-### Demande de démo utile
+### Relation A DAW Core
 
-Demander un walkthrough cadré d'une page produit synthé, sa référence manuel, son chemin installer sous review privée, et l'histoire support attendue. C'est plus utile que demander tous les détails distribution internes d'un coup.
+DAW Core est le DAW navigateur. La distribution VST est le track plugin/catalogue. Les deux peuvent montrer du serieux produit audio, mais ils doivent etre evalues separement.

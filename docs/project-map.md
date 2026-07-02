@@ -6,84 +6,82 @@
 
 ### Reading Model
 
-This showcase represents a private multi-repository ecosystem. The public map keeps the product understandable without exposing source code, builds, storage details, QA folders, or private user material.
+The music work is easier to understand when it is read as two separate lines.
 
-The map has two separate product lines. **DAW Core** is the major project: a browser-based web local-first DAW with `.dw` project continuity and an Android beta track. **Unicor SoundEngine** is the separate Synthé / FX / VST line with catalog, manuals, audition, and review material.
+**DAW Core** is the major product: a browser-based **web local-first DAW** with `.dw` project continuity and Android beta testing.
 
-| Layer | Real repository or family | Product role | Public here | Private boundary |
-| --- | --- | --- | --- | --- |
-| Main product | `Unicorn Who Dev / daw-core` | Browser-based web local-first DAW, Android beta track, `.dw` project continuity. | Product story, workflows, portable-project contract, evidence summaries, readiness notes. | Source, full gates, builds, device logs, local configs, release folders. |
-| Distribution | `Unicorn Who Dev / VST-site` | Catalog and distribution layer for Unicor SoundEngine, separate from DAW Core. | Public asset inventory, synth presentation gallery, manual references, distribution positioning. | Backend, storage, admin, payment, release binaries, private accounts. |
-| Synth suite | `UWdeVST / synthe-*` | Seven instrument families sharing UX and release discipline. | Suite-level narrative, technical QA signals, musical role by instrument, public docs framing. | JUCE/C++ code, installers, presets, CSV QA, internal audio checks. |
-| FX suite | `Unicorn Who Dev / fx-*` | Effects grouped by treatment family: analysis, delay, distortion, dynamics, EQ, modulation, pitch/time, reverb, stereo. | Grouped product role and review narrative. | DSP implementation, private presets, raw tests, release artifacts. |
-| Audition | `Unicorn Who Dev / audition-panel` | Preparation and review surface for listening, comparison, and demo discipline. | Product role, review expectations, fit inside the Unicor review workflow. | Private sessions, output audio, captures, local paths. |
+**Unicor SoundEngine** is the sound/software line: Synthé instruments, FX families, VST distribution, audition support, manuals, and visuals.
+
+### Real Project Families
+
+**DAW Core** represents the browser DAW work: project creation, save/reload behavior, `.dw` continuity, Android beta review, QA language, and release preparation.
+
+**VST-site** represents the catalog and distribution layer for Unicor SoundEngine: product pages, manual references, public visuals, and distribution readiness.
+
+**UWdeVST synth projects** represent the Synthé family: Piano, Guitar, Bass, Perc, Drum, Orch, and Rare / Instr. They are grouped as one instrument suite because the reader needs roles, controls, presets, manuals, and listening priorities, not a scattered list.
+
+**FX projects** represent treatment families: analysis, delay, distortion, dynamics, EQ, modulation, pitch/time, reverb, and stereo. They should be prioritized by musical usefulness and product clarity.
+
+**Audition tooling** represents listening, comparison, and review support for Unicor SoundEngine.
 
 ### Ecosystem Diagram
 
 ```mermaid
 flowchart LR
-    A[DAW Core: web local-first DAW] --> B[Portable .dw projects]
-    A --> C[Browser and desktop proof signal]
-    A --> D[Android beta track]
-    E[Unicor SoundEngine] --> F[UWdeVST synth suite]
-    E --> G[FX suite]
-    E --> H[VST catalog and distribution]
-    I[Audition panel] --> J[Listening and review workflows]
-    H --> F
-    J --> E
+    A["DAW Core<br/>web local-first DAW"] --> B[".dw project continuity"]
+    A --> C["Browser workflow"]
+    A --> D["Android beta testing"]
+    E["Unicor SoundEngine"] --> F["Synthé instruments"]
+    E --> G["FX families"]
+    E --> H["VST catalog"]
+    E --> I["Audition support"]
+    H --> J["Manuals and assets"]
 ```
 
-### How To Read The Repos
+### How To Use This Map
 
-Read the repo family as a music portfolio with two separate product lines:
+Use this page to avoid mixing the projects. DAW Core is the browser DAW and the first priority. Unicor SoundEngine is a separate sound/software line. The two can share a portfolio, brand discipline, and audio-product thinking without becoming one functional system.
 
-- **DAW Core** is the browser-based web local-first DAW and the main reason to care.
-- **Synths and FX** are Unicor SoundEngine products, not DAW Core features.
-- **VST-site** explains how the plugin ecosystem can be presented and distributed.
-- **Audition tooling** helps turn Synthé / FX behavior into reviewable evidence.
-- **Docs and proof packs** make the private work legible to outside readers.
-
-The goal is not to inflate the number of projects. The goal is to show one strong DAW product and one separate plugin/sound product line, each with its own evaluation path.
+For the product explanation, read [overview](overview.md), [DAW Core](daw-core.md), and [Unicor SoundEngine](unicor-soundengine.md). For current state and validation, read [current status](current-status.md), [evidence](evidence.md), and [QA validation](qa-validation.md).
 
 ## Francais
 
-### Modèle de lecture
+### Modele De Lecture
 
-Cette vitrine représente un écosystème privé multi-repos. La carte publique rend le produit compréhensible sans exposer code source, builds, stockage, dossiers QA ou matériel utilisateur privé.
+Le travail musique est plus simple a comprendre quand il est lu comme deux lignes separees.
 
-La carte a deux lignes produit séparées. **DAW Core** est le projet majeur: un web local-first DAW dans le navigateur, avec continuité `.dw` et piste beta Android. **Unicor SoundEngine** est la ligne Synthé / FX / VST séparée, avec catalogue, manuels, audition et matériel de review.
+**DAW Core** est le produit majeur: un **web local-first DAW** dans le navigateur, avec continuite projet `.dw` et tests beta Android.
 
-| Couche | Repo ou famille réelle | Rôle produit | Public ici | Limite privée |
-| --- | --- | --- | --- | --- |
-| Produit principal | `Unicorn Who Dev / daw-core` | Web local-first DAW dans le navigateur, piste beta Android, continuité `.dw`. | Histoire produit, workflows, contrat projet portable, synthèses preuves, readiness. | Source, gates complets, builds, logs device, configs locales, dossiers release. |
-| Distribution | `Unicorn Who Dev / VST-site` | Catalogue et distribution Unicor SoundEngine, séparé de DAW Core. | Inventaire assets publics, galerie synthés, références manuels, positionnement distribution. | Backend, storage, admin, paiement, binaires release, comptes privés. |
-| Suite synthés | `UWdeVST / synthe-*` | Sept familles d'instruments partageant UX et discipline release. | Narration de suite, signaux QA techniques, rôle musical par instrument, docs publiques. | Code JUCE/C++, installateurs, presets, CSV QA, écoutes internes. |
-| Suite FX | `Unicorn Who Dev / fx-*` | Effets regroupés par famille: analyse, delay, distortion, dynamics, EQ, modulation, pitch/time, reverb, stereo. | Rôle produit groupé et narration de revue. | DSP, presets privés, tests bruts, artefacts release. |
-| Audition | `Unicorn Who Dev / audition-panel` | Préparation et review pour écoute, comparaison et discipline démo. | Rôle produit, critères de review, place dans le workflow Unicor. | Sessions privées, audio de sortie, captures, chemins locaux. |
+**Unicor SoundEngine** est la ligne son/software: instruments Synthé, familles FX, distribution VST, audition, manuels et visuels.
 
-### Diagramme écosystème
+### Familles De Projets Reelles
+
+**DAW Core** represente le travail DAW navigateur: creation projet, sauvegarde/reouverture, continuite `.dw`, beta Android, langage QA et preparation release.
+
+**VST-site** represente la couche catalogue et distribution pour Unicor SoundEngine: pages produit, references manuels, visuels publics et readiness distribution.
+
+**Les projets synthés UWdeVST** representent la famille Synthé: Piano, Guitar, Bass, Perc, Drum, Orch et Rare / Instr. Ils sont groupes comme une suite instrumentale parce qu'un lecteur a besoin de roles, controles, presets, manuels et priorites d'ecoute, pas d'une liste dispersee.
+
+**Les projets FX** representent les familles de traitement: analysis, delay, distortion, dynamics, EQ, modulation, pitch/time, reverb et stereo. Ils doivent etre priorises par utilite musicale et clarte produit.
+
+**L'audition** represente le support d'ecoute, de comparaison et de revue pour Unicor SoundEngine.
+
+### Diagramme Ecosysteme
 
 ```mermaid
 flowchart LR
-    A[DAW Core: web local-first DAW] --> B[Projets .dw portables]
-    A --> C[Signal preuve navigateur et desktop]
-    A --> D[Piste beta Android]
-    E[Unicor SoundEngine] --> F[Suite synthés UWdeVST]
-    E --> G[Suite FX]
-    E --> H[Catalogue et distribution VST]
-    I[Audition panel] --> J[Workflows ecoute et review]
-    H --> F
-    J --> E
+    A["DAW Core<br/>web local-first DAW"] --> B["Continuite projet .dw"]
+    A --> C["Workflow navigateur"]
+    A --> D["Tests beta Android"]
+    E["Unicor SoundEngine"] --> F["Instruments Synthé"]
+    E --> G["Familles FX"]
+    E --> H["Catalogue VST"]
+    E --> I["Support audition"]
+    H --> J["Manuels et assets"]
 ```
 
-### Comment lire les repos
+### Comment Utiliser Cette Carte
 
-Lire la famille comme un portfolio musical avec deux lignes produit séparées:
+Utiliser cette page pour ne pas melanger les projets. DAW Core est le DAW navigateur et la priorite. Unicor SoundEngine est une ligne son/software separee. Les deux peuvent partager un portfolio, une discipline de marque et une pensee produit audio sans devenir un seul systeme fonctionnel.
 
-- **DAW Core** est le web local-first DAW dans le navigateur et la raison principale de s'intéresser au projet.
-- **Synthés et FX** sont des produits Unicor SoundEngine, pas des fonctions DAW Core.
-- **VST-site** montre comment l'écosystème plugin peut être présenté et distribué.
-- **Audition** aide à transformer le comportement Synthé / FX en preuve reviewable.
-- **Docs et proof packs** rendent le travail privé lisible pour un lecteur extérieur.
-
-Le but n'est pas de gonfler artificiellement le nombre de projets. Le but est de montrer un produit DAW fort et une ligne plugin/son séparée, chacune avec son propre chemin d'évaluation.
+Pour l'explication produit, lire [overview](overview.md), [DAW Core](daw-core.md) et [Unicor SoundEngine](unicor-soundengine.md). Pour l'etat courant et la validation, lire [current status](current-status.md), [evidence](evidence.md) et [QA validation](qa-validation.md).

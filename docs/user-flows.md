@@ -4,122 +4,82 @@
 
 ## English
 
-### Flow 1 - Create And Preserve A DAW Core Project
+### Flow 1 - Create And Keep A DAW Core Project
 
-1. The user creates a local DAW Core project.
-2. They add musical material: tracks, instruments, effects, arrangement decisions, and project state.
-3. They save the project using the portable `.dw` contract.
-4. They reload the project on the supported surface being evaluated.
-5. They check whether the musical state, assets, snapshots, and expected behavior remain coherent.
-6. They produce feedback as a product observation, not just as a crash report.
+The user opens DAW Core in the browser, creates a project, adds musical decisions, saves, closes, reopens, listens, and continues editing. This is the flagship flow because DAW Core is about preserving the musical work, not only playing a sound once.
 
-This is the flagship workflow because it turns DAW Core into a continuity product: the project is the object being protected.
+Useful observations: did the project reopen with the expected tracks, assets, snapshots, controls, arrangement, and playback state? Did the user understand what was saved? Did the session feel recoverable after interruption?
 
-### Flow 2 - Review A `.dw` Portable Project
+### Flow 2 - Review A `.dw` Project
 
-1. Start from a known project scenario.
-2. Confirm the expected project content: musical state, required sampler assets, instrument/effect snapshots, and metadata.
-3. Save or export the `.dw`.
-4. Import or reload it on the target surface.
-5. Review checksums, embedded assets, snapshots, and musical continuity.
-6. Record whether the issue is functional, sonic, UX-related, packaging-related, or device-specific.
+The reviewer starts from a known scenario and checks the project as an object: expected content, required assets, snapshots, checksums, reload behavior, and re-export expectations. The result should say whether the issue is functional, sonic, UX-related, packaging-related, or device-specific.
 
-For partners, this flow is the best way to ask for a focused demo: define the scenario, target surface, expected proof, and shareability rules in advance.
+This flow matters because it gives testers and collaborators a precise way to talk about continuity.
 
-### Flow 3 - Android Beta Evaluation
+### Flow 3 - Test The Android Beta Path
 
-1. Pick the Android device class and audio route being evaluated.
-2. Choose a small DAW Core scenario: open project, save project, reload project, route audio, or validate a known workflow.
-3. Run the scenario through the current Android gate or guided beta checklist.
-4. Capture a public-safe summary: device class, scenario, result, reproducibility, and blocker level.
-5. Keep raw logs, device identifiers, builds, and local paths private.
+The tester chooses a real Android device, browser, and audio route. They run one DAW Core scenario: open, save, reload, route audio, resume playback, or check a known workflow. The report names the device class, scenario, result, reproducibility, and impact.
 
-The Android story should be treated as a beta track with recertification. That is a strength for review work: the next proof step is explicit instead of vague.
+The Android beta should stay practical. A small honest device report is more useful than a broad claim about Android support.
 
-### Flow 4 - Discover Unicor SoundEngine
+### Flow 4 - Discover Synthé Or FX
 
-1. Start with DAW Core to understand why the ecosystem exists.
-2. Choose a musical need: instrument, sound layer, effect treatment, or distribution review.
-3. Read the relevant suite page: [synth suite](synth-suite.md) or [VST distribution](vst-distribution.md).
-4. Evaluate the role of the plugin family around the workstation.
-5. Provide feedback on musical usefulness, UX clarity, compatibility, documentation, or distribution readiness.
+The reader starts from a musical need: playable instrument, rhythm layer, color, movement, dynamics, space, distortion, or catalog clarity. They read [Unicor SoundEngine](unicor-soundengine.md), then [synth suite](synth-suite.md) or [VST distribution](vst-distribution.md).
 
-### Flow 5 - Evaluate As Buyer, Partner, Or Recruiter
+The feedback should stay on the sound/software line: musical role, control clarity, preset usefulness, listening quality, manual clarity, compatibility, and packaging readiness.
 
-1. Read the [one-pager](one-pager.md) and [project map](project-map.md).
-2. Review [evidence](evidence.md), [proof pack](proof-pack.md), and [release readiness](release-readiness.md).
-3. Decide which surface matters most: DAW Core desktop, Android beta, synth suite, FX suite, VST distribution, or QA process.
-4. Ask for a private demo with a clear success criterion.
-5. Separate public material from NDA material before requesting artifacts.
+### Flow 5 - Evaluate The Project For Collaboration Or Work
 
-### Useful Feedback Format
+The reader chooses one angle: testing, funding, mission, hiring, sound design, web audio, Android QA, VST packaging, or documentation. They read [overview](overview.md), [DAW Core](daw-core.md), [evidence](evidence.md), and [open needs](partnership.md), then choose one concrete next task.
 
-| Field | Example |
-| --- | --- |
-| Surface | DAW Core desktop, Android beta, synth suite, VST site. |
-| Scenario | Save/reload `.dw`, route audio, review synth UX, inspect manual link. |
-| Expected result | Project state survives reload; UI remains understandable; asset loads. |
-| Observed result | What happened, in practical musical terms. |
-| Reproducibility | Once, frequent, always, device-specific, project-specific. |
-| Impact | Cosmetic, workflow friction, sonic issue, release blocker. |
+The expected output is a scoped review note, test report, contribution plan, funding angle, or hiring conversation grounded in actual project material.
+
+### Feedback Format
+
+- Surface: DAW Core browser, Android beta, Synthé, FX, VST catalog, documentation.
+- Scenario: what the user tried.
+- Expected result: what should have happened.
+- Observed result: what happened in musical/product terms.
+- Reproducibility: once, frequent, always, device-specific, project-specific.
+- Impact: cosmetic, friction, sonic problem, continuity problem, packaging issue, release concern.
 
 ## Francais
 
-### Flux 1 - Créer et préserver un projet DAW Core
+### Flux 1 - Creer Et Garder Un Projet DAW Core
 
-1. L'utilisateur crée un projet DAW Core local.
-2. Il ajoute du matériel musical: pistes, instruments, effets, arrangement et état projet.
-3. Il sauvegarde avec le contrat portable `.dw`.
-4. Il recharge le projet sur la surface supportée en évaluation.
-5. Il vérifie que l'état musical, les assets, les snapshots et le comportement attendu restent cohérents.
-6. Il formule un retour produit, pas seulement un rapport de crash.
+L'utilisateur ouvre DAW Core dans le navigateur, cree un projet, ajoute des decisions musicales, sauvegarde, ferme, rouvre, ecoute et continue l'edition. C'est le flux phare parce que DAW Core sert a preserver le travail musical, pas seulement a jouer un son une fois.
 
-Ce flux est le plus important parce qu'il présente DAW Core comme un produit de continuité: l'objet à protéger est le projet.
+Observations utiles: le projet se rouvre-t-il avec les pistes, assets, snapshots, controles, arrangement et etat de lecture attendus ? L'utilisateur comprend-il ce qui a ete sauvegarde ? La session parait-elle recuperable apres interruption ?
 
-### Flux 2 - Reviewer un projet portable `.dw`
+### Flux 2 - Reviewer Un Projet `.dw`
 
-1. Partir d'un scénario projet connu.
-2. Confirmer le contenu attendu: état musical, assets sampler requis, snapshots instruments/effets et métadonnées.
-3. Sauvegarder ou exporter le `.dw`.
-4. Importer ou recharger sur la surface cible.
-5. Vérifier checksums, assets embarqués, snapshots et continuité musicale.
-6. Classer le retour: fonctionnel, sonore, UX, packaging ou device-specific.
+La personne part d'un scenario connu et verifie le projet comme objet: contenu attendu, assets requis, snapshots, checksums, reouverture et attentes de re-export. Le resultat doit dire si le probleme est fonctionnel, sonore, UX, packaging ou specifique a un appareil.
 
-Pour un partenaire, c'est le meilleur format de démo ciblée: scénario, surface, preuve attendue et règles de partage sont définis avant le test.
+Ce flux compte parce qu'il donne aux testeurs et collaborateurs une maniere precise de parler de continuite.
 
-### Flux 3 - Evaluation beta Android
+### Flux 3 - Tester La Piste Beta Android
 
-1. Choisir la classe d'appareil Android et la route audio à évaluer.
-2. Choisir un petit scénario DAW Core: ouvrir, sauvegarder, recharger, router l'audio ou valider un workflow connu.
-3. Passer le scénario dans le gate Android courant ou la checklist beta guidée.
-4. Produire une synthèse public-safe: classe device, scénario, résultat, reproductibilité et niveau de blocage.
-5. Garder logs bruts, identifiants device, builds et chemins locaux privés.
+Le testeur choisit un vrai appareil Android, un navigateur et une route audio. Il lance un scenario DAW Core: ouvrir, sauvegarder, recharger, router l'audio, reprendre la lecture ou verifier un workflow connu. Le retour nomme la classe d'appareil, le scenario, le resultat, la reproductibilite et l'impact.
 
-Android doit être lu comme une piste beta avec recertification. C'est utile pour la review: la prochaine preuve attendue est explicite.
+La beta Android doit rester pratique. Un petit retour honnete sur appareil reel vaut mieux qu'une grande promesse de support Android.
 
-### Flux 4 - Découvrir Unicor SoundEngine
+### Flux 4 - Decouvrir Synthé Ou FX
 
-1. Commencer par DAW Core pour comprendre pourquoi l'écosystème existe.
-2. Choisir un besoin musical: instrument, couche sonore, traitement FX ou review distribution.
-3. Lire la page correspondante: [suite synthés](synth-suite.md) ou [distribution VST](vst-distribution.md).
-4. Evaluer le rôle de la famille plugin autour de la workstation.
-5. Remonter un retour sur utilité musicale, clarté UX, compatibilité, documentation ou readiness distribution.
+Le lecteur part d'un besoin musical: instrument jouable, couche rythmique, couleur, mouvement, dynamics, espace, distortion ou clarte catalogue. Il lit [Unicor SoundEngine](unicor-soundengine.md), puis [synth suite](synth-suite.md) ou [VST distribution](vst-distribution.md).
 
-### Flux 5 - Evaluer comme acheteur, partenaire ou recruteur
+Le feedback reste sur la ligne son/software: role musical, clarte des controles, utilite des presets, qualite d'ecoute, clarte manuel, compatibilite et readiness packaging.
 
-1. Lire le [one-pager](one-pager.md) et la [carte projet](project-map.md).
-2. Lire [evidence](evidence.md), [proof pack](proof-pack.md) et [release readiness](release-readiness.md).
-3. Choisir la surface prioritaire: DAW Core desktop, beta Android, synthés, FX, distribution VST ou process QA.
-4. Demander une démo privée avec critère de succès clair.
-5. Séparer matériel public et matériel NDA avant de demander des artefacts.
+### Flux 5 - Evaluer Le Projet Pour Collaborer Ou Travailler
 
-### Format de retour utile
+Le lecteur choisit un angle: test, financement, mission, recrutement, sound design, web audio, QA Android, packaging VST ou documentation. Il lit [overview](overview.md), [DAW Core](daw-core.md), [evidence](evidence.md) et [open needs](partnership.md), puis choisit une tache concrete suivante.
 
-| Champ | Exemple |
-| --- | --- |
-| Surface | DAW Core desktop, beta Android, suite synthés, VST site. |
-| Scénario | Save/reload `.dw`, routing audio, review UX synthé, lien manuel. |
-| Résultat attendu | L'état projet survit au reload; l'UI reste lisible; l'asset charge. |
-| Résultat observé | Ce qui s'est produit, en termes musicaux pratiques. |
-| Reproductibilité | Une fois, fréquent, toujours, spécifique device, spécifique projet. |
-| Impact | Cosmétique, friction workflow, souci sonore, bloqueur release. |
+La sortie attendue est une note de revue cadree, un rapport de test, un plan de contribution, un angle financement ou une conversation recrutement appuyee sur du materiel projet reel.
+
+### Format De Retour
+
+- Surface: DAW Core navigateur, beta Android, Synthé, FX, catalogue VST, documentation.
+- Scenario: ce qui a ete essaye.
+- Resultat attendu: ce qui devait arriver.
+- Resultat observe: ce qui s'est produit en termes musicaux/produit.
+- Reproductibilite: une fois, frequent, toujours, specifique appareil, specifique projet.
+- Impact: cosmetique, friction, probleme sonore, probleme de continuite, souci packaging, risque release.

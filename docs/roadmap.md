@@ -4,52 +4,56 @@
 
 ## English
 
-### Product Priority
+### Product Direction
 
-The roadmap starts with **DAW Core**. Synths, FX, VST distribution, and audition tooling should strengthen the workstation and the portable-project story.
+The roadmap starts with **DAW Core**. The priority is to make the browser-based **web local-first DAW** easier to test, explain, and trust: project creation, save/reopen behavior, `.dw` continuity, Android beta scenarios, and release-quality wording.
 
-| Horizon | Objective | Public output |
-| --- | --- | --- |
-| Near term | Keep product documentation clear and buyer/tester-readable. | Updated README, one-pager, flows, proof pack, and buyer material. |
-| Near term | Strengthen the DAW Core proof lane. | Current desktop summary, `.dw` proof replay plan, Android beta recertification plan. |
-| Mid term | Consolidate Unicor SoundEngine as one supporting ecosystem. | Grouped synth/FX pages, user resources, VST distribution notes. |
-| Mid term | Improve desktop/Android QA evidence. | Written, reproducible, public-safe proof summaries for controlled demos. |
-| Long term | Prepare packaging, distribution, and partnerships. | Scoped demos, funding briefs, partner proof requests, press/public-safe kit. |
+**Unicor SoundEngine** develops in parallel as its own Synthé / FX / VST line. Its roadmap is about musical quality, product clarity, manuals, catalog readiness, audition, and packaging.
 
-### Good Roadmap Questions
+### Near Term
 
-- Which DAW Core workflow should be made demo-ready first?
-- Which Android device family matters for the next beta slice?
-- Which synth instruments need listening sign-off for a credible public demo?
-- Which FX family most improves DAW Core's next workflow?
-- Which distribution material is missing for a buyer or VST partner?
+Keep the project dossier readable: README, overview, DAW Core, Unicor SoundEngine, user flows, resources, evidence, and QA pages should tell the same story.
 
-### Public Roadmap Boundary
+Prepare one DAW Core continuity scenario that can be replayed and written up cleanly. Use it as the reference for browser workflow and Android beta testing.
 
-Do not publicly promise signed Android release, universal Android support, VST/APK/installers from this showcase, payment/storage/admin integration, private QA screenshots, or DSP claims by individual effect unless the supporting proof has been written and scoped.
+Refresh the Android beta path around selected real devices and audio routes.
+
+### Mid Term
+
+Turn Synthé review into a clear listening process by selected instruments: role, preset usefulness, controls, issues, manual quality, and release confidence.
+
+Prioritize FX families by musical value and user clarity.
+
+Strengthen VST distribution pages around catalog alignment, manuals, package readiness, and support wording.
+
+### Longer Term
+
+Use the documentation and evidence structure to support funding, missions, hiring, technical collaboration, and distribution discussions. The goal is not to promise everything at once; it is to make each next step understandable and testable.
 
 ## Francais
 
-### Priorité produit
+### Direction Produit
 
-La roadmap commence par **DAW Core**. Synthés, FX, distribution VST et audition doivent renforcer la workstation et l'histoire du projet portable.
+La roadmap commence par **DAW Core**. La priorite est de rendre le **web local-first DAW** dans le navigateur plus facile a tester, expliquer et faire confiance: creation projet, sauvegarde/reouverture, continuite `.dw`, scenarios beta Android et wording de niveau release.
 
-| Horizon | Objectif | Sortie publique |
-| --- | --- | --- |
-| Court terme | Garder la documentation produit claire et lisible pour acheteurs/testeurs. | README, one-pager, flows, proof pack et buyer material mis à jour. |
-| Court terme | Renforcer l'axe preuve DAW Core. | Summary desktop courant, plan replay `.dw`, plan recertification beta Android. |
-| Moyen terme | Consolider Unicor SoundEngine comme écosystème de support. | Pages synthés/FX groupées, ressources utilisateur, notes distribution VST. |
-| Moyen terme | Améliorer les preuves QA desktop/Android. | Synthèses public-safe rédigées et reproductibles pour démos contrôlées. |
-| Long terme | Préparer packaging, distribution et partenariats. | Démos cadrées, briefs financement, demandes preuve partenaire, kit presse/public-safe. |
+**Unicor SoundEngine** avance en parallele comme ligne Synthé / FX / VST separee. Sa roadmap concerne qualite musicale, clarte produit, manuels, readiness catalogue, audition et packaging.
 
-### Bonnes questions roadmap
+### Court Terme
 
-- Quel workflow DAW Core doit devenir demo-ready en premier?
-- Quelle famille de devices Android compte pour la prochaine slice beta?
-- Quels synthés doivent recevoir le sign-off écoute pour une démo publique crédible?
-- Quelle famille FX améliore le plus le prochain workflow DAW Core?
-- Quel matériel distribution manque pour un acheteur ou partenaire VST?
+Garder le dossier projet lisible: README, overview, DAW Core, Unicor SoundEngine, user flows, resources, evidence et QA doivent raconter la meme histoire.
 
-### Limite roadmap publique
+Preparer un scenario de continuite DAW Core qui peut etre rejoue et documente proprement. L'utiliser comme reference pour workflow navigateur et beta Android.
 
-Ne pas promettre publiquement release Android signée, support Android universel, VST/APK/installateurs depuis cette vitrine, intégration paiement/storage/admin, captures QA privées ou claims DSP par effet tant que la preuve n'est pas rédigée et cadrée.
+Rafraichir la piste beta Android autour de vrais appareils et routes audio selectionnes.
+
+### Moyen Terme
+
+Transformer la revue Synthé en processus d'ecoute clair par instruments selectionnes: role, utilite presets, controles, problemes, qualite manuel et confiance release.
+
+Prioriser les familles FX par valeur musicale et clarte utilisateur.
+
+Renforcer les pages distribution VST autour de l'alignement catalogue, manuels, readiness package et wording support.
+
+### Plus Long Terme
+
+Utiliser la documentation et la structure de preuve pour soutenir financement, missions, recrutement, collaboration technique et discussions distribution. Le but n'est pas de promettre tout a la fois; c'est de rendre chaque prochaine etape comprehensible et testable.

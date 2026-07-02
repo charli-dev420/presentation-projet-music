@@ -6,98 +6,74 @@
 
 ### Reading Hub
 
-| Topic | Resource |
-| --- | --- |
-| Product overview | [README](../README.md), [one-pager](one-pager.md), [project map](project-map.md) |
-| User understanding | [User flows](user-flows.md), [tutorials](tutorials.md), [current status](current-status.md) |
-| Proof and maturity | [Evidence](evidence.md), [proof pack](proof-pack.md), [public proof index](public-proof-index.md), [QA validation](qa-validation.md) |
-| Release discussion | [Release readiness](release-readiness.md), [publication checklist](publication-checklist.md), [blockers/readiness notes](blockers.md) |
-| Music ecosystem | [Synth suite](synth-suite.md), [VST distribution](vst-distribution.md), [visual index](visual-index.md) |
-| Decision material | [Buyer brief](buyer-brief.md), [partnership](partnership.md), [decision pack](decision-pack.md) |
-| Visual identity | [Brand charter](brand-charter.md), [iconography](iconography.md), [assets](../assets/README.md) |
+For a quick orientation, read [README](../README.md), [overview](overview.md), and [one-pager](one-pager.md). For the main product, read [DAW Core](daw-core.md), [user flows](user-flows.md), and [tutorials](tutorials.md). For the sound/software line, read [Unicor SoundEngine](unicor-soundengine.md), [synth suite](synth-suite.md), and [VST distribution](vst-distribution.md).
+
+For maturity and validation, use [current status](current-status.md), [evidence](evidence.md), [proof pack](proof-pack.md), [public proof index](public-proof-index.md), [QA validation](qa-validation.md), and [release readiness](release-readiness.md). For collaboration, funding, mission, or hiring context, use [project evaluation](buyer-brief.md), [open needs](partnership.md), [decision pack](decision-pack.md), and [readiness notes](blockers.md).
+
+Visual material is documented in [visual index](visual-index.md), [brand charter](brand-charter.md), [iconography](iconography.md), and [assets](../assets/README.md).
 
 ### Glossary
 
-| Term | Meaning in this showcase |
-| --- | --- |
-| DAW Core | Main product: local-first workstation and project continuity engine. |
-| Unicor SoundEngine | Supporting music ecosystem: synths, FX, VST catalog, audition, and distribution surfaces. |
-| `.dw` | DAW Core portable project contract, covering state, assets, snapshots, checksums, and reload expectations. |
-| Local-first | Product posture where creation and project ownership are centered on the user's local environment. |
-| Proof pack | Public-safe summary of evidence that can support diligence without publishing raw artifacts. |
-| Android beta | Android track that can be evaluated and recertified through explicit device/workflow proof. |
-| VST3 | Plugin format used by the synth suite and relevant distribution material. |
-| QA signal | A summarized validation result, not a dump of private logs or internal folders. |
+**DAW Core** is the main project: a browser-based **web local-first DAW** focused on project continuity.
+
+**Unicor SoundEngine** is the separate Synthé / FX / VST line.
+
+**`.dw`** is the DAW Core project-continuity direction: state, assets, snapshots, checksums, reload behavior, and review expectations.
+
+**Android beta** is the DAW Core device-testing path for browser/mobile audio scenarios.
+
+**Synthé** is the seven-instrument family inside Unicor SoundEngine.
+
+**FX** is the treatment-family line inside Unicor SoundEngine.
+
+**VST distribution** is the catalog, manual, packaging, and presentation track for the plugin line.
 
 ### For Users And Testers
 
-Start with [user flows](user-flows.md). A useful first review is small: one project, one surface, one expected outcome. DAW Core feedback is strongest when it describes the musical workflow, not only whether a button worked.
+Start with one concrete scene. For DAW Core, try to understand the save/reopen workflow and the Android beta path. For Synthé or FX, start from a musical role: instrument, rhythm layer, tone shaping, spatial treatment, or catalog clarity. A useful report says what you tried, what you expected, what happened, and whether the result helped or blocked the musical task.
 
-### For Partners
+### For Collaborators
 
-Start with [partnership](partnership.md) and [project map](project-map.md). The best partnership conversations are specific: Android audio route, plugin UX, sound design, QA automation, packaging, distribution, or documentation.
+Useful collaboration areas include web audio, local-first project design, Android browser testing, QA automation, listening review, sound design, VST packaging, documentation, and visual/product presentation.
 
-### For Buyers, Funders, And Recruiters
+### For Funding, Missions, Or Roles
 
-Start with [buyer brief](buyer-brief.md), then read [evidence](evidence.md) and [release readiness](release-readiness.md). The interesting signal is the combination of product framing, proof discipline, and multi-surface audio work around a private codebase.
-
-### Public-Safe Request Checklist
-
-Before asking for private material, define:
-
-- the product surface under review;
-- the scenario to demonstrate;
-- the success criterion;
-- whether a public summary is enough;
-- what must stay under NDA;
-- whether the next step is a live demo, proof replay, technical review, or collaboration plan.
+The strongest signal is the combination of product work and validation discipline: a browser DAW with a clear project-continuity promise, plus a separate sound/software line with instruments, effects, manuals, visuals, and distribution material. Read [project evaluation](buyer-brief.md) and [decision pack](decision-pack.md) when you need a business or hiring angle.
 
 ## Francais
 
-### Hub de lecture
+### Hub De Lecture
 
-| Sujet | Ressource |
-| --- | --- |
-| Vue produit | [README](../README.md), [one-pager](one-pager.md), [carte projet](project-map.md) |
-| Compréhension utilisateur | [User flows](user-flows.md), [tutoriels](tutorials.md), [statut courant](current-status.md) |
-| Preuves et maturité | [Evidence](evidence.md), [proof pack](proof-pack.md), [public proof index](public-proof-index.md), [QA validation](qa-validation.md) |
-| Discussion release | [Release readiness](release-readiness.md), [publication checklist](publication-checklist.md), [notes readiness](blockers.md) |
-| Ecosystème musical | [Synth suite](synth-suite.md), [VST distribution](vst-distribution.md), [visual index](visual-index.md) |
-| Matériel décisionnel | [Buyer brief](buyer-brief.md), [partnership](partnership.md), [decision pack](decision-pack.md) |
-| Identité visuelle | [Brand charter](brand-charter.md), [iconography](iconography.md), [assets](../assets/README.md) |
+Pour une orientation rapide, lire [README](../README.md), [overview](overview.md) et [one-pager](one-pager.md). Pour le produit principal, lire [DAW Core](daw-core.md), [user flows](user-flows.md) et [tutorials](tutorials.md). Pour la ligne son/software, lire [Unicor SoundEngine](unicor-soundengine.md), [synth suite](synth-suite.md) et [VST distribution](vst-distribution.md).
+
+Pour maturite et validation, utiliser [current status](current-status.md), [evidence](evidence.md), [proof pack](proof-pack.md), [public proof index](public-proof-index.md), [QA validation](qa-validation.md) et [release readiness](release-readiness.md). Pour collaboration, financement, mission ou recrutement, utiliser [project evaluation](buyer-brief.md), [open needs](partnership.md), [decision pack](decision-pack.md) et [readiness notes](blockers.md).
+
+Les supports visuels sont documentes dans [visual index](visual-index.md), [brand charter](brand-charter.md), [iconography](iconography.md) et [assets](../assets/README.md).
 
 ### Glossaire
 
-| Terme | Sens dans cette vitrine |
-| --- | --- |
-| DAW Core | Produit principal: workstation local-first et moteur de continuité projet. |
-| Unicor SoundEngine | Ecosystème musical de support: synthés, FX, catalogue VST, audition et distribution. |
-| `.dw` | Contrat de projet portable DAW Core: état, assets, snapshots, checksums et reload. |
-| Local-first | Posture produit où création et possession du projet restent centrées sur l'environnement local utilisateur. |
-| Proof pack | Synthèse public-safe de preuves utilisables en diligence sans publier les artefacts bruts. |
-| Beta Android | Piste Android évaluable et recertifiable via preuves explicites device/workflow. |
-| VST3 | Format de plugin utilisé par la suite synthé et le matériel distribution. |
-| Signal QA | Résultat de validation synthétisé, pas un dump de logs ou dossiers internes. |
+**DAW Core** est le projet principal: un **web local-first DAW** dans le navigateur, centre sur la continuite projet.
 
-### Pour utilisateurs et testeurs
+**Unicor SoundEngine** est la ligne Synthé / FX / VST separee.
 
-Commencer par [user flows](user-flows.md). Une bonne première review reste petite: un projet, une surface, un résultat attendu. Le meilleur retour DAW Core décrit le workflow musical, pas seulement l'état d'un bouton.
+**`.dw`** est la direction continuite projet de DAW Core: etat, assets, snapshots, checksums, reouverture et attentes de revue.
 
-### Pour partenaires
+**Beta Android** est le chemin de test DAW Core sur scenarios navigateur/mobile audio.
 
-Commencer par [partnership](partnership.md) et [project map](project-map.md). Les bonnes conversations sont précises: route audio Android, UX plugin, sound design, automatisation QA, packaging, distribution ou documentation.
+**Synthé** est la famille de sept instruments dans Unicor SoundEngine.
 
-### Pour acheteurs, financeurs et recruteurs
+**FX** est la ligne de familles de traitement dans Unicor SoundEngine.
 
-Commencer par [buyer brief](buyer-brief.md), puis lire [evidence](evidence.md) et [release readiness](release-readiness.md). Le signal intéressant est la combinaison cadrage produit, discipline preuve et travail audio multi-surface autour d'une base privée.
+**Distribution VST** est le track catalogue, manuel, packaging et presentation pour la ligne plugin.
 
-### Checklist de demande public-safe
+### Pour Utilisateurs Et Testeurs
 
-Avant de demander du matériel privé, définir:
+Commencer par une scene concrete. Pour DAW Core, comprendre le workflow sauvegarde/reouverture et la piste beta Android. Pour Synthé ou FX, partir d'un role musical: instrument, couche rythmique, tone shaping, spatialisation ou clarte catalogue. Un retour utile dit ce qui a ete essaye, ce qui etait attendu, ce qui s'est produit et si le resultat aide ou bloque la tache musicale.
 
-- la surface produit évaluée;
-- le scénario à démontrer;
-- le critère de succès;
-- si une synthèse publique suffit;
-- ce qui doit rester sous NDA;
-- si la prochaine étape est une démo live, replay de preuve, review technique ou plan de collaboration.
+### Pour Collaborateurs
+
+Les zones utiles sont web audio, design projet local-first, tests navigateur Android, automatisation QA, revue d'ecoute, sound design, packaging VST, documentation et presentation produit/visuelle.
+
+### Pour Financement, Missions Ou Postes
+
+Le signal le plus fort est la combinaison travail produit et discipline de validation: un DAW navigateur avec promesse claire de continuite projet, plus une ligne son/software separee avec instruments, effets, manuels, visuels et distribution. Lire [project evaluation](buyer-brief.md) et [decision pack](decision-pack.md) pour un angle business ou recrutement.

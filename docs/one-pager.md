@@ -6,48 +6,52 @@
 
 ## English
 
-### Product In One Sentence
+### One Sentence
 
-**DAW Core** is the main music software project: a browser-based **web local-first DAW** where a saved musical session should reopen with its intent intact. **Unicor SoundEngine** is a separate line for Synthé, FX, VST distribution, audition material, and proof documentation.
+**DAW Core** is the main project: a browser-based **web local-first DAW** built around saving, reopening, and continuing musical work. **Unicor SoundEngine** is a separate Synthé / FX / VST line with instruments, effects, catalog material, manuals, visuals, and review notes.
 
-### Why It Matters
+### The Product Center
 
-The project is valuable because it treats music software as a workflow, not only as audio output. A useful DAW has to survive the ordinary moments that decide trust: save a project, close the app, reopen it, load the same musical state, play it back, and make the next edit without wondering what changed.
+DAW Core starts from a practical problem: a music project should survive normal use. A musician opens the browser, builds a session, saves the work, comes back later, and expects the musical state to still make sense. The `.dw` direction, Android beta path, QA language, and release-readiness notes all exist to make that promise inspectable.
 
-This repository makes the music portfolio readable from the outside. It explains what belongs to DAW Core, what belongs to Synthé / FX / VST, how the Android beta can be tested on real devices, and where a tester, partner, buyer, funder, recruiter, or mission lead can look when they need to understand what already exists.
+This is the project to read first. It carries the strongest product identity and the clearest need for testers, audio review, web-local workflow feedback, and release-quality validation.
 
-### What To Evaluate
+### The Sound Line
 
-DAW Core is the anchor and should be evaluated as a web local-first DAW. The `.dw` project direction, browser/desktop validation vocabulary, Android beta path, and release-readiness notes show how the product is meant to grow around project continuity: create, save, reload, inspect, and repeat with evidence.
+Unicor SoundEngine is separate. Synthé covers the instrument family. FX covers treatment families. VST distribution covers catalog, manuals, packaging notes, and product presentation. Audition material helps turn listening into reviewable feedback.
 
-Unicor SoundEngine should be evaluated separately. Synthé covers the instrument suite a musician can audition; FX groups treatment families; VST distribution gives that line a catalog, manuals, assets, and packages a buyer or distributor can judge.
+The line is useful because sound products need more than code: musical roles, controls, presets, manuals, visuals, compatibility expectations, and a way to decide what is ready for users.
 
-The proof material is structured for review. Use the [project map](project-map.md), [user flows](user-flows.md), [proof pack](proof-pack.md), [QA validation](qa-validation.md), [release readiness](release-readiness.md), and [buyer brief](buyer-brief.md) to evaluate the project from real scenes: a tester loading a project, a partner judging stability, or a buyer checking the current product surface.
+### Best Reading Order
 
-### Good Next Conversations
+Read [overview](overview.md), then [DAW Core](daw-core.md), then [user flows](user-flows.md). If the goal is to understand the sound/software line, continue with [Unicor SoundEngine](unicor-soundengine.md), [synth suite](synth-suite.md), and [VST distribution](vst-distribution.md). If the goal is maturity review, use [evidence](evidence.md), [proof pack](proof-pack.md), [QA validation](qa-validation.md), and [current status](current-status.md).
 
-Good next conversations are practical: run the Android beta on selected devices, review whether a DAW Core browser project resumes cleanly, test web audio behavior, shape Synthé presets, prioritize FX, harden VST packaging, or discuss funding, partnership, mission work, and roles around creative tools or music software.
+### Useful Next Help
+
+The most useful contributions are concrete: Android beta tests on real devices, web audio review, `.dw` continuity feedback, Synthé listening notes, FX prioritization, VST packaging review, documentation review, funding, mission work, or a role around music software and creative tools.
 
 ## Francais
 
-### Produit En Une Phrase
+### En Une Phrase
 
-**DAW Core** est le projet musical principal: un **web local-first DAW** dans le navigateur ou une session musicale sauvegardee doit se rouvrir avec son intention intacte. **Unicor SoundEngine** est une ligne separee pour Synthé, FX, distribution VST, audition et documentation de preuve.
+**DAW Core** est le projet principal: un **web local-first DAW** dans le navigateur, construit autour de la sauvegarde, reouverture et continuation du travail musical. **Unicor SoundEngine** est une ligne Synthé / FX / VST separee avec instruments, effets, catalogue, manuels, visuels et notes de revue.
 
-### Pourquoi C'Est Important
+### Le Centre Produit
 
-La valeur du projet vient du workflow, pas seulement du rendu audio. Un DAW utile doit tenir dans les moments ordinaires qui creent la confiance: sauvegarder un projet, fermer l'app, le rouvrir, retrouver le meme etat musical, relancer la lecture et continuer l'edition sans se demander ce qui a change.
+DAW Core part d'un probleme pratique: un projet musical doit survivre a l'usage normal. Un musicien ouvre le navigateur, construit une session, sauvegarde le travail, revient plus tard et attend que l'etat musical garde du sens. La direction `.dw`, la piste beta Android, le langage QA et les notes release-readiness existent pour rendre cette promesse inspectable.
 
-Ce repo rend le portfolio musical lisible depuis l'exterieur. Il explique ce qui appartient a DAW Core, ce qui appartient a Synthé / FX / VST, comment la beta Android peut etre testee sur de vrais appareils, et ou un testeur, partenaire, acheteur, financeur, recruteur ou responsable mission peut regarder pour comprendre ce qui existe deja.
+C'est le projet a lire en premier. Il porte l'identite produit la plus forte et le besoin le plus clair en testeurs, revue audio, feedback workflow web-local et validation de niveau release.
 
-### Ce Qu'Il Faut Evaluer
+### La Ligne Son
 
-DAW Core est l'ancre et doit etre evalue comme web local-first DAW. La direction `.dw`, le vocabulaire de validation navigateur/desktop, la piste beta Android et les notes de release readiness montrent comment le produit doit progresser autour de la continuite projet: creer, sauvegarder, recharger, inspecter et repeter avec preuve.
+Unicor SoundEngine est separee. Synthé couvre la famille instrumentale. FX couvre les familles de traitement. La distribution VST couvre catalogue, manuels, notes packaging et presentation produit. L'audition aide a transformer l'ecoute en feedback reviewable.
 
-Unicor SoundEngine doit etre evalue separement. Synthé couvre la suite instrumentale qu'un musicien peut auditionner; FX regroupe des familles de traitements; la distribution VST donne a cette ligne un catalogue, des manuels, des assets et des packages qu'un acheteur ou distributeur peut juger.
+La ligne est utile parce que les produits son demandent plus que du code: roles musicaux, controles, presets, manuels, visuels, attentes compatibilite et maniere de decider ce qui est pret pour les utilisateurs.
 
-Les preuves sont structurees pour la revue. Utiliser [project map](project-map.md), [user flows](user-flows.md), [proof pack](proof-pack.md), [QA validation](qa-validation.md), [release readiness](release-readiness.md) et [buyer brief](buyer-brief.md) pour evaluer a partir de scenes reelles: un testeur qui charge un projet, un partenaire qui juge la stabilite, ou un acheteur qui verifie la surface produit actuelle.
+### Meilleur Ordre De Lecture
 
-### Bons Sujets De Discussion
+Lire [overview](overview.md), puis [DAW Core](daw-core.md), puis [user flows](user-flows.md). Pour comprendre la ligne son/software, continuer avec [Unicor SoundEngine](unicor-soundengine.md), [synth suite](synth-suite.md) et [VST distribution](vst-distribution.md). Pour la maturite, utiliser [evidence](evidence.md), [proof pack](proof-pack.md), [QA validation](qa-validation.md) et [current status](current-status.md).
 
-Les bonnes prochaines discussions sont pratiques: lancer la beta Android sur des appareils choisis, verifier si un projet DAW Core navigateur reprend proprement, tester le comportement web audio, travailler les presets Synthé, prioriser les FX, durcir le packaging VST, ou parler financement, partenariat, mission et poste autour des outils creatifs ou du logiciel musical.
+### Aide Utile Maintenant
+
+Les contributions les plus utiles sont concretes: tests beta Android sur vrais appareils, revue web audio, feedback continuite `.dw`, ecoute Synthé, priorisation FX, revue packaging VST, revue documentation, financement, mission ou poste autour du logiciel musical et des outils creatifs.

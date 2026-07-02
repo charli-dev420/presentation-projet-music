@@ -4,40 +4,26 @@
 
 ## English
 
-Icons should identify real product surfaces and actions. They should help readers scan the ecosystem without turning the documentation into decoration.
+The icon language should help readers identify surfaces quickly.
 
-| Symbol | Meaning | Use |
-| --- | --- | --- |
-| Waveform | Audio, rendering, listening, sonic validation. | DAW Core, QA audio, audition. |
-| Keyboard | Instrument, synth, MIDI, playable surface. | UWdeVST synth suite. |
-| Sliders | Effects, mix, macros, user control. | FX suite, plugin UX, workstation controls. |
-| File check | `.dw` project, portability, checksum, proof. | Save, import/export, roundtrip validation. |
-| Phone | Android surface, device proof, beta track. | Mobile validation and tester flows. |
-| Shield | Public-safe boundary, redaction, written evidence. | Publication, proof pack, QA summaries. |
-
-### Usage Rules
-
-- Use one icon for one clear action or surface.
-- Do not use icons to inflate weak content.
-- Keep synths and FX readable as grouped Unicor SoundEngine capabilities.
-- Keep DAW Core as the dominant product signal in ecosystem pages.
+- Unicorn mark: main brand signal for Unicorn Who Dev.
+- Waveform: audio signal, playback, listening, proof by sound.
+- Folder/project icon: DAW Core project continuity and `.dw` work.
+- Browser window: web local-first DAW surface.
+- Phone: Android beta testing.
+- Knob/slider: Synthé, FX, macros, and user controls.
+- Book/manual: documentation and first-session guidance.
+- Check mark: validated scenario or written QA result.
 
 ## Francais
 
-Les icônes doivent identifier de vraies surfaces et actions produit. Elles aident à scanner l'écosystème sans transformer la documentation en décoration.
+Le langage iconographique doit aider le lecteur a identifier rapidement les surfaces.
 
-| Symbole | Sens | Usage |
-| --- | --- | --- |
-| Waveform | Audio, rendu, écoute, validation sonore. | DAW Core, QA audio, audition. |
-| Keyboard | Instrument, synthé, MIDI, surface jouable. | Suite synthés UWdeVST. |
-| Sliders | Effets, mixage, macros, contrôle utilisateur. | Suite FX, UX plugin, contrôles workstation. |
-| File check | Projet `.dw`, portabilité, checksum, preuve. | Save, import/export, validation roundtrip. |
-| Phone | Surface Android, preuve device, piste beta. | Validation mobile et flux testeurs. |
-| Shield | Limite public-safe, redaction, preuve rédigée. | Publication, proof pack, synthèses QA. |
-
-### Règles d'usage
-
-- Utiliser une icône pour une action ou surface claire.
-- Ne pas utiliser les icônes pour gonfler un contenu faible.
-- Garder synthés et FX lisibles comme capacités Unicor SoundEngine groupées.
-- Garder DAW Core comme signal produit dominant sur les pages écosystème.
+- Marque licorne: signal principal Unicorn Who Dev.
+- Waveform: signal audio, playback, ecoute, preuve par le son.
+- Dossier/projet: continuite projet DAW Core et travail `.dw`.
+- Fenetre navigateur: surface web local-first DAW.
+- Telephone: tests beta Android.
+- Knob/slider: Synthé, FX, macros et controles utilisateur.
+- Livre/manuel: documentation et guidance premiere session.
+- Check mark: scenario valide ou resultat QA ecrit.

@@ -6,66 +6,58 @@
 
 ### How To Use This Pack
 
-Use this page to turn interest into a concrete next step. Pick one decision angle, one product surface, one proof level, and one expected outcome.
+Use this page to turn interest into one concrete next step. Pick the product line, the surface, the scenario, and the expected written output.
 
-### For A Funder Or Buyer
+### For Funding Or Product Review
 
-- Focus first on DAW Core as the product center.
-- Ask for a `.dw` continuity demo and the current proof summary.
-- Fund the work that improves readiness fastest: Android recertification, desktop release summary, real-time audio review, VST packaging, sound design, and proof maintenance.
-- Treat Unicor SoundEngine as the ecosystem that makes the workstation more valuable.
+Start with **DAW Core**. The main value is the browser-based **web local-first DAW** direction: a project should be created, saved, reopened, checked, and continued with confidence.
 
-### For An Audio Partner
+Useful support would strengthen Android beta testing, `.dw` continuity replay, browser audio review, release wording, and documentation.
 
-- Choose a surface: DAW Core, `.dw`, Android beta, synth suite, FX suite, VST distribution, or audition workflow.
-- Request a measurable demo scenario.
-- Define the output: review notes, proof replay, implementation task, compatibility report, or release recommendation.
-- Keep private artifacts scoped and avoid asking for the whole codebase at once.
+Read **Unicor SoundEngine** separately as the Synthé / FX / VST line. Useful support would strengthen listening review, FX prioritization, catalog clarity, manuals, packaging, and product-page polish.
 
-### For A Recruiter Or Mission Lead
+### For Audio Or Technical Collaboration
 
-- Review the system level: audio product thinking, Android surface, QA discipline, documentation, release hygiene, and public-safe communication.
-- Ask for a walkthrough of one proof lane.
-- Evaluate the ability to turn private engineering work into a product narrative that users and partners can understand.
+Choose one surface: DAW Core browser workflow, Android beta, `.dw` continuity, Synthé, FX, VST catalog, or audition support. Define the expected output as review notes, a test report, a compatibility finding, an implementation task, or a release recommendation.
+
+### For Hiring Or Mission Work
+
+Review the system level: product thinking, web audio, Android constraints, project continuity, QA discipline, documentation, visual presentation, and release preparation. The strongest signal is the ability to turn complex music tooling into something another person can understand and evaluate.
 
 ### Decision Questions
 
-1. Which claim must be proven first?
-2. Which surface deserves private review?
-3. Which next task creates the most value: Android, `.dw`, desktop release, VST distribution, synth listening, FX prioritization, or docs?
-4. What proof level is enough for the decision?
-5. What can be published after validation without exposing private material?
+1. Which product line matters first: DAW Core or Unicor SoundEngine?
+2. Which surface should be reviewed now?
+3. Which scenario would produce the clearest written result?
+4. What support creates the most value in the next step: testing, audio review, packaging, documentation, funding, mission, or role?
+5. What can be improved publicly after the next validation pass?
 
 ## Francais
 
-### Comment utiliser ce dossier
+### Comment Utiliser Ce Dossier
 
-Utiliser cette page pour transformer l'intérêt en prochaine étape concrète. Choisir un angle de décision, une surface produit, un niveau de preuve et une sortie attendue.
+Utiliser cette page pour transformer l'interet en prochaine etape concrete. Choisir la ligne produit, la surface, le scenario et la sortie ecrite attendue.
 
-### Pour un financeur ou acheteur
+### Pour Financement Ou Revue Produit
 
-- Regarder DAW Core en premier comme centre produit.
-- Demander une démo de continuité `.dw` et le summary preuve courant.
-- Financer ce qui améliore le plus vite la readiness: recertification Android, summary release desktop, review audio temps réel, packaging VST, sound design et maintenance preuve.
-- Lire Unicor SoundEngine comme l'écosystème qui augmente la valeur de la workstation.
+Commencer par **DAW Core**. La valeur principale est la direction **web local-first DAW** dans le navigateur: un projet doit etre cree, sauvegarde, rouvert, verifie et continue avec confiance.
 
-### Pour un partenaire audio
+Un support utile renforcerait les tests beta Android, le replay de continuite `.dw`, la revue audio navigateur, le wording release et la documentation.
 
-- Choisir une surface: DAW Core, `.dw`, beta Android, suite synthés, suite FX, distribution VST ou audition.
-- Demander un scénario de démo mesurable.
-- Définir la sortie: notes review, replay preuve, tâche implémentation, rapport compatibilité ou recommandation release.
-- Cadrer les artefacts privés et éviter de demander tout le codebase d'un coup.
+Lire **Unicor SoundEngine** separement comme ligne Synthé / FX / VST. Un support utile renforcerait revue d'ecoute, priorisation FX, clarte catalogue, manuels, packaging et polish pages produit.
 
-### Pour un recruteur ou responsable mission
+### Pour Collaboration Audio Ou Technique
 
-- Lire le niveau système: pensée produit audio, surface Android, discipline QA, documentation, hygiène release et communication public-safe.
-- Demander un walkthrough d'un axe de preuve.
-- Evaluer la capacité à transformer du travail engineering privé en narration produit compréhensible par utilisateurs et partenaires.
+Choisir une surface: workflow DAW Core navigateur, beta Android, continuite `.dw`, Synthé, FX, catalogue VST ou audition. Definir la sortie attendue comme notes de revue, rapport de test, finding compatibilite, tache implementation ou recommandation release.
 
-### Questions de décision
+### Pour Recrutement Ou Mission
 
-1. Quel claim doit être prouvé en premier?
-2. Quelle surface mérite une review privée?
-3. Quelle prochaine tâche crée le plus de valeur: Android, `.dw`, release desktop, distribution VST, écoute synthés, priorisation FX ou docs?
-4. Quel niveau de preuve suffit pour la décision?
-5. Que peut-on publier après validation sans exposer de matériel privé?
+Lire le niveau systeme: pensee produit, web audio, contraintes Android, continuite projet, discipline QA, documentation, presentation visuelle et preparation release. Le signal le plus fort est la capacite a transformer du music tooling complexe en quelque chose qu'une autre personne peut comprendre et evaluer.
+
+### Questions De Decision
+
+1. Quelle ligne produit compte en premier: DAW Core ou Unicor SoundEngine ?
+2. Quelle surface doit etre revue maintenant ?
+3. Quel scenario produirait la sortie ecrite la plus claire ?
+4. Quel support cree le plus de valeur a la prochaine etape: test, revue audio, packaging, documentation, financement, mission ou poste ?
+5. Que peut-on ameliorer publiquement apres la prochaine validation ?

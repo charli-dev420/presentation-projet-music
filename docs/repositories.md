@@ -4,32 +4,32 @@
 
 ## English
 
-This showcase repository represents several real project repositories and repository families. It publishes presentation material only.
+This showcase represents several real project families through presentation material.
 
-| Real source | Status | Role in the showcase | What is published here |
-| --- | --- | --- | --- |
-| `Unicorn Who Dev / daw-core` | Private | Main project: browser-based web local-first DAW, Android beta, and portable `.dw` projects. | Product vision, user journey, summarized evidence, readiness notes, partner questions. |
-| `Unicorn Who Dev / VST-site` | Private | Unicor SoundEngine catalog, documentation, and distribution surface, separate from DAW Core. | Storefront positioning, public resources, grouped synths/FX, showcase assets. |
-| `Unicorn Who Dev / fx-*` | Private | Audio effects family: analysis, delay, distortion, dynamics, EQ, modulation, pitch/time, reverb, stereo. | Grouped FX suite view and product role inside Unicor SoundEngine. |
-| `UWdeVST / synthe-*` | Private/local | Synth family: Piano, Guitar, Bass, Perc, Drum, Orch, Rare / Instr. | Grouped synth suite view, user-facing roles, public-safe QA summary. |
-| `Unicorn Who Dev / audition-panel` | Private | Audition, preparation, and verification surface for Unicor SoundEngine review workflows. | Product role and review criteria, without internal captures or sessions. |
+**DAW Core** is the main line: browser-based **web local-first DAW**, Android beta path, and portable `.dw` project continuity.
 
-### Publication Rule
+**VST-site** is the catalog and distribution surface for Unicor SoundEngine: product pages, assets, manuals, and distribution notes.
 
-If a real source repository is private, this showcase can name the product area and explain its role, but it must not publish code, private URLs, build artifacts, internal screenshots, secrets, local paths, raw QA evidence, or release objects.
+**UWdeVST synth projects** are grouped as the Synthé family: Piano, Guitar, Bass, Perc, Drum, Orch, and Rare / Instr.
+
+**FX projects** are grouped by treatment family: analysis, delay, distortion, dynamics, EQ, modulation, pitch/time, reverb, and stereo.
+
+**Audition tooling** supports listening, comparison, and review work for Unicor SoundEngine.
+
+The public repo explains roles, resources, evidence summaries, and visual material. It does not need to reproduce the engineering repositories to be useful.
 
 ## Francais
 
-Ce repo vitrine représente plusieurs repositories et familles de repositories réels. Il publie uniquement du matériel de présentation.
+Cette vitrine represente plusieurs familles de projets reels a travers du materiel de presentation.
 
-| Source réelle | Statut | Rôle dans la vitrine | Ce qui est publié ici |
-| --- | --- | --- | --- |
-| `Unicorn Who Dev / daw-core` | Privé | Projet principal: web local-first DAW dans le navigateur, beta Android et projets portables `.dw`. | Vision produit, parcours utilisateur, preuves synthétisées, readiness, questions partenaires. |
-| `Unicorn Who Dev / VST-site` | Privé | Catalogue, documentation et surface de distribution Unicor SoundEngine, séparés de DAW Core. | Positionnement storefront, ressources publiques, synthés/FX groupés, assets showcase. |
-| `Unicorn Who Dev / fx-*` | Privé | Famille d'effets audio: analysis, delay, distortion, dynamics, EQ, modulation, pitch/time, reverb, stereo. | Vue groupée suite FX et rôle produit dans Unicor SoundEngine. |
-| `UWdeVST / synthe-*` | Privé/local | Famille synthés: Piano, Guitar, Bass, Perc, Drum, Orch, Rare / Instr. | Vue groupée suite synthés, rôles utilisateur, synthèse QA public-safe. |
-| `Unicorn Who Dev / audition-panel` | Privé | Surface d'audition, préparation et vérification pour workflows de review Unicor SoundEngine. | Rôle produit et critères de review, sans captures ou sessions internes. |
+**DAW Core** est la ligne principale: **web local-first DAW** dans le navigateur, piste beta Android et continuite projet portable `.dw`.
 
-### Règle de publication
+**VST-site** est la surface catalogue et distribution pour Unicor SoundEngine: pages produit, assets, manuels et notes distribution.
 
-Si un repo source réel est privé, cette vitrine peut nommer la zone produit et expliquer son rôle, mais elle ne doit pas publier code, URLs privées, artefacts build, captures internes, secrets, chemins locaux, preuves QA brutes ou objets release.
+**Les projets synthés UWdeVST** sont groupes comme famille Synthé: Piano, Guitar, Bass, Perc, Drum, Orch et Rare / Instr.
+
+**Les projets FX** sont groupes par famille de traitement: analysis, delay, distortion, dynamics, EQ, modulation, pitch/time, reverb et stereo.
+
+**L'audition** soutient l'ecoute, la comparaison et le travail de revue pour Unicor SoundEngine.
+
+Le repo public explique roles, ressources, syntheses de preuve et materiel visuel. Il n'a pas besoin de reproduire les repositories engineering pour etre utile.

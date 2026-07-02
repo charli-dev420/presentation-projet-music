@@ -1,85 +1,65 @@
-# Synth Suite / Suite synthés
+# Synth Suite / Suite Synthé
 
 [EN](#english) | [FR](#francais)
 
+![Synth banner](../assets/project-banners/synth-hub.jpg)
+
 ## English
 
-### Suite Positioning
+### Positioning
 
-The UWdeVST synths are presented as one **Unicor SoundEngine** instrument suite, separate from DAW Core. The point is not to pitch seven unrelated plugins or to imply that they are DAW Core features. The point is to show a coherent set of musical instruments with shared UX, documentation, QA discipline, and distribution potential.
+Synthé is the instrument family inside **Unicor SoundEngine**. It is separate from DAW Core. The suite should be understood as seven instruments with a shared product discipline: clear musical role, readable controls, presets, manuals, visual presentation, QA signals, and listening review.
 
-### Instrument Map
+### Instruments
 
-| Instrument | Musical role | Public QA signal | Product next step |
-| --- | --- | --- | --- |
-| Piano | Core harmonic and melodic writing. | Production Release tests, preset QA, CPU QA, pitch/release suites. | Listening pass and first-session manual review. |
-| Guitar | Chords, plucked color, arrangement sketching. | Production Release tests, 90/90 preset QA, chord candidates PASS. | Listening pass focused on playability and articulation expectations. |
-| Bass | Low-end writing, groove, foundation for DAW Core projects. | Production Release tests, 90/90 preset QA, pitch 63/63. | Listening pass focused on mix usefulness and preset naming. |
-| Perc | Percussive layers and rhythmic accents. | Production Release tests, 54/54 preset QA, release 13/13. | Listening pass focused on transient consistency and user labels. |
-| Drum | Drum kit/rhythm base for project sketches. | Production Release tests, 2070/2070 preset QA, matrix 90/90. | Human RC listening pass and kit-level review. |
-| Orch | Orchestral color and layered arrangement support. | Production Release tests, 200/200 preset QA. | Mini-score review and musical balance check. |
-| Rare / Instr | Less common tones and character instruments. | Production Release tests, 42/42 preset QA, strict chord candidates PASS. | Human listening pass focused on identity and usefulness. |
+**Piano** is the harmonic and melodic anchor. It should feel direct enough for first sketches and stable enough for longer writing.
 
-### Shared User Model
+**Guitar** covers plucked color, chords, and arrangement texture. The main review points are playability, articulation expectations, and preset naming.
 
-The suite should feel familiar from one instrument to the next:
+**Bass** covers low-end writing and groove. Its value is judged by mix usefulness, control clarity, and how quickly a user finds a usable foundation.
 
-- instrument selection and visible musical role;
-- macro controls that give quick sound shaping;
-- instrument-specific modulation where useful;
-- FX tabs for practical tone shaping;
-- factory preset structure and documentation;
-- output behavior that can be reviewed inside DAW Core or VST workflows.
+**Perc** covers accents, small rhythmic layers, and transient material. The useful review is about consistency, labels, and how easily it supports a sketch.
 
-### Why This Matters For DAW Core
+**Drum** covers kit and rhythm foundations. Because it has a larger preset surface, it needs listening passes that catch repetition, balance, labels, and kit-level usefulness.
 
-DAW Core needs musical material that makes workflows worth testing. The synth suite gives the workstation real content: instruments for project continuity, sound design, UX review, preset handling, VST distribution, and listening-based QA.
+**Orch** covers orchestral color and layered arrangement support. It needs musical balance, register clarity, and a first-session path that does not overwhelm the user.
 
-### Public Boundary
+**Rare / Instr** covers character instruments and less common tones. Its value comes from identity: sounds that are memorable, usable, and clearly named.
 
-This page publishes a decision-level summary. It does not publish JUCE/C++ source, plugin binaries, installers, private presets, QA CSV files, internal audio outputs, local paths, or private captures.
+### Shared Product Model
 
-### Best Next Review
+The suite should feel coherent from one instrument to the next: recognizable layout, musical macros, instrument-specific controls where they matter, practical FX tabs, factory presets, documentation, and a review path that combines automated checks with human listening.
 
-For a partner or buyer, the best next review is a focused listening and UX pass on the instruments most relevant to the target demo. That review should produce clear outcomes: ready for demo, needs sound design, needs UX copy, needs QA replay, or needs packaging work.
+### What To Review
+
+Review Synthé as a sound-product family. The most useful notes describe musical role, control behavior, preset usefulness, sonic problems, CPU or loading concerns, manual clarity, and which instruments feel closest to a release candidate.
 
 ## Francais
 
-### Positionnement de suite
+### Positionnement
 
-Les synthés UWdeVST sont présentés comme une suite instrumentale **Unicor SoundEngine**, séparée de DAW Core. Le but n'est pas de pitcher sept plugins sans lien ni de laisser croire qu'ils sont des fonctions DAW Core. Le but est de montrer un ensemble cohérent d'instruments avec UX partagée, documentation, discipline QA et potentiel distribution.
+Synthé est la famille instrumentale dans **Unicor SoundEngine**. Elle est separee de DAW Core. La suite doit etre comprise comme sept instruments avec une discipline produit partagee: role musical clair, controles lisibles, presets, manuels, presentation visuelle, signaux QA et revue d'ecoute.
 
-### Carte instruments
+### Instruments
 
-| Instrument | Rôle musical | Signal QA public | Prochaine étape produit |
-| --- | --- | --- | --- |
-| Piano | Ecriture harmonique et mélodique centrale. | Tests production Release, QA presets, QA CPU, suites pitch/release. | Ecoute et review manuel première session. |
-| Guitar | Accords, couleur pincée, sketch arrangement. | Tests production Release, 90/90 QA presets, chord candidates PASS. | Ecoute centrée jouabilité et articulation attendue. |
-| Bass | Grave, groove, fondation pour projets DAW Core. | Tests production Release, 90/90 QA presets, pitch 63/63. | Ecoute centrée utilité mix et nommage presets. |
-| Perc | Couches percussives et accents rythmiques. | Tests production Release, 54/54 QA presets, release 13/13. | Ecoute centrée cohérence transitoires et labels utilisateur. |
-| Drum | Base kit/rhythm pour sketches projet. | Tests production Release, 2070/2070 QA presets, matrix 90/90. | Ecoute humaine RC et review niveau kit. |
-| Orch | Couleur orchestrale et support arrangement en couches. | Tests production Release, 200/200 QA presets. | Mini-score review et équilibre musical. |
-| Rare / Instr | Timbres moins communs et instruments de caractère. | Tests production Release, 42/42 QA presets, strict chord candidates PASS. | Ecoute humaine centrée identité et utilité. |
+**Piano** est l'ancre harmonique et melodique. Il doit etre assez direct pour les premiers croquis et assez stable pour une ecriture plus longue.
 
-### Modèle utilisateur partagé
+**Guitar** couvre les couleurs pincees, les accords et la texture d'arrangement. Les points de revue sont jouabilite, attentes d'articulation et nommage presets.
 
-La suite doit rester familière d'un instrument à l'autre:
+**Bass** couvre le grave et le groove. Sa valeur se juge par l'utilite dans le mix, la clarte des controles et la vitesse a trouver une fondation utilisable.
 
-- sélection d'instrument et rôle musical visible;
-- macros pour modeler rapidement le son;
-- modulation spécifique à l'instrument quand utile;
-- onglets FX pour le tone shaping pratique;
-- structure presets usine et documentation;
-- comportement de sortie reviewable dans DAW Core ou workflows VST.
+**Perc** couvre les accents, petites couches rythmiques et transitoires. La revue utile porte sur coherence, labels et capacite a soutenir un sketch.
 
-### Pourquoi c'est important pour DAW Core
+**Drum** couvre les bases kit et rhythm. Comme la surface preset est plus large, il demande des passes d'ecoute pour attraper repetition, balance, labels et utilite niveau kit.
 
-DAW Core a besoin de matière musicale pour rendre les workflows utiles à tester. La suite synthés donne du contenu réel à la workstation: instruments pour continuité projet, sound design, review UX, gestion presets, distribution VST et QA par écoute.
+**Orch** couvre la couleur orchestrale et le support d'arrangement en couches. Il demande equilibre musical, clarte par registre et chemin premiere session qui ne surcharge pas l'utilisateur.
 
-### Limite publique
+**Rare / Instr** couvre les instruments de caractere et timbres moins communs. Sa valeur vient de l'identite: sons memorables, utilisables et clairement nommes.
 
-Cette page publie une synthèse décisionnelle. Elle ne publie pas code JUCE/C++, binaires plugin, installateurs, presets privés, CSV QA, sorties audio internes, chemins locaux ou captures privées.
+### Modele Produit Partage
 
-### Meilleure prochaine review
+La suite doit rester coherente d'un instrument a l'autre: layout reconnaissable, macros musicales, controles specifiques quand ils comptent, onglets FX pratiques, presets usine, documentation et chemin de revue qui combine checks automatises et ecoute humaine.
 
-Pour un partenaire ou acheteur, la meilleure review suivante est une passe écoute et UX ciblée sur les instruments les plus pertinents pour la démo visée. La sortie doit être claire: prêt pour démo, besoin sound design, besoin copie UX, besoin replay QA ou besoin packaging.
+### Ce Qu'Il Faut Reviewer
+
+Reviewer Synthé comme une famille produit sonore. Les notes les plus utiles decrivent role musical, comportement des controles, utilite des presets, problemes sonores, concerns CPU ou chargement, clarte manuel et instruments les plus proches d'une release candidate.

@@ -1,23 +1,18 @@
 # Assets
 
-This folder contains public-safe presentation assets only.
+This folder contains presentation assets for the music showcase.
 
-## Included
+## Folders
 
-| Asset | Purpose |
-| --- | --- |
-| `brand/daw-core-logo-main.png` | Main DAWWW Core logo for presentation pages. |
-| `brand/daw-core-icon-512.png` | Compact icon/avatar. |
-| `brand/daw-core-banner.png` | Wide banner for cover sections. |
-| `brand/daw-core-watermark-opacity20.png` | Low-opacity watermark for public visual documents. |
-| `one-pager.svg` | Public-safe visual overview of the music ecosystem. |
-| `proof-dashboard.svg` | Public-safe proof and maturity dashboard. |
-| `qa-matrix.svg` | Public-safe QA matrix. |
-| `vst-showcase/*.jpg` | Public VST-site presentation images already served by the product site. |
-| `synth-ui/README.md` | Holding area and rules for future redacted synth UI captures. |
+- `project-banners/` - DAW Core, Synthé, FX, and VST distribution banners.
+- `brand/` - DAW Core logo, icon, banner, and watermark.
+- `vst-showcase/` - Synthé presentation images.
+- `synth-ui/` - reserved folder for Synthé UI references.
 
-## Rule
+## Files
 
-Do not add private screenshots, secrets, product builds, plugin binaries, datasets, local paths, logs, presets, audio files, source captures, QA evidence, or unreleased artifacts.
+- `one-pager.svg` - visual overview of the music project structure.
+- `proof-dashboard.svg` - evidence and maturity overview.
+- `qa-matrix.svg` - QA validation overview.
 
-Screenshots must be public-origin or redacted, with no path, user name, token, endpoint, device ID, private preset, log, run identifier, or unreleased product detail.
+Keep this folder focused on presentation material: no secrets, product binaries, raw logs, local paths, unreleased packages, or user sessions.

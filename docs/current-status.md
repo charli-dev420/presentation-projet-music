@@ -6,42 +6,36 @@
 
 ## English
 
-This page summarizes the public state of the music showcase. It does not replace internal artifacts; it explains what a reader can reasonably understand, ask for, or verify next.
+### Public State
 
-| Surface | Public state | Useful signal | Best next question |
-| --- | --- | --- | --- |
-| DAW Core browser DAW | Strongest current proof surface. | Gate-style browser/desktop summary and coherent product narrative. | Which release-scope summary should be attached to a formal demo or decision? |
-| DAW Core Android beta | Active recertification path. | Android gate vocabulary and beta workflow are explicit. | Which devices and audio routes should be tested next? |
-| Portable `.dw` projects | Documented product contract. | Checksums, embedded assets, snapshots, reload, and roundtrip expectations. | Which target surface should replay the proof? |
-| Unicor SoundEngine synths | Separate product line. | UWdeVST architecture, manuals, macros, FX tabs, presets, and output expectations. | Which instruments should receive listening sign-off first? |
-| FX suite | Separate product capability. | Effects organized by musical treatment family. | Which FX family should be reviewed first as its own product track? |
-| VST-site distribution | Separate presentation and catalog surface. | Public assets, manual references, showcase images, and distribution framing. | Which private distribution flow should be reviewed under scope? |
+The music showcase now has a clean product structure. **DAW Core** is the major project and is described as a browser-based **web local-first DAW**. **Unicor SoundEngine** is a separate Synthé / FX / VST line.
 
-### Public Message
+### DAW Core
 
-The showcase should stay clear: **DAW Core is the major project and it is a browser-based web local-first DAW**. Synths, FX, VST-site, and audition tooling are a separate Unicor SoundEngine line, not a functional layer of DAW Core.
+The strongest current story is project continuity: a browser project should be created, saved, reopened, checked, and continued. Desktop/browser evidence has a dated positive signal, and Android is presented as a beta track that needs current device reports.
 
-### Useful Next Move
+### Unicor SoundEngine
 
-For a serious review, pick one surface and one scenario. A small current proof replay is more useful than a broad conversation about every repository at once.
+Synthé has a seven-instrument family structure, visual material, and review language. FX is grouped by treatment family. VST distribution has catalog, manual, and asset material that can be reviewed for clarity and readiness.
+
+### Best Next Move
+
+Pick one surface and one scenario. For DAW Core, the best scenario is a `.dw` continuity round trip. For Android, it is one real device and one audio route. For Synthé, it is a focused listening pass. For VST distribution, it is one product page plus its manual and packaging notes.
 
 ## Francais
 
-Cette page résume l'état publiable de la vitrine music. Elle ne remplace pas les artefacts internes; elle explique ce qu'un lecteur peut raisonnablement comprendre, demander ou vérifier ensuite.
+### Etat Public
 
-| Surface | Etat public | Signal utile | Meilleure question suivante |
-| --- | --- | --- | --- |
-| DAW Core navigateur | Surface de preuve la plus forte actuellement. | Summary navigateur/desktop en langage gate et narration produit cohérente. | Quel summary release-scope joindre à une démo ou décision formelle? |
-| Beta Android DAW Core | Chemin de recertification actif. | Vocabulaire gate Android et workflow beta explicites. | Quels devices et routes audio tester ensuite? |
-| Projets portables `.dw` | Contrat produit documenté. | Checksums, assets embarqués, snapshots, reload et attentes roundtrip. | Quelle surface cible doit rejouer la preuve? |
-| Synthés Unicor SoundEngine | Ligne produit séparée. | Architecture UWdeVST, manuels, macros, onglets FX, presets et sorties. | Quels instruments doivent recevoir l'écoute sign-off en premier? |
-| Suite FX | Capacité produit séparée. | Effets organisés par famille de traitement musical. | Quelle famille FX reviewer en premier comme track produit? |
-| Distribution VST-site | Surface présentation et catalogue séparée. | Assets publics, références manuels, images showcase et cadrage distribution. | Quel flow privé de distribution reviewer sous périmètre? |
+La vitrine music a maintenant une structure produit nette. **DAW Core** est le projet majeur et il est decrit comme un **web local-first DAW** dans le navigateur. **Unicor SoundEngine** est une ligne Synthé / FX / VST separee.
 
-### Message public
+### DAW Core
 
-La vitrine doit rester nette: **DAW Core est le projet majeur et c'est un web local-first DAW dans le navigateur**. Synthés, FX, VST-site et audition sont une ligne Unicor SoundEngine séparée, pas une couche fonctionnelle de DAW Core.
+L'histoire courante la plus forte est la continuite projet: un projet navigateur doit etre cree, sauvegarde, rouvert, verifie et continue. Les preuves desktop/navigateur ont un signal positif date, et Android est presente comme piste beta demandant des rapports device courants.
 
-### Prochaine action utile
+### Unicor SoundEngine
 
-Pour une review sérieuse, choisir une surface et un scénario. Un petit replay de preuve courant est plus utile qu'une conversation large sur tous les repos à la fois.
+Synthé a une structure de sept instruments, du materiel visuel et un langage de revue. FX est groupe par famille de traitement. La distribution VST a du materiel catalogue, manuel et assets qui peut etre revue pour clarte et readiness.
+
+### Prochaine Action Utile
+
+Choisir une surface et un scenario. Pour DAW Core, le meilleur scenario est un aller-retour de continuite `.dw`. Pour Android, un vrai appareil et une route audio. Pour Synthé, une passe d'ecoute ciblee. Pour la distribution VST, une page produit avec son manuel et ses notes packaging.

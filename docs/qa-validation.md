@@ -6,58 +6,52 @@
 
 ## English
 
-### Public QA Matrix
+### QA Model
 
-| Surface | Validation path | Public-safe status | Why it matters |
-| --- | --- | --- | --- |
-| Desktop studio | Complete desktop gate. | `passed` / strong development proof. | Main proof base for DAW Core product discussion. |
-| Android speaker route | Current Android studio-grade gate. | `to-recertify`. | Turns Android beta into device-specific evidence. |
-| Android Bluetooth A2DP | Specific gate if the target scope includes A2DP. | `to-prove` for that offer. | Avoids vague audio-route promises. |
-| `.dw` continuity | `test:dw:proof` plus runtime roundtrip. | `contracted`; release proof should be replayed for target scope. | Core trust path for DAW Core. |
-| Desktop release | Scoped release summary. | `needs-current-public-go`. | Converts proof signal into release language. |
-| Android release | Scoped Android release summary. | `needs-current-public-go`. | Converts beta evidence into a distribution decision. |
-| UWdeVST synth suite | Automated technical QA plus RC listening review. | `technical-ok`, listening review by selected families. | Keeps synth suite claims credible and musical. |
+QA is written here as product evidence, not as a raw artifact archive. Each signal should name the surface, the scenario, the result, and why it matters to a reader.
+
+### DAW Core Surfaces
+
+**Browser/desktop workflow** is the main validation base for DAW Core. It supports the claim that the product is more than an idea: it has a concrete create/save/reopen/review path.
+
+**`.dw` continuity** is the core trust path. A useful validation checks project state, assets, snapshots, checksums, reload behavior, and whether the user can continue working.
+
+**Android beta** validates the same workflow under mobile-browser constraints. Reports should name device class, browser, audio route, scenario, result, reproducibility, and impact.
+
+### Unicor SoundEngine Surfaces
+
+**Synthé** combines automated technical checks with human listening review. A release-oriented note should talk about role, presets, controls, sonic problems, manual clarity, and confidence.
+
+**FX** should be validated by treatment family and musical usefulness.
+
+**VST distribution** should be checked through catalog clarity, manual alignment, visual consistency, packaging notes, and first-session guidance.
 
 ### Status Vocabulary
 
-| Status | Meaning |
-| --- | --- |
-| `passed` | Positive, dated evidence that can support a written summary. |
-| `to-recertify` | Useful prior context exists, but the current decision needs a fresh run. |
-| `to-prove` | Scope is understood, proof still needs to be produced for the claim. |
-| `contracted` | Product contract is defined; release proof depends on replaying the target scenario. |
-| `technical-ok` | Automated technical signal is positive; musical or release sign-off may still be scoped. |
-| `operator-retained` | Operator proof can be retained only while the underlying surface has not changed. |
-
-### Publication Rule
-
-A public QA claim should be written, dateable, tied to a surface, and phrased at the right level. Raw logs, local paths, device identifiers, internal screenshots, output JSON, CSV files, APKs, VST binaries, and release folders stay out of this repository.
+`passed` means a positive dated summary exists. `to-recertify` means the surface needs a fresh run before stronger wording. `contracted` means the product contract is defined and still needs a scenario replay for the target claim. `technical-ok` means automated checks are positive but musical sign-off may still be needed.
 
 ## Francais
 
-### Matrice QA publique
+### Modele QA
 
-| Surface | Chemin validation | Statut public-safe | Pourquoi c'est important |
-| --- | --- | --- | --- |
-| Desktop studio | Gate desktop complet. | `passed` / preuve développement forte. | Base principale pour discuter DAW Core comme produit. |
-| Route speaker Android | Gate Android studio-grade courant. | `to-recertify`. | Transforme la beta Android en preuve device-specific. |
-| Android Bluetooth A2DP | Gate spécifique si le scope cible A2DP. | `to-prove` pour cette offre. | Evite les promesses audio-route vagues. |
-| Continuité `.dw` | `test:dw:proof` + roundtrip runtime. | `contracted`; preuve release à rejouer selon scope. | Chemin de confiance coeur pour DAW Core. |
-| Release desktop | Summary release scoped. | `needs-current-public-go`. | Transforme le signal preuve en langage release. |
-| Release Android | Summary release Android scoped. | `needs-current-public-go`. | Transforme la preuve beta en décision distribution. |
-| Suite synthés UWdeVST | QA technique automatisée + écoute RC. | `technical-ok`, écoute par familles sélectionnées. | Garde les claims synthés crédibles et musicaux. |
+La QA est ecrite ici comme preuve produit, pas comme archive d'artefacts bruts. Chaque signal doit nommer la surface, le scenario, le resultat et pourquoi cela compte pour un lecteur.
 
-### Vocabulaire de statut
+### Surfaces DAW Core
 
-| Statut | Sens |
-| --- | --- |
-| `passed` | Preuve positive datée pouvant soutenir une synthèse écrite. |
-| `to-recertify` | Le contexte précédent est utile, mais la décision courante demande un nouveau run. |
-| `to-prove` | Le scope est compris, la preuve reste à produire pour le claim. |
-| `contracted` | Le contrat produit est défini; la preuve release dépend du replay scénario cible. |
-| `technical-ok` | Le signal technique automatisé est positif; le sign-off musical ou release peut rester cadré. |
-| `operator-retained` | Une preuve opérateur peut être retenue seulement si la surface sous-jacente n'a pas changé. |
+**Workflow navigateur/desktop** est la base principale de validation DAW Core. Il soutient le claim que le produit est plus qu'une idee: il a un chemin concret creer/sauvegarder/rouvrir/reviewer.
 
-### Règle de publication
+**Continuite `.dw`** est le chemin de confiance coeur. Une validation utile verifie etat projet, assets, snapshots, checksums, reouverture et possibilite de continuer le travail.
 
-Un claim QA public doit être rédigé, datable, lié à une surface et formulé au bon niveau. Logs bruts, chemins locaux, device IDs, captures internes, JSON de sortie, CSV, APKs, binaires VST et dossiers release restent hors de ce repo.
+**Beta Android** valide le meme workflow sous contraintes navigateur mobile. Les rapports doivent nommer classe d'appareil, navigateur, route audio, scenario, resultat, reproductibilite et impact.
+
+### Surfaces Unicor SoundEngine
+
+**Synthé** combine checks techniques automatises et revue d'ecoute humaine. Une note orientee release doit parler role, presets, controles, problemes sonores, clarte manuel et confiance.
+
+**FX** doit etre valide par famille de traitement et utilite musicale.
+
+**Distribution VST** doit etre verifiee via clarte catalogue, alignement manuel, coherence visuelle, notes packaging et guidance premiere session.
+
+### Vocabulaire De Statut
+
+`passed` signifie qu'une synthese positive datee existe. `to-recertify` signifie que la surface demande un run frais avant une formulation plus forte. `contracted` signifie que le contrat produit est defini et demande encore un replay scenario pour le claim cible. `technical-ok` signifie que les checks automatises sont positifs mais qu'un sign-off musical peut rester necessaire.

@@ -5,80 +5,87 @@
 </p>
 
 <p align="center">
-  <strong>Music software showcase for two separate lines: DAW Core, a browser-based web local-first DAW, and Unicor SoundEngine for Synthé, FX, and VST distribution.</strong>
+  <img alt="DAW Core" src="https://img.shields.io/badge/DAW_Core-web_local--first_DAW-0b5fff">
+  <img alt="Android beta" src="https://img.shields.io/badge/Android_beta-testers_wanted-19a974">
+  <img alt="Unicor SoundEngine" src="https://img.shields.io/badge/Unicor_SoundEngine-synths_%2F_FX_%2F_VST-7c3aed">
+  <img alt="Portfolio" src="https://img.shields.io/badge/by-Unicorn_Who_Dev-111827">
+</p>
+
+<p align="center">
+  <strong>Two music software lines, presented clearly: DAW Core first, Unicor SoundEngine second.</strong>
 </p>
 
 <p align="center">
   <a href="#english">English</a> ·
   <a href="#francais">Francais</a> ·
-  <a href="docs/one-pager.md">One-pager</a> ·
-  <a href="docs/project-map.md">Project map</a> ·
-  <a href="docs/proof-pack.md">Proof pack</a> ·
-  <a href="docs/buyer-brief.md">Buyer brief</a>
+  <a href="docs/overview.md">Overview</a> ·
+  <a href="docs/daw-core.md">DAW Core</a> ·
+  <a href="docs/unicor-soundengine.md">Unicor SoundEngine</a> ·
+  <a href="docs/resources.md">Resources</a>
 </p>
 
 ## English
 
-### What This Repository Is
+### What This Repository Presents
 
-This repository presents the music side of my work through concrete use cases. **DAW Core** is the major product: a browser-based **web local-first DAW** where a musician can create a session, save it as a project, reopen it later, check that the musical state survived, and hand that result to a tester, buyer, or audio partner without relying on vague promises.
+I build music tools from the place where the work usually breaks: saving a session, reopening it later, checking that the intent survived, and giving another person enough context to test or judge the result. This repository is the public presentation folder for that music work.
 
-**Unicor SoundEngine** is a separate music software line. It groups the **Synthé** instruments, **FX** families, VST distribution, audition material, product documentation, and release-readiness notes. It belongs in the same public music portfolio, but it is not a functional dependency of DAW Core and should not be evaluated as if the VSTs plug into DAW Core.
+The main project is **DAW Core**. It is a browser-based **web local-first DAW**: the project lives as something the musician can create, keep, reopen, inspect, and continue. The core question is not only "does it make sound?" It is "can the musical work survive the round trip?"
 
-### Public Entry Points
+The second line is **Unicor SoundEngine**. It groups Synthé instruments, FX families, VST distribution material, audition surfaces, manuals, visuals, and review notes. It belongs to the same music portfolio, but it is not DAW Core. The VST line has its own product path, and DAW Core has its own browser DAW path.
 
-Start with the [one-pager](docs/one-pager.md) if you want to understand what exists in a few minutes. Use the [project map](docs/project-map.md) to separate the DAW Core browser DAW track from the Synthé / FX / VST track. The [user flows](docs/user-flows.md) and [tutorials](docs/tutorials.md) are written around practical scenes: a musician reopening a saved DAW Core session in the browser, a tester loading a project and checking behavior, or a partner looking for the shortest path to judge stability.
+### Start Here
 
-For evaluation, the useful path is [evidence](docs/evidence.md), [proof pack](docs/proof-pack.md), [QA validation](docs/qa-validation.md), [release readiness](docs/release-readiness.md), and [current status](docs/current-status.md). For a commercial or collaboration discussion, read the [buyer brief](docs/buyer-brief.md), [partnership brief](docs/partnership.md), and [decision pack](docs/decision-pack.md).
+Read [overview](docs/overview.md) for the full map. Read [DAW Core](docs/daw-core.md) if you want the main project first. Read [Unicor SoundEngine](docs/unicor-soundengine.md) for Synthé, FX, VST distribution, and audition material.
 
-Visual material is in [assets](assets/README.md), [visual index](docs/visual-index.md), [brand charter](docs/brand-charter.md), and [iconography](docs/iconography.md). Synth and distribution context is grouped in [synth suite](docs/synth-suite.md), [VST distribution](docs/vst-distribution.md), and [resources](docs/resources.md).
+If you are testing, start with [user flows](docs/user-flows.md) and [tutorials](docs/tutorials.md). If you are evaluating maturity, read [evidence](docs/evidence.md), [proof pack](docs/proof-pack.md), [QA validation](docs/qa-validation.md), and [current status](docs/current-status.md). If you are considering collaboration, funding, a mission, or a role, read [project evaluation](docs/buyer-brief.md), [open needs](docs/partnership.md), and [decision pack](docs/decision-pack.md).
 
-### Product Tracks
+### Product Lines
 
 <p>
-  <img align="left" src="assets/project-banners/daw-core.jpg" width="260" alt="DAW Core project banner">
-  <strong>DAW Core is the browser DAW track.</strong><br>
-  DAW Core carries the product promise: a music project should survive save, reload, transport, and review inside a web local-first DAW. The Android beta track turns that promise into a concrete mobile-browser test: choose a device, load a project, route audio, save or resume the session, and report what held up or broke.
+  <img align="left" src="assets/project-banners/daw-core.jpg" width="280" alt="DAW Core project banner">
+  <strong>DAW Core is the priority.</strong><br>
+  It is the web local-first DAW line: browser first, project continuity first, Android beta testing as a real device path. The important scenes are simple and demanding: create a session, save it, reopen it, play it back, recover the musical state, and keep working.
 </p>
 
 <br clear="left">
 
 <p>
-  <img align="left" src="assets/project-banners/fx-creative.jpg" width="260" alt="FX project banner">
-  <strong>Synthé and FX are a separate Unicor SoundEngine line.</strong><br>
-  The synth suite, effects families, presets, audition surfaces, and plugin documentation are not DAW Core features. They are another part of the music portfolio: instruments, treatments, and review material that can be judged on their own.
+  <img align="left" src="assets/project-banners/synth-hub.jpg" width="280" alt="Synth project banner">
+  <strong>Synthé is an instrument suite.</strong><br>
+  Piano, Guitar, Bass, Perc, Drum, Orch, and Rare / Instr are presented as one Unicor SoundEngine family. The useful review is musical and practical: role, controls, presets, manuals, listening quality, and release readiness.
 </p>
 
 <br clear="left">
 
 <p>
-  <img align="left" src="assets/project-banners/vst-site.jpg" width="260" alt="VST distribution banner">
-  <strong>VST distribution has its own evaluation path.</strong><br>
-  VST catalog pages, manuals, visual assets, release notes, QA summaries, and proof packs help a visitor answer basic decision questions before a call: what exists, what can be tried, what has been checked, and what belongs to the plugin/catalog side rather than the browser DAW.
+  <img align="left" src="assets/project-banners/fx-creative.jpg" width="280" alt="FX project banner">
+  <strong>FX is a separate sound-design surface.</strong><br>
+  The effects line is organized by treatment families: analysis, delay, distortion, dynamics, EQ, modulation, pitch/time, reverb, and stereo. It should be read as its own product track inside Unicor SoundEngine.
 </p>
 
 <br clear="left">
 
-### What This Repository Contains
+<p>
+  <img align="left" src="assets/project-banners/vst-site.jpg" width="280" alt="VST distribution banner">
+  <strong>VST distribution is the catalog and documentation track.</strong><br>
+  The distribution work is about product pages, manuals, visual assets, version alignment, packaging readiness, and the first questions a user or distributor will ask before trying the suite.
+</p>
 
-This repository gives a public reading path for the music projects:
+<br clear="left">
 
-- a clear split between **DAW Core** and **Unicor SoundEngine**;
-- project map and current status;
-- user flows for project save/reload, Android beta testing, Synthé review, FX review, and VST distribution;
-- proof notes, QA summaries, release-readiness notes, and resources;
-- visual material, brand notes, and iconography for DAW Core.
+### What A Reader Can Find
+
+- A clear split between DAW Core and Unicor SoundEngine.
+- A product-first explanation of the web local-first DAW idea.
+- Practical flows for `.dw` project continuity and Android beta review.
+- Synthé, FX, VST, and audition pages that can be read without source code.
+- Evidence summaries, QA vocabulary, current status, and release notes.
+- Visual assets, brand notes, iconography, and a one-page visual overview.
 
 ### Open Needs
 
-The useful help right now is concrete:
-
-- testers for the DAW Core Android beta, especially on real devices and real audio routes;
-- feedback on the web local-first DAW workflow: create, save, reopen, playback, edit, and recover;
-- audio QA or product review for the DAW Core browser path;
-- sound-design feedback on Synthé instruments and FX families as a separate Unicor SoundEngine line;
-- packaging and distribution feedback for the VST catalog;
-- funding, mission, or job discussions around web audio, local-first creative tools, music software, QA, and release preparation.
+The useful next help is specific: Android beta testers for DAW Core, web audio review, project-continuity feedback, Synthé listening notes, FX prioritization, VST packaging review, documentation review, funding, mission work, and roles around creative tools or music software.
 
 Public contact route: [GitHub - Unicorn Who Dev](https://github.com/charli-dev420).
 
@@ -86,63 +93,63 @@ Public contact route: [GitHub - Unicorn Who Dev](https://github.com/charli-dev42
 
 ### Ce Que Presente Ce Repo
 
-Ce repo presente mon axe musique par des cas d'usage concrets. **DAW Core** est le produit majeur: un **web local-first DAW** dans le navigateur, ou un musicien peut creer une session, la sauvegarder en projet, la rouvrir plus tard, verifier que l'etat musical a tenu, puis montrer ce resultat a un testeur, un acheteur ou un partenaire audio sans rester dans la promesse vague.
+Je construis des outils musicaux a partir de l'endroit ou le travail casse souvent: sauvegarder une session, la rouvrir plus tard, verifier que l'intention a tenu, puis donner assez de contexte a quelqu'un d'autre pour tester ou juger le resultat. Ce repo est le dossier public de presentation de cet axe musique.
 
-**Unicor SoundEngine** est une ligne musicale separee. Elle regroupe **Synthé**, les familles **FX**, la distribution VST, l'audition, la documentation produit et les notes de readiness. Elle fait partie du meme portfolio public, mais elle n'est pas une dependance fonctionnelle de DAW Core et ne doit pas etre lue comme si les VST etaient relies au DAW.
+Le projet principal est **DAW Core**. C'est un **web local-first DAW** dans le navigateur: le projet existe comme un objet que le musicien peut creer, garder, rouvrir, inspecter et continuer. La question centrale n'est pas seulement "est-ce que ca produit du son ?" mais "est-ce que le travail musical survit a l'aller-retour ?"
 
-### Points D'Entree Publics
+La seconde ligne est **Unicor SoundEngine**. Elle regroupe les instruments Synthé, les familles FX, la distribution VST, l'audition, les manuels, les visuels et les notes de revue. Elle appartient au meme portfolio musical, mais ce n'est pas DAW Core. La ligne VST a son propre chemin produit, et DAW Core a son propre chemin DAW navigateur.
 
-Le [one-pager](docs/one-pager.md) permet de comprendre ce qui existe en quelques minutes. La [carte projet](docs/project-map.md) separe le track DAW Core navigateur du track Synthé / FX / VST. Les [flux utilisateur](docs/user-flows.md) et les [tutoriels](docs/tutorials.md) partent de scenes pratiques: un musicien qui rouvre une session DAW Core sauvegardee dans le navigateur, un testeur qui charge un projet et verifie le comportement, ou un partenaire qui veut juger rapidement la stabilite.
+### Commencer Ici
 
-Pour evaluer la maturite, le bon chemin passe par [preuves](docs/evidence.md), [proof pack](docs/proof-pack.md), [QA validation](docs/qa-validation.md), [release readiness](docs/release-readiness.md) et [statut courant](docs/current-status.md). Pour une discussion commerciale, partenariat, mission ou poste, lire aussi [buyer brief](docs/buyer-brief.md), [partenariat](docs/partnership.md) et [decision pack](docs/decision-pack.md).
+Lire [overview](docs/overview.md) pour la carte generale. Lire [DAW Core](docs/daw-core.md) pour le projet principal. Lire [Unicor SoundEngine](docs/unicor-soundengine.md) pour Synthé, FX, distribution VST et audition.
 
-Les supports visuels sont dans [assets](assets/README.md), [index visuel](docs/visual-index.md), [charte](docs/brand-charter.md) et [iconographie](docs/iconography.md). Le contexte Synthé et distribution est regroupe dans [suite synthés](docs/synth-suite.md), [distribution VST](docs/vst-distribution.md) et [ressources](docs/resources.md).
+Pour tester, commencer par [user flows](docs/user-flows.md) et [tutorials](docs/tutorials.md). Pour evaluer la maturite, lire [evidence](docs/evidence.md), [proof pack](docs/proof-pack.md), [QA validation](docs/qa-validation.md) et [current status](docs/current-status.md). Pour une collaboration, un financement, une mission ou un poste, lire [project evaluation](docs/buyer-brief.md), [open needs](docs/partnership.md) et [decision pack](docs/decision-pack.md).
 
-### Axes Produit
+### Lignes Produit
 
 <p>
-  <img align="left" src="assets/project-banners/daw-core.jpg" width="260" alt="Banniere DAW Core">
-  <strong>DAW Core est le track DAW navigateur.</strong><br>
-  DAW Core porte la promesse produit: un projet musical doit survivre a la sauvegarde, reouverture, circulation et revue dans un web local-first DAW. La piste beta Android rend cette promesse testable cote navigateur mobile: choisir un appareil, charger un projet, router l'audio, sauvegarder ou reprendre la session, puis dire ce qui tient ou casse.
+  <img align="left" src="assets/project-banners/daw-core.jpg" width="280" alt="Banniere DAW Core">
+  <strong>DAW Core est la priorite.</strong><br>
+  C'est la ligne web local-first DAW: navigateur d'abord, continuite projet d'abord, beta Android comme piste de test sur vrais appareils. Les scenes importantes sont simples et exigeantes: creer une session, sauvegarder, rouvrir, relire, recuperer l'etat musical et continuer a travailler.
 </p>
 
 <br clear="left">
 
 <p>
-  <img align="left" src="assets/project-banners/fx-creative.jpg" width="260" alt="Banniere FX">
-  <strong>Synthé et FX forment une ligne Unicor SoundEngine separee.</strong><br>
-  La suite synthés, les effets, presets, surfaces d'audition et docs plugins ne sont pas des fonctions DAW Core. C'est une autre partie du portfolio musical: instruments, traitements et matiere de revue a evaluer pour eux-memes.
+  <img align="left" src="assets/project-banners/synth-hub.jpg" width="280" alt="Banniere Synthé">
+  <strong>Synthé est une suite instrumentale.</strong><br>
+  Piano, Guitar, Bass, Perc, Drum, Orch et Rare / Instr sont presentes comme une famille Unicor SoundEngine. La revue utile est musicale et pratique: role, controles, presets, manuels, qualite d'ecoute et readiness.
 </p>
 
 <br clear="left">
 
 <p>
-  <img align="left" src="assets/project-banners/vst-site.jpg" width="260" alt="Banniere distribution VST">
-  <strong>La distribution VST a son propre chemin d'evaluation.</strong><br>
-  Catalogue VST, manuels, visuels, notes release, syntheses QA et proof packs aident un visiteur a repondre aux questions de base avant un appel: ce qui existe, ce qui peut etre essaye, ce qui a deja ete verifie et ce qui releve du cote plugin/catalogue plutot que du DAW navigateur.
+  <img align="left" src="assets/project-banners/fx-creative.jpg" width="280" alt="Banniere FX">
+  <strong>FX est une surface sound-design separee.</strong><br>
+  La ligne effets est organisee par familles de traitement: analysis, delay, distortion, dynamics, EQ, modulation, pitch/time, reverb et stereo. Elle se lit comme un track produit propre dans Unicor SoundEngine.
 </p>
 
 <br clear="left">
 
-### Ce Que Contient Ce Repo
+<p>
+  <img align="left" src="assets/project-banners/vst-site.jpg" width="280" alt="Banniere distribution VST">
+  <strong>La distribution VST est le track catalogue et documentation.</strong><br>
+  Le travail distribution concerne les pages produit, les manuels, les assets visuels, l'alignement de version, la preparation packaging et les premieres questions qu'un utilisateur ou distributeur pose avant d'essayer la suite.
+</p>
 
-Ce repo donne un chemin de lecture public pour les projets musique:
+<br clear="left">
 
-- separation claire entre **DAW Core** et **Unicor SoundEngine**;
-- carte projet et statut courant;
-- flux utilisateur pour sauvegarde/reouverture projet, beta Android, revue Synthé, revue FX et distribution VST;
-- notes de preuve, syntheses QA, release-readiness et ressources;
-- visuels, charte et iconographie DAW Core.
+### Ce Qu'Un Lecteur Trouve
+
+- Une separation nette entre DAW Core et Unicor SoundEngine.
+- Une explication produit du web local-first DAW.
+- Des flux pratiques pour la continuite projet `.dw` et la beta Android.
+- Des pages Synthé, FX, VST et audition lisibles sans code source.
+- Des syntheses de preuve, vocabulaire QA, statut courant et notes release.
+- Des visuels, notes de charte, iconographie et one-pager visuel.
 
 ### Besoins Ouverts
 
-L'aide utile maintenant est concrete:
+L'aide utile maintenant est precise: testeurs Android beta pour DAW Core, revue web audio, feedback continuite projet, ecoute Synthé, priorisation FX, revue packaging VST, revue documentation, financement, missions et postes autour des outils creatifs ou du logiciel musical.
 
-- testeurs pour la beta Android DAW Core, surtout sur vrais appareils et vraies routes audio;
-- feedback sur le workflow web local-first DAW: creer, sauvegarder, rouvrir, lire, editer et recuperer;
-- QA audio ou revue produit sur le chemin DAW Core navigateur;
-- feedback sound design sur les instruments Synthé et familles FX comme ligne Unicor SoundEngine separee;
-- feedback packaging et distribution pour le catalogue VST;
-- financement, mission ou poste autour du web audio, des outils creatifs local-first, du logiciel musical, de la QA et de la preparation release.
-
-Contact public recommande: [GitHub - Unicorn Who Dev](https://github.com/charli-dev420).
+Contact public: [GitHub - Unicorn Who Dev](https://github.com/charli-dev420).
