@@ -72,7 +72,7 @@ DAWWW-CORE is not a native VST host.
 
 It does not load native VST plugins in the browser. Instruments and effects inside DAWWW-CORE belong to the browser/Web Audio path.
 
-The separate VST and plugin work belongs to Unicorn Sound Engine.
+The separate VST and plugin work belongs to UnicorSoundEngine.
 
 ---
 
@@ -157,7 +157,7 @@ DAWWW-CORE n’est pas un host VST natif.
 
 Il ne charge pas de VST natifs dans le navigateur. Les instruments et effets dans DAWWW-CORE appartiennent au chemin navigateur/Web Audio.
 
-Le travail VST et plugin séparé appartient à Unicorn Sound Engine.
+Le travail VST et plugin séparé appartient à UnicorSoundEngine.
 
 ---
 
