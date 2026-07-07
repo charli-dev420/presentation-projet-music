@@ -10,160 +10,174 @@
 
 <h2 id="english">🇬🇧 English</h2>
 
-This page gives a public, readable proof summary for DAWWW-CORE.
+This page summarizes the public proof boundaries around DAWWW-CORE.
 
-It is not the full buyer proof pack. It is a public-facing synthesis meant to explain what can be said safely, what should remain in controlled due diligence, and where proof boundaries are.
+It is not a full technical audit and it is not the buyer proof pack. Its purpose is to explain what can be stated publicly without exposing private artifacts, credentials, account-transfer material or internal handover details.
 
 ---
 
-## Public proof level
+## What can be stated publicly
 
-DAWWW-CORE can be presented publicly as an implemented local-first music production codebase with:
+DAWWW-CORE can be described publicly as a local-first browser DAW / music workspace with:
 
-- a web desktop app direction;
-- an Android Capacitor target;
-- a portable `.dw` project container;
-- DAW surfaces such as arranger, sequencer, piano roll and mixer;
-- instruments, effects, sampler, automation and modulation surfaces;
-- audio export workflows;
-- account and billing integrations as access layers;
-- security, provenance, dependency and QA documentation prepared for buyer review.
+- Web Audio based runtime work;
+- portable `.dw` project continuity;
+- arranger, sequencer, piano roll and mixer surfaces;
+- instruments, sampler, effects, automation and modulation surfaces;
+- audio export and recovery workflows;
+- Android direction through Capacitor;
+- account and access layers;
+- QA, security and provenance material prepared for deeper review.
 
-The public story should stay focused on the product and its structure, not on dumping raw internal proof.
+This public framing should stay tied to what the repository and proof material can support.
+
+---
+
+## What should remain private
+
+Some material should not be published directly in a public GitHub repository:
+
+- private source code;
+- unreleased binaries;
+- exact account-transfer notes;
+- credentials, keys or signing material;
+- raw private test outputs;
+- buyer handover checklists;
+- negotiation notes;
+- sensitive security details.
+
+Those elements belong in a controlled buyer proof pack or private technical review.
 
 ---
 
 ## Proof areas
 
-| Area | Public wording |
+| Area | Public boundary |
 | --- | --- |
-| **Project format** | DAWWW-CORE uses a portable `.dw` project container as the local-first project continuity path. |
-| **Local-first model** | Creative project data is presented as user-owned and locally recoverable, with `.dw` as the final fallback. |
-| **Browser DAW** | The DAW runs as a web music-production workspace using Web Audio. |
-| **Android target** | Android exists as a Capacitor target and must be validated again for production release or store transfer. |
-| **Audio runtime** | The project contains Web Audio runtime work, instruments, effects and export paths. Audio quality claims should be attached to listening/export proof. |
-| **Billing / account layers** | Web and Android billing/account integrations exist as access layers, but third-party accounts require buyer-side reconfiguration. |
-| **QA / release readiness** | QA and release-readiness material exists, but formal buyer proof should use attached artifacts or fresh reruns. |
+| **Project continuity** | The `.dw` format is the public center of the local-first continuity story. |
+| **Browser DAW** | DAWWW-CORE is presented as a browser music workspace built around Web Audio. |
+| **Audio behavior** | Public claims should stay attached to observable playback, export or listening material. |
+| **Android** | Android exists as a Capacitor direction; production claims require fresh validation. |
+| **Billing / access** | Account and billing surfaces can be mentioned, but third-party account transfer is not automatic. |
+| **Security / provenance** | Public wording can mention prepared material, but sensitive details stay private. |
+| **Handover** | Handover belongs in controlled review, not in public docs. |
 
 ---
 
-## Publicly safe claims
+## Claims to avoid
 
-- DAWWW-CORE is an implemented local-first music production codebase.
-- The project includes a browser DAW direction and an Android Capacitor target.
-- The `.dw` format gives the product a clear local-first portability story.
-- The codebase includes real DAW surfaces such as arranger, sequencer, piano roll, mixer, instruments, effects, sampler, automation and export.
-- Account and billing layers exist, while creative project data should remain framed as local-first.
-- The buyer pack is the right place for detailed proof, commands, artifacts, account-transfer notes and exact limitations.
+The public repository should avoid claims that sound stronger than the available public proof:
 
----
-
-## Claims to avoid publicly
-
-- Universal Android production certification across all devices.
-- Automatic transfer of Play Store, Stripe, Supabase, RevenueCat, domains, signing keys or credentials.
-- MP3 support guaranteed on every platform.
-- Studio-grade certification of every effect without attached listening or export proof.
-- Treating historical QA notes as current proof without rerun or attached artifact.
-- Presenting buyer-only handover material as public documentation.
+- universal Android production readiness;
+- guaranteed behavior on every device or browser;
+- automatic transfer of third-party accounts, stores or credentials;
+- native VST hosting inside DAWWW-CORE;
+- studio-grade certification of every instrument or effect without listening/export evidence;
+- treating old QA notes as current proof without a rerun or attached artifact.
 
 ---
 
-## What belongs in the buyer pack
+## Useful public proof
 
-The full buyer pack is for controlled due diligence. It can contain:
+The most useful public proof is easy to understand from the outside:
 
-- exact proof commands;
-- dated test results;
-- `.dw` test output;
-- Android artifacts and boundaries;
-- audio export proof;
-- security and provenance checks;
-- dependency and license details;
-- billing, store and account-transfer notes;
-- known limits;
-- rerun checklist;
-- handover material.
+- screenshots or short demos;
+- before / after audio examples;
+- `.dw` save and reopen summaries;
+- export examples;
+- dated test summaries;
+- clear known limits;
+- short release-readiness notes;
+- links to public packs or selected artifacts.
 
-This repository should only expose a public summary of those elements.
+The public repository should stay readable. The deeper technical material can remain controlled.
+
+<p align="right"><a href="#public-proof-summary">↑ Back to top</a> · <a href="#francais">Français</a></p>
 
 ---
 
 <h2 id="francais">🇫🇷 Français</h2>
 
-Cette page résume publiquement les preuves autour de DAWWW-CORE.
+Cette page résume les limites de preuve publique autour de DAWWW-CORE.
 
-Ce n’est pas le pack acheteur complet. C’est une synthèse publique destinée à expliquer ce qui peut être dit proprement, ce qui doit rester en due diligence contrôlée et où se trouvent les limites de claims.
+Ce n’est pas un audit technique complet et ce n’est pas le buyer proof pack. Son rôle est d’expliquer ce qui peut être dit publiquement sans exposer les artefacts privés, credentials, éléments de transfert comptes ou détails de handover interne.
 
 ---
 
-## Niveau de preuve public
+## Ce qui peut être dit publiquement
 
-DAWWW-CORE peut être présenté publiquement comme un codebase MAO local-first déjà implémenté, avec :
+DAWWW-CORE peut être décrit publiquement comme un DAW / workspace musical navigateur local-first avec :
 
-- une direction web desktop ;
-- une cible Android Capacitor ;
-- un format projet portable `.dw` ;
-- des surfaces DAW comme arrangeur, séquenceur, piano roll et mixer ;
-- des instruments, effets, sampler, automation et modulation ;
-- des workflows d’export audio ;
-- des couches compte/billing comme surfaces d’accès ;
-- une documentation sécurité, provenance, dépendances et QA préparée pour revue acheteur.
+- travail runtime basé sur Web Audio ;
+- continuité projet portable `.dw` ;
+- surfaces arrangeur, séquenceur, piano roll et mixer ;
+- instruments, sampler, effets, automation et modulation ;
+- workflows d’export audio et de récupération ;
+- direction Android via Capacitor ;
+- couches compte et accès ;
+- matière QA, sécurité et provenance préparée pour une revue plus profonde.
 
-Le discours public doit rester centré sur le produit et sa structure, pas sur l’exposition brute des preuves internes.
+Ce cadrage public doit rester lié à ce que le dépôt et la matière de preuve peuvent soutenir.
+
+---
+
+## Ce qui doit rester privé
+
+Certains éléments ne doivent pas être publiés directement dans un dépôt GitHub public :
+
+- sources privées ;
+- binaires non publiés ;
+- notes exactes de transfert comptes ;
+- credentials, clés ou éléments de signature ;
+- sorties de tests privées brutes ;
+- checklists de handover acheteur ;
+- notes de négociation ;
+- détails sécurité sensibles.
+
+Ces éléments appartiennent à un buyer proof pack contrôlé ou à une revue technique privée.
 
 ---
 
 ## Zones de preuve
 
-| Zone | Formulation publique |
+| Zone | Limite publique |
 | --- | --- |
-| **Format projet** | DAWWW-CORE utilise un conteneur projet portable `.dw` comme chemin de continuité local-first. |
-| **Modèle local-first** | Les données créatives doivent être présentées comme récupérables localement, avec `.dw` comme fallback final. |
-| **DAW navigateur** | Le DAW fonctionne comme workspace MAO web basé sur Web Audio. |
-| **Cible Android** | Android existe comme cible Capacitor et doit être revalidé pour une release production ou un transfert store. |
-| **Runtime audio** | Le projet contient runtime Web Audio, instruments, effets et exports. Les claims qualité audio doivent rester liés à des écoutes ou exports de preuve. |
-| **Billing / comptes** | Les intégrations compte/billing existent comme couches d’accès, mais les comptes tiers demandent reconfiguration côté acheteur. |
-| **QA / release readiness** | La matière QA existe, mais la preuve acheteur formelle doit utiliser des artefacts attachés ou des reruns frais. |
+| **Continuité projet** | Le format `.dw` est le centre public de l’histoire local-first. |
+| **DAW navigateur** | DAWWW-CORE est présenté comme workspace musical navigateur basé sur Web Audio. |
+| **Comportement audio** | Les claims publics doivent rester liés à du playback, export ou écoute observable. |
+| **Android** | Android existe comme direction Capacitor ; les claims production demandent validation fraîche. |
+| **Billing / accès** | Les surfaces compte et billing peuvent être mentionnées, mais le transfert de comptes tiers n’est pas automatique. |
+| **Sécurité / provenance** | Le wording public peut mentionner la matière préparée, mais les détails sensibles restent privés. |
+| **Handover** | Le handover appartient à une revue contrôlée, pas aux docs publiques. |
 
 ---
 
-## Claims publics sûrs
+## Claims à éviter
 
-- DAWWW-CORE est un codebase MAO local-first déjà implémenté.
-- Le projet inclut une direction DAW navigateur et une cible Android Capacitor.
-- Le format `.dw` donne une histoire claire de portabilité local-first.
-- Le codebase contient des surfaces DAW réelles : arrangeur, séquenceur, piano roll, mixer, instruments, effets, sampler, automation et export.
-- Les couches compte/billing existent, tandis que les données créatives doivent rester cadrées comme local-first.
-- Le pack acheteur est le bon endroit pour les preuves détaillées, commandes, artefacts, notes de transfert et limites exactes.
+Le dépôt public doit éviter les claims plus forts que la preuve publique disponible :
 
----
-
-## Claims à éviter publiquement
-
-- Certification Android production universelle sur tous les appareils.
-- Transfert automatique de Play Store, Stripe, Supabase, RevenueCat, domaines, clés de signature ou credentials.
-- MP3 garanti sur toutes les plateformes.
-- Certification studio-grade de chaque effet sans écoute ou export attaché.
-- Notes QA historiques présentées comme preuve actuelle sans rerun ou artefact attaché.
-- Publication du handover acheteur comme documentation publique.
+- readiness Android production universelle ;
+- comportement garanti sur tous les appareils ou navigateurs ;
+- transfert automatique de comptes tiers, stores ou credentials ;
+- hosting VST natif dans DAWWW-CORE ;
+- certification studio-grade de chaque instrument ou effet sans preuve d’écoute/export ;
+- notes QA anciennes présentées comme preuve actuelle sans rerun ou artefact attaché.
 
 ---
 
-## Ce qui appartient au pack acheteur
+## Preuves publiques utiles
 
-Le pack acheteur complet sert à une due diligence contrôlée. Il peut contenir :
+Les preuves publiques les plus utiles sont faciles à comprendre de l’extérieur :
 
-- commandes exactes de preuve ;
-- résultats datés ;
-- sorties de test `.dw` ;
-- artefacts Android et limites ;
-- preuve export audio ;
-- contrôles sécurité et provenance ;
-- dépendances et licences ;
-- notes billing, store et transfert comptes ;
-- limites connues ;
-- checklist de rerun ;
-- matière de handover.
+- captures ou démos courtes ;
+- exemples audio avant / après ;
+- résumés sauvegarde et réouverture `.dw` ;
+- exemples d’export ;
+- synthèses de test datées ;
+- limites connues claires ;
+- courtes notes release-readiness ;
+- liens vers packs publics ou artefacts sélectionnés.
 
-Ce dépôt doit seulement exposer une synthèse publique de ces éléments.
+Le dépôt public doit rester lisible. La matière technique plus profonde peut rester contrôlée.
+
+<p align="right"><a href="#public-proof-summary">↑ Retour en haut</a> · <a href="#english">English</a></p>
