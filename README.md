@@ -204,9 +204,9 @@ Recommended reading path:
 | [`docs/fx-line.md`](docs/fx-line.md) | Present the FX family |
 | [`docs/audition-review.md`](docs/audition-review.md) | Present the listening and review layer |
 | [`docs/current-status.md`](docs/current-status.md) | Summarize the current public state |
+| [`docs/proof-summary.md`](docs/proof-summary.md) | Summarize public proof boundaries without exposing the buyer pack |
+| [`docs/sale-positioning-public.md`](docs/sale-positioning-public.md) | Present the public commercial positioning without private negotiation details |
 | [`docs/open-needs.md`](docs/open-needs.md) | List useful feedback and collaboration needs |
-
-Public proof and sales-positioning pages can be added later from the public pack, without copying sensitive buyer-pack details.
 
 ---
 
@@ -430,9 +430,9 @@ Chemin de lecture recommandé :
 | [`docs/fx-line.md`](docs/fx-line.md) | Présenter la famille FX |
 | [`docs/audition-review.md`](docs/audition-review.md) | Présenter la logique d’écoute et de revue |
 | [`docs/current-status.md`](docs/current-status.md) | Résumer l’état actuel public |
+| [`docs/proof-summary.md`](docs/proof-summary.md) | Résumer les preuves publiques sans exposer le pack acheteur |
+| [`docs/sale-positioning-public.md`](docs/sale-positioning-public.md) | Présenter le positionnement commercial public sans détails privés de négociation |
 | [`docs/open-needs.md`](docs/open-needs.md) | Lister les retours et collaborations utiles |
-
-Les pages de synthèse publique des preuves et de positionnement commercial peuvent être ajoutées ensuite, à partir du pack public, sans reprendre les détails sensibles du pack acheteur.
 
 ---
 
