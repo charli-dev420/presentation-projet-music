@@ -199,13 +199,13 @@ Recommended reading path:
 
 | Page | Role |
 | --- | --- |
-| [`docs/dawww-core.md`](docs/dawww-core.md) | Present the main project |
+| [`docs/project-overview.md`](docs/project-overview.md) | Present DAWWW-CORE as a public project overview |
+| [`docs/dawww-core.md`](docs/dawww-core.md) | Present the main project details |
 | [`docs/unicorn-sound-engine.md`](docs/unicorn-sound-engine.md) | Present the separate plugin line |
 | [`docs/fx-line.md`](docs/fx-line.md) | Present the FX family |
 | [`docs/audition-review.md`](docs/audition-review.md) | Present the listening and review layer |
 | [`docs/current-status.md`](docs/current-status.md) | Summarize the current public state |
 | [`docs/proof-summary.md`](docs/proof-summary.md) | Summarize public proof boundaries without exposing the buyer pack |
-| [`docs/sale-positioning-public.md`](docs/sale-positioning-public.md) | Present the public commercial positioning without private negotiation details |
 | [`docs/open-needs.md`](docs/open-needs.md) | List useful feedback and collaboration needs |
 
 ---
@@ -425,13 +425,13 @@ Chemin de lecture recommandé :
 
 | Page | Rôle |
 | --- | --- |
-| [`docs/dawww-core.md`](docs/dawww-core.md) | Présenter le projet principal |
+| [`docs/project-overview.md`](docs/project-overview.md) | Présenter DAWWW-CORE comme fiche projet publique |
+| [`docs/dawww-core.md`](docs/dawww-core.md) | Présenter les détails du projet principal |
 | [`docs/unicorn-sound-engine.md`](docs/unicorn-sound-engine.md) | Présenter la ligne plugin séparée |
 | [`docs/fx-line.md`](docs/fx-line.md) | Présenter la famille FX |
 | [`docs/audition-review.md`](docs/audition-review.md) | Présenter la logique d’écoute et de revue |
 | [`docs/current-status.md`](docs/current-status.md) | Résumer l’état actuel public |
 | [`docs/proof-summary.md`](docs/proof-summary.md) | Résumer les preuves publiques sans exposer le pack acheteur |
-| [`docs/sale-positioning-public.md`](docs/sale-positioning-public.md) | Présenter le positionnement commercial public sans détails privés de négociation |
 | [`docs/open-needs.md`](docs/open-needs.md) | Lister les retours et collaborations utiles |
 
 ---
