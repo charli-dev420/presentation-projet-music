@@ -54,9 +54,9 @@ This avoids treating every generated asset, preset or audio render as equally us
 
 ---
 
-## Relationship with Unicorn Sound Engine
+## Relationship with UnicorSoundEngine
 
-Audition and review are especially important for Unicorn Sound Engine because the plugin line depends on listening quality, presets, manuals and product clarity.
+Audition and review are especially important for UnicorSoundEngine because the plugin line depends on listening quality, presets, manuals and product clarity.
 
 A plugin family can look organized from the outside while still needing review on sound, naming, documentation or packaging.
 
@@ -139,9 +139,9 @@ Cela évite de traiter chaque asset, preset ou rendu audio généré comme égal
 
 ---
 
-## Relation avec Unicorn Sound Engine
+## Relation avec UnicorSoundEngine
 
-L’audition et la revue sont particulièrement importantes pour Unicorn Sound Engine, car la ligne plugin dépend de la qualité d’écoute, des presets, des manuels et de la clarté produit.
+L’audition et la revue sont particulièrement importantes pour UnicorSoundEngine, car la ligne plugin dépend de la qualité d’écoute, des presets, des manuels et de la clarté produit.
 
 Une famille de plugins peut paraître organisée de l’extérieur tout en nécessitant encore une revue du son, du nommage, de la documentation ou du packaging.
 
