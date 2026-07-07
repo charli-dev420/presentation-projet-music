@@ -109,6 +109,7 @@ The public repository should stay readable and safe. The buyer proof pack is not
 | [`docs/visual-index.md`](docs/visual-index.md) | Public visual material and missing visual proof. |
 | [`docs/public-roadmap.md`](docs/public-roadmap.md) | Short public documentation roadmap. |
 | [`NOTICE.md`](NOTICE.md) | Usage, rights and public repository boundaries. |
+| [`CONTACT.md`](CONTACT.md) | Contact channels for DAWWW-CORE, UnicorSoundEngine and general requests. |
 | [`docs/open-needs.md`](docs/open-needs.md) | Useful feedback, review and collaboration needs. |
 
 ---
@@ -223,6 +224,7 @@ Le dépôt public doit rester lisible et sûr. Le buyer proof pack n’est pas d
 | [`docs/visual-index.md`](docs/visual-index.md) | Matière visuelle publique et preuves visuelles manquantes. |
 | [`docs/public-roadmap.md`](docs/public-roadmap.md) | Roadmap documentaire publique courte. |
 | [`NOTICE.md`](NOTICE.md) | Droits, usage et limites du dépôt public. |
+| [`CONTACT.md`](CONTACT.md) | Canaux de contact DAWWW-CORE, UnicorSoundEngine et demandes générales. |
 | [`docs/open-needs.md`](docs/open-needs.md) | Retours, revue et collaborations utiles. |
 
 ---
