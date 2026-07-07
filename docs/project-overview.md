@@ -71,18 +71,18 @@ This makes the project easier to evaluate: the main question is whether the musi
 
 ---
 
-## Relationship with Unicorn Sound Engine
+## Relationship with UnicorSoundEngine
 
-DAWWW-CORE and Unicorn Sound Engine belong to the same music-tech portfolio, but they are separate product lines.
+DAWWW-CORE and UnicorSoundEngine belong to the same music-tech portfolio, but they are separate product lines.
 
 | Product | Role |
 | --- | --- |
 | **DAWWW-CORE** | Browser DAW / local-first music workspace. |
-| **Unicorn Sound Engine** | Separate VST instrument and effect ecosystem. |
+| **UnicorSoundEngine** | Separate VST instrument and effect ecosystem. |
 
 DAWWW-CORE does not load native VST plugins in the browser.
 
-Unicorn Sound Engine covers the separate plugin path: VST instruments, effects, manuals, audition material, packaging and distribution.
+UnicorSoundEngine covers the separate plugin path: VST instruments, effects, manuals, audition material, packaging and distribution.
 
 ---
 
@@ -181,18 +181,18 @@ Cela rend le projet plus facile à évaluer : la question principale est de savo
 
 ---
 
-## Relation avec Unicorn Sound Engine
+## Relation avec UnicorSoundEngine
 
-DAWWW-CORE et Unicorn Sound Engine appartiennent au même portfolio music-tech, mais ce sont deux lignes produit séparées.
+DAWWW-CORE et UnicorSoundEngine appartiennent au même portfolio music-tech, mais ce sont deux lignes produit séparées.
 
 | Produit | Rôle |
 | --- | --- |
 | **DAWWW-CORE** | DAW navigateur / workspace musical local-first. |
-| **Unicorn Sound Engine** | Écosystème séparé d’instruments et effets VST. |
+| **UnicorSoundEngine** | Écosystème séparé d’instruments et effets VST. |
 
 DAWWW-CORE ne charge pas de VST natifs dans le navigateur.
 
-Unicorn Sound Engine couvre le chemin plugin séparé : instruments VST, effets, manuels, audition, packaging et distribution.
+UnicorSoundEngine couvre le chemin plugin séparé : instruments VST, effets, manuels, audition, packaging et distribution.
 
 ---
 
