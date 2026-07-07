@@ -10,7 +10,7 @@
 
 <h2 id="english">🇬🇧 English</h2>
 
-The FX Line groups the audio effects work associated with Unicorn Sound Engine.
+The FX Line groups the audio effects work associated with UnicorSoundEngine.
 
 It is a separate plugin-oriented product line. It should not be confused with DAWWW-CORE runtime effects or browser-loaded VST plugins.
 
@@ -68,14 +68,14 @@ It should help a reader understand:
 
 DAWWW-CORE may include built-in Web Audio effects as part of the browser DAW.
 
-The FX Line is different. It belongs to the separate Unicorn Sound Engine / VST ecosystem.
+The FX Line is different. It belongs to the separate UnicorSoundEngine / VST ecosystem.
 
 This distinction keeps the public presentation clear:
 
 | DAWWW-CORE effects | FX Line |
 | --- | --- |
 | Browser / Web Audio context. | Native plugin-oriented product family. |
-| Part of the DAW workspace. | Part of Unicorn Sound Engine. |
+| Part of the DAW workspace. | Part of UnicorSoundEngine. |
 | Not VST-hosted in the browser. | Built and presented as separate audio products. |
 
 ---
@@ -99,7 +99,7 @@ A useful review can focus on:
 
 <h2 id="francais">🇫🇷 Français</h2>
 
-La FX Line regroupe le travail autour des effets audio associés à Unicorn Sound Engine.
+La FX Line regroupe le travail autour des effets audio associés à UnicorSoundEngine.
 
 C’est une ligne produit séparée, orientée plugins. Elle ne doit pas être confondue avec les effets runtime de DAWWW-CORE ni avec des VST chargés dans le navigateur.
 
@@ -157,14 +157,14 @@ Il doit aider un lecteur à comprendre :
 
 DAWWW-CORE peut inclure des effets Web Audio intégrés au DAW navigateur.
 
-La FX Line est différente. Elle appartient à l’écosystème séparé Unicorn Sound Engine / VST.
+La FX Line est différente. Elle appartient à l’écosystème séparé UnicorSoundEngine / VST.
 
 Cette distinction garde la présentation publique claire :
 
 | Effets DAWWW-CORE | FX Line |
 | --- | --- |
 | Contexte navigateur / Web Audio. | Famille produit orientée plugins natifs. |
-| Partie du workspace DAW. | Partie d’Unicorn Sound Engine. |
+| Partie du workspace DAW. | Partie d’UnicorSoundEngine. |
 | Pas de VST hosté dans le navigateur. | Présentée comme produits audio séparés. |
 
 ---
