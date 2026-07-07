@@ -1,41 +1,90 @@
-# Current Status / Statut courant
+# Current Status
 
-[EN](#english) | [FR](#francais)
+This page summarizes the music-tech showcase at a public, non-source-code level.
 
-![Music proof dashboard](../assets/proof-dashboard.svg)
+---
 
-## English
+## DAWWW-CORE
 
-### Public State
+**Status:** main product line.
 
-The music showcase now has a clean product structure. **DAW Core** is the major project and is described as a browser-based **web local-first DAW**. **Unicor SoundEngine** is a separate Synthé / FX / VST line.
+DAWWW-CORE is the priority. It is a local-first browser DAW based on Web Audio, `.dw` project continuity, export workflows, QA proof and Android testing.
 
-### DAW Core
+Current public framing:
 
-The strongest current story is project continuity: a browser project should be created, saved, reopened, checked, and continued. Desktop/browser evidence has a dated positive signal, and Android is presented as a beta track that needs current device reports.
+- browser DAW, not native VST host;
+- local-first project model;
+- `.dw` session continuity;
+- export and recovery workflows;
+- desktop and Android validation paths;
+- Web Audio instruments and built-in effects.
 
-### Unicor SoundEngine
+What remains important:
 
-Synthé has a seven-instrument family structure, visual material, and review language. FX is grouped by treatment family. VST distribution has catalog, manual, and asset material that can be reviewed for clarity and readiness.
+- keep release claims aligned with real proof;
+- avoid mixing DAWWW-CORE with the VST plugin line;
+- keep documentation short, honest and product-facing;
+- show real user workflows rather than long internal QA text.
 
-### Best Next Move
+---
 
-Pick one surface and one scenario. For DAW Core, the best scenario is a `.dw` continuity round trip. For Android, it is one real device and one audio route. For Synthé, it is a focused listening pass. For VST distribution, it is one product page plus its manual and packaging notes.
+## Unicorn Sound Engine
 
-## Francais
+**Status:** separate plugin ecosystem.
 
-### Etat Public
+Unicorn Sound Engine groups instruments, effects, manuals, audition material, packaging and distribution flows.
 
-La vitrine music a maintenant une structure produit nette. **DAW Core** est le projet majeur et il est decrit comme un **web local-first DAW** dans le navigateur. **Unicor SoundEngine** est une ligne Synthé / FX / VST separee.
+Current public framing:
 
-### DAW Core
+- separate from DAWWW-CORE;
+- native plugin ecosystem;
+- VST instruments and FX;
+- manuals, store/downloads and review material;
+- audio product family, not browser runtime for DAWWW-CORE.
 
-L'histoire courante la plus forte est la continuite projet: un projet navigateur doit etre cree, sauvegarde, rouvert, verifie et continue. Les preuves desktop/navigateur ont un signal positif date, et Android est presente comme piste beta demandant des rapports device courants.
+What remains important:
 
-### Unicor SoundEngine
+- improve per-plugin documentation;
+- align names, prices, versions and packaging;
+- add listening examples and product screenshots;
+- document which builds are ready, pending or experimental.
 
-Synthé a une structure de sept instruments, du materiel visuel et un langage de revue. FX est groupe par famille de traitement. La distribution VST a du materiel catalogue, manuel et assets qui peut etre revue pour clarte et readiness.
+---
 
-### Prochaine Action Utile
+## VST-site
 
-Choisir une surface et un scenario. Pour DAW Core, le meilleur scenario est un aller-retour de continuite `.dw`. Pour Android, un vrai appareil et une route audio. Pour Synthé, une passe d'ecoute ciblee. Pour la distribution VST, une page produit avec son manuel et ses notes packaging.
+**Status:** distribution layer.
+
+The distribution site is part of the Unicorn Sound Engine path: product pages, accounts, downloads, Stripe, admin surfaces and manuals.
+
+It should be presented as store/distribution infrastructure, not as the audio engine itself.
+
+---
+
+## Audition & Review
+
+**Status:** support layer.
+
+The review tooling supports listening notes, preset decisions, visual asset review and exportable feedback.
+
+This is useful as proof that product quality is reviewed, not only implemented.
+
+---
+
+## Public showcase priority
+
+1. Make the main README readable in under two minutes.
+2. Keep DAWWW-CORE and Unicorn Sound Engine clearly separated.
+3. Replace long generic documents with short product pages.
+4. Keep old private/source details out of the public vitrine.
+5. Add proof only when it is understandable to an external reader.
+
+---
+
+## Français
+
+DAWWW-CORE reste le projet principal : DAW web local-first, Web Audio, format `.dw`, export, QA et Android.
+
+Unicorn Sound Engine est une ligne séparée autour des instruments et effets VST, des manuels, de l’audition, du store et des téléchargements.
+
+La priorité de cette vitrine est la clarté : montrer les projets, leur rôle, leur séparation, leur état actuel et les besoins utiles sans transformer le repo en dossier interne trop long.
