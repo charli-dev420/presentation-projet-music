@@ -1,7 +1,7 @@
 # DAWWW-CORE local and cross device MAO studio
 
 <p align="center">
-  <img src="assets/project-banners/daw-core.jpg" width="900" alt="DAWWW-CORE Music Lab banner">
+  <img src="assets/project-banners/daw-core.jpg" width="900" alt="DAWWW-CORE banner">
 </p>
 
 <p align="center">
@@ -9,11 +9,21 @@
 </p>
 
 <p align="center">
+  <strong>Langue / Language</strong><br>
+  <a href="#francais">🇫🇷 Français</a> ·
+  <a href="#english">🇬🇧 English</a>
+</p>
+
+---
+
+<h2 id="francais">🇫🇷 Français</h2>
+
+<p align="center">
   <a href="#ce-que-je-presente-ici">Présentation</a> ·
   <a href="#dawww-core">DAWWW-CORE</a> ·
   <a href="#unicorn-sound-engine">Unicorn Sound Engine</a> ·
   <a href="#pack-public--pack-acheteur">Packs</a> ·
-  <a href="#english">English</a>
+  <a href="#documentation">Documentation</a>
 </p>
 
 ---
@@ -227,21 +237,229 @@ Les retours les plus utiles sont concrets :
 - améliorer le positionnement produit ;
 - discuter partenariat, mission, financement ou reprise.
 
+<p align="right"><a href="#dawww-core-local-and-cross-device-mao-studio">↑ Retour en haut</a> · <a href="#english">English</a></p>
+
 ---
 
-## English
+<h2 id="english">🇬🇧 English</h2>
 
-This repository helps me present my music and music-production oriented projects in a clean public way.
+<p align="center">
+  <a href="#what-i-present-here">Presentation</a> ·
+  <a href="#dawww-core-1">DAWWW-CORE</a> ·
+  <a href="#unicorn-sound-engine-1">Unicorn Sound Engine</a> ·
+  <a href="#public-pack--buyer-pack">Packs</a> ·
+  <a href="#documentation-1">Documentation</a>
+</p>
 
-My main project is **DAWWW-CORE**, a local-first browser DAW built around Web Audio, portable `.dw` sessions, export workflows, project continuity, QA and an Android target.
+---
 
-Alongside it, I also work on **Unicorn Sound Engine**, a separate plugin ecosystem around VST instruments, effects, manuals, audition material, packaging and distribution.
+## What I present here
 
-The distinction matters:
+This repository helps me present my projects focused on **music**, **music production**, **Web Audio** and **creative tools**.
+
+I use it as a public entry point to explain my work without directly exposing private source code, binaries, access credentials, sensitive proof material or buyer-only documents.
+
+My goal is simple: help someone quickly understand what I build, why the projects are separate, what is already concrete, what still needs validation and which feedback can actually help me move forward.
+
+---
+
+## The two main lines
+
+I mainly work around two related but separate lines.
+
+| Line | Role |
+| --- | --- |
+| **DAWWW-CORE** | My main project: a local-first browser DAW built around Web Audio, the `.dw` project format, audio export, project continuity and an Android target. |
+| **Unicorn Sound Engine** | A separate line around VST instruments, effects, manuals, audition material, packaging and distribution. |
+
+This separation is important.
 
 **DAWWW-CORE is a browser DAW. It does not load native VST plugins in the browser.**  
 **Unicorn Sound Engine is the separate plugin line.**
 
-This repository is not meant to expose private source code, binaries, credentials, sensitive proof material or buyer-only documents. It is meant to make the projects understandable from the outside.
+Both projects belong to the same music-production universe, but they should not be confused.
 
-The public pack gives a first readable overview. The buyer proof pack is reserved for controlled due diligence and contains the deeper proof, limits, scope, QA, handover and transfer material.
+---
+
+## DAWWW-CORE
+
+**DAWWW-CORE** is the project I put forward first.
+
+I build it as a local-first web music studio, around one central idea:
+
+> a music project should be easy to create, save, reopen, play, edit, export and continue.
+
+What matters to me here is not only producing sound. The real subject is the continuity of musical work.
+
+DAWWW-CORE includes, among other things:
+
+- a browser DAW direction;
+- a Web Audio based engine;
+- a portable `.dw` project format;
+- work surfaces such as arranger, sequencer, piano roll and mixer;
+- instruments and effects integrated into the DAW;
+- export workflows;
+- save, reopen and recovery logic;
+- an Android target through Capacitor;
+- QA and validation material oriented toward proof.
+
+I want to present DAWWW-CORE as a serious music-production project, without overclaiming. Detailed proof, limitations and handover elements belong in the buyer pack.
+
+---
+
+## Unicorn Sound Engine
+
+**Unicorn Sound Engine** is a separate line around audio instruments and effects.
+
+It lets me present the work linked to plugins, presets, manuals, listening review, product pages and distribution.
+
+This line can include:
+
+- VST instruments;
+- VST effects;
+- manuals;
+- presets;
+- listening notes;
+- audition material;
+- packaging;
+- store;
+- downloads;
+- release notes.
+
+It completes my music-tech universe, but it does not replace DAWWW-CORE.
+
+---
+
+## FX Line
+
+The FX line groups audio effects by treatment families:
+
+- analyzer;
+- creative;
+- delay;
+- distortion;
+- doubler;
+- dynamics;
+- EQ / filter;
+- modulation;
+- pitch / time;
+- reverb;
+- stereo.
+
+My goal is not only to have a list of effects. I want each effect to be understandable as a small audio product:
+
+```text
+musical role → DSP behavior → interface → presets/docs → packaging → distribution
+```
+
+---
+
+## Audition & Review
+
+I also need review tools, because an audio project cannot be validated only with code.
+
+For synths, FX, presets or visual assets, I need to listen, rate, compare, accept, reject or request corrections.
+
+This layer helps structure:
+
+- listening checks;
+- presets;
+- verdicts;
+- quality notes;
+- visual assets;
+- feedback exports;
+- release decisions.
+
+It is an important layer for moving from a project that simply exists to a project that is more readable, testable and credible.
+
+---
+
+## Public pack / Buyer pack
+
+I separate the documents into two levels.
+
+### Public pack
+
+The public pack is used to present the projects cleanly.
+
+It can contain:
+
+- a short deck;
+- a one-pager;
+- selected visuals;
+- product explanation;
+- a lightweight technical appendix;
+- links to public pages.
+
+Its role is to give a first understanding without exposing what should remain private.
+
+### Buyer pack
+
+The buyer pack is for a more serious discussion or due diligence.
+
+It can contain:
+
+- the claims policy;
+- the real product scope;
+- `.dw` proof;
+- Android proof;
+- audio runtime material;
+- QA;
+- dependencies and licenses;
+- known limits;
+- security notes;
+- billing / store / handover topics;
+- acquisition or transfer material.
+
+This pack is not meant to be published as-is in this repository.
+
+---
+
+## Documentation
+
+The public repository should stay short and readable.
+
+Recommended reading path:
+
+| Page | Role |
+| --- | --- |
+| [`docs/dawww-core.md`](docs/dawww-core.md) | Present the main project |
+| [`docs/unicorn-sound-engine.md`](docs/unicorn-sound-engine.md) | Present the separate plugin line |
+| [`docs/fx-line.md`](docs/fx-line.md) | Present the FX family |
+| [`docs/audition-review.md`](docs/audition-review.md) | Present the listening and review layer |
+| [`docs/current-status.md`](docs/current-status.md) | Summarize the current public state |
+| [`docs/open-needs.md`](docs/open-needs.md) | List useful feedback and collaboration needs |
+
+Public proof and sales-positioning pages can be added later from the public pack, without copying sensitive buyer-pack details.
+
+---
+
+## What I want to show
+
+With this repository, I want to show:
+
+- that DAWWW-CORE is my main music-production project;
+- that Unicorn Sound Engine is a separate plugin line;
+- that the projects are related but technically distinct;
+- that `.dw` project continuity is a central subject;
+- that QA, export, audition and documentation are part of the work;
+- that private source code can stay private without making the project opaque.
+
+---
+
+## Useful needs
+
+The most useful feedback is concrete:
+
+- test DAWWW-CORE as a web DAW;
+- check save / reopen / export workflows;
+- test `.dw` continuity;
+- give feedback on the Android experience;
+- listen to synths and FX;
+- review manuals;
+- test download flows;
+- help prioritize effects;
+- improve product positioning;
+- discuss partnership, mission work, funding or acquisition.
+
+<p align="right"><a href="#dawww-core-local-and-cross-device-mao-studio">↑ Back to top</a> · <a href="#francais">Français</a></p>
