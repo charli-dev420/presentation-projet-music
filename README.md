@@ -1,4 +1,4 @@
-# DAWWW-CORE local and cross-device music studio
+# DAWWW-CORE local and cross device MAO studio
 
 <p align="center">
   <img src="assets/project-banners/daw-core.jpg" width="900" alt="DAWWW-CORE banner">
@@ -238,7 +238,7 @@ The most useful feedback is concrete:
 - improve product positioning;
 - discuss partnership, mission work, funding or acquisition.
 
-<p align="right"><a href="#dawww-core-local-and-cross-device-music-studio">↑ Back to top</a> · <a href="#francais">Français</a></p>
+<p align="right"><a href="#dawww-core-local-and-cross-device-mao-studio">↑ Back to top</a> · <a href="#francais">Français</a></p>
 
 ---
 
@@ -464,4 +464,4 @@ Les retours les plus utiles sont concrets :
 - améliorer le positionnement produit ;
 - discuter partenariat, mission, financement ou reprise.
 
-<p align="right"><a href="#dawww-core-local-and-cross-device-music-studio">↑ Retour en haut</a> · <a href="#english">English</a></p>
+<p align="right"><a href="#dawww-core-local-and-cross-device-mao-studio">↑ Retour en haut</a> · <a href="#english">English</a></p>
