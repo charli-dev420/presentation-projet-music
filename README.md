@@ -104,6 +104,7 @@ The public repository should stay readable and safe. The buyer proof pack is not
 | [`docs/current-status.md`](docs/current-status.md) | Current public state and remaining presentation gaps. |
 | [`docs/proof-summary.md`](docs/proof-summary.md) | Public proof boundaries. |
 | [`docs/public-pack.md`](docs/public-pack.md) | Public pack structure and safe publication limits. |
+| [`docs/faq.md`](docs/faq.md) | Frequently asked questions about scope, VST, `.dw`, Android and proof boundaries. |
 | [`docs/open-needs.md`](docs/open-needs.md) | Useful feedback, review and collaboration needs. |
 
 ---
@@ -213,6 +214,7 @@ Le dépôt public doit rester lisible et sûr. Le buyer proof pack n’est pas d
 | [`docs/current-status.md`](docs/current-status.md) | État public actuel et manques de présentation. |
 | [`docs/proof-summary.md`](docs/proof-summary.md) | Limites de preuve publique. |
 | [`docs/public-pack.md`](docs/public-pack.md) | Structure du pack public et limites de publication. |
+| [`docs/faq.md`](docs/faq.md) | Questions fréquentes sur le scope, les VST, `.dw`, Android et les limites de preuve. |
 | [`docs/open-needs.md`](docs/open-needs.md) | Retours, revue et collaborations utiles. |
 
 ---
