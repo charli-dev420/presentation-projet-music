@@ -34,9 +34,9 @@ The most useful report describes what was tested, what happened, what failed or 
 
 ---
 
-## Unicorn Sound Engine
+## UnicorSoundEngine
 
-Useful Unicorn Sound Engine feedback can focus on:
+Useful UnicorSoundEngine feedback can focus on:
 
 - listening quality;
 - instrument roles;
@@ -70,7 +70,7 @@ Useful FX review can focus on:
 Useful documentation review can focus on:
 
 - whether the project is understandable to an external reader;
-- whether DAWWW-CORE and Unicorn Sound Engine are clearly separated;
+- whether DAWWW-CORE and UnicorSoundEngine are clearly separated;
 - whether any claim sounds too strong;
 - whether the public proof boundaries are clear;
 - whether the reading path is short enough;
@@ -123,9 +123,9 @@ Le retour le plus utile décrit ce qui a été testé, ce qui s’est passé, ce
 
 ---
 
-## Unicorn Sound Engine
+## UnicorSoundEngine
 
-Les retours utiles sur Unicorn Sound Engine peuvent porter sur :
+Les retours utiles sur UnicorSoundEngine peuvent porter sur :
 
 - qualité d’écoute ;
 - rôle des instruments ;
@@ -159,7 +159,7 @@ Une revue utile de la FX Line peut porter sur :
 Une revue utile de documentation peut porter sur :
 
 - compréhension du projet par un lecteur externe ;
-- séparation claire entre DAWWW-CORE et Unicorn Sound Engine ;
+- séparation claire entre DAWWW-CORE et UnicorSoundEngine ;
 - claims trop forts ou trop flous ;
 - clarté des limites de preuve publique ;
 - longueur du parcours de lecture ;
