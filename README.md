@@ -105,6 +105,10 @@ The public repository should stay readable and safe. The buyer proof pack is not
 | [`docs/proof-summary.md`](docs/proof-summary.md) | Public proof boundaries. |
 | [`docs/public-pack.md`](docs/public-pack.md) | Public pack structure and safe publication limits. |
 | [`docs/faq.md`](docs/faq.md) | Frequently asked questions about scope, VST, `.dw`, Android and proof boundaries. |
+| [`docs/quick-review.md`](docs/quick-review.md) | Five-minute review path for external readers. |
+| [`docs/visual-index.md`](docs/visual-index.md) | Public visual material and missing visual proof. |
+| [`docs/public-roadmap.md`](docs/public-roadmap.md) | Short public documentation roadmap. |
+| [`NOTICE.md`](NOTICE.md) | Usage, rights and public repository boundaries. |
 | [`docs/open-needs.md`](docs/open-needs.md) | Useful feedback, review and collaboration needs. |
 
 ---
@@ -215,6 +219,10 @@ Le dépôt public doit rester lisible et sûr. Le buyer proof pack n’est pas d
 | [`docs/proof-summary.md`](docs/proof-summary.md) | Limites de preuve publique. |
 | [`docs/public-pack.md`](docs/public-pack.md) | Structure du pack public et limites de publication. |
 | [`docs/faq.md`](docs/faq.md) | Questions fréquentes sur le scope, les VST, `.dw`, Android et les limites de preuve. |
+| [`docs/quick-review.md`](docs/quick-review.md) | Parcours de revue en cinq minutes pour lecteurs externes. |
+| [`docs/visual-index.md`](docs/visual-index.md) | Matière visuelle publique et preuves visuelles manquantes. |
+| [`docs/public-roadmap.md`](docs/public-roadmap.md) | Roadmap documentaire publique courte. |
+| [`NOTICE.md`](NOTICE.md) | Droits, usage et limites du dépôt public. |
 | [`docs/open-needs.md`](docs/open-needs.md) | Retours, revue et collaborations utiles. |
 
 ---
