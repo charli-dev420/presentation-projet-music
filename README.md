@@ -18,7 +18,7 @@
 
 <h2 id="english">🇬🇧 English</h2>
 
-This repository presents the public music-production work around **DAWWW-CORE** and **Unicorn Sound Engine**.
+This repository presents the public music-production work around **DAWWW-CORE** and **UnicorSoundEngine**.
 
 It is a public entry point for understanding the projects without exposing private source code, unreleased binaries, credentials, sensitive proof artifacts or buyer-only handover material.
 
@@ -29,11 +29,11 @@ It is a public entry point for understanding the projects without exposing priva
 | Line | Public role |
 | --- | --- |
 | **DAWWW-CORE** | Main browser DAW / local-first music workspace, built around Web Audio, portable `.dw` projects, audio export, recovery workflows and an Android direction. |
-| **Unicorn Sound Engine** | Separate VST / plugin ecosystem for instruments, effects, manuals, audition material, packaging and distribution. |
+| **UnicorSoundEngine** | Separate VST / plugin ecosystem for instruments, effects, manuals, audition material, packaging and distribution. |
 
 The distinction is important: **DAWWW-CORE does not load native VST plugins in the browser.**
 
-DAWWW-CORE is the browser DAW. Unicorn Sound Engine is the separate plugin line.
+DAWWW-CORE is the browser DAW. UnicorSoundEngine is the separate plugin line.
 
 ---
 
@@ -60,9 +60,9 @@ The public project story is built around:
 
 ---
 
-## Unicorn Sound Engine
+## UnicorSoundEngine
 
-Unicorn Sound Engine is the separate plugin and audio-product branch.
+UnicorSoundEngine is the separate plugin and audio-product branch.
 
 It can include:
 
@@ -98,7 +98,7 @@ The public repository should stay readable and safe. The buyer proof pack is not
 | --- | --- |
 | [`docs/project-overview.md`](docs/project-overview.md) | Public overview of DAWWW-CORE. |
 | [`docs/dawww-core.md`](docs/dawww-core.md) | DAWWW-CORE product surfaces and workflow. |
-| [`docs/unicorn-sound-engine.md`](docs/unicorn-sound-engine.md) | Separate plugin ecosystem. |
+| [`docs/unicorsoundengine.md`](docs/unicorsoundengine.md) | Separate plugin ecosystem. |
 | [`docs/fx-line.md`](docs/fx-line.md) | FX product family. |
 | [`docs/audition-review.md`](docs/audition-review.md) | Listening, presets, review and release decisions. |
 | [`docs/current-status.md`](docs/current-status.md) | Current public state and remaining presentation gaps. |
@@ -127,7 +127,7 @@ Useful feedback is concrete:
 
 <h2 id="francais">🇫🇷 Français</h2>
 
-Ce dépôt présente publiquement le travail MAO autour de **DAWWW-CORE** et **Unicorn Sound Engine**.
+Ce dépôt présente publiquement le travail MAO autour de **DAWWW-CORE** et **UnicorSoundEngine**.
 
 Il sert de point d’entrée pour comprendre les projets sans exposer les sources privées, les binaires non publiés, les credentials, les artefacts de preuve sensibles ou la matière de handover réservée aux acheteurs.
 
@@ -138,11 +138,11 @@ Il sert de point d’entrée pour comprendre les projets sans exposer les source
 | Ligne | Rôle public |
 | --- | --- |
 | **DAWWW-CORE** | DAW navigateur / workspace musical local-first, basé sur Web Audio, les projets portables `.dw`, l’export audio, la récupération et une direction Android. |
-| **Unicorn Sound Engine** | Écosystème VST / plugin séparé pour instruments, effets, manuels, audition, packaging et distribution. |
+| **UnicorSoundEngine** | Écosystème VST / plugin séparé pour instruments, effets, manuels, audition, packaging et distribution. |
 
 La distinction est importante : **DAWWW-CORE ne charge pas de VST natifs dans le navigateur.**
 
-DAWWW-CORE est le DAW navigateur. Unicorn Sound Engine est la ligne plugin séparée.
+DAWWW-CORE est le DAW navigateur. UnicorSoundEngine est la ligne plugin séparée.
 
 ---
 
@@ -169,9 +169,9 @@ Le récit public du projet repose sur :
 
 ---
 
-## Unicorn Sound Engine
+## UnicorSoundEngine
 
-Unicorn Sound Engine est la branche plugin et produit audio séparée.
+UnicorSoundEngine est la branche plugin et produit audio séparée.
 
 Elle peut inclure :
 
@@ -207,7 +207,7 @@ Le dépôt public doit rester lisible et sûr. Le buyer proof pack n’est pas d
 | --- | --- |
 | [`docs/project-overview.md`](docs/project-overview.md) | Vue publique de DAWWW-CORE. |
 | [`docs/dawww-core.md`](docs/dawww-core.md) | Surfaces produit et workflow DAWWW-CORE. |
-| [`docs/unicorn-sound-engine.md`](docs/unicorn-sound-engine.md) | Écosystème plugin séparé. |
+| [`docs/unicorsoundengine.md`](docs/unicorsoundengine.md) | Écosystème plugin séparé. |
 | [`docs/fx-line.md`](docs/fx-line.md) | Famille produit FX. |
 | [`docs/audition-review.md`](docs/audition-review.md) | Écoute, presets, revue et décisions release. |
 | [`docs/current-status.md`](docs/current-status.md) | État public actuel et manques de présentation. |
