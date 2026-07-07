@@ -76,7 +76,7 @@ A clear public story for DAWWW-CORE should focus on:
 - arranger, sequencer, piano roll and mixer surfaces;
 - export and recovery workflows;
 - Android direction through Capacitor;
-- separation from the Unicorn Sound Engine plugin line.
+- separation from the UnicorSoundEngine plugin line.
 
 <p align="right"><a href="#public-pack">↑ Back to top</a> · <a href="#francais">Français</a></p>
 
@@ -150,6 +150,6 @@ Le récit public autour de DAWWW-CORE doit rester centré sur :
 - les surfaces arrangeur, séquenceur, piano roll et mixer ;
 - les workflows d’export et récupération ;
 - la direction Android via Capacitor ;
-- la séparation avec la ligne plugin Unicorn Sound Engine.
+- la séparation avec la ligne plugin UnicorSoundEngine.
 
 <p align="right"><a href="#public-pack">↑ Retour en haut</a> · <a href="#english">English</a></p>
