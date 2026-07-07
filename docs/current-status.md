@@ -23,7 +23,7 @@ The repository is now structured as a public presentation layer around the music
 The visible path covers:
 
 - DAWWW-CORE as the main browser DAW project;
-- Unicorn Sound Engine as the separate plugin ecosystem;
+- UnicorSoundEngine as the separate plugin ecosystem;
 - the FX Line as a product family;
 - audition and review as quality-support layers;
 - public proof boundaries;
@@ -49,9 +49,9 @@ Production-level claims should stay tied to fresh validation, artifacts or buyer
 
 ---
 
-## Unicorn Sound Engine status
+## UnicorSoundEngine status
 
-Unicorn Sound Engine is presented as a separate plugin ecosystem.
+UnicorSoundEngine is presented as a separate plugin ecosystem.
 
 Publicly, it covers:
 
@@ -94,7 +94,7 @@ The current priority is presentation quality:
 
 1. keep the reader path clear;
 2. avoid internal memo wording;
-3. separate DAWWW-CORE from Unicorn Sound Engine;
+3. separate DAWWW-CORE from UnicorSoundEngine;
 4. avoid unsupported production claims;
 5. make every public page useful to an external reader.
 
@@ -117,7 +117,7 @@ Le dépôt est maintenant structuré comme une couche de présentation publique 
 Le parcours visible couvre :
 
 - DAWWW-CORE comme projet DAW navigateur principal ;
-- Unicorn Sound Engine comme écosystème plugin séparé ;
+- UnicorSoundEngine comme écosystème plugin séparé ;
 - la FX Line comme famille produit ;
 - l’audition et la revue comme couches de support qualité ;
 - les limites de preuve publique ;
@@ -143,9 +143,9 @@ Les claims production doivent rester liés à une validation fraîche, des artef
 
 ---
 
-## État Unicorn Sound Engine
+## État UnicorSoundEngine
 
-Unicorn Sound Engine est présenté comme un écosystème plugin séparé.
+UnicorSoundEngine est présenté comme un écosystème plugin séparé.
 
 Publiquement, il couvre :
 
@@ -188,7 +188,7 @@ La priorité actuelle est la qualité de présentation :
 
 1. garder le parcours lecteur clair ;
 2. éviter le ton mémo interne ;
-3. séparer DAWWW-CORE d’Unicorn Sound Engine ;
+3. séparer DAWWW-CORE d’UnicorSoundEngine ;
 4. éviter les claims production non supportés ;
 5. rendre chaque page utile à un lecteur externe.
 
