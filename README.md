@@ -5,241 +5,156 @@
 </p>
 
 <p align="center">
-  <strong>Music production · Web Audio · Browser DAW · .dw projects · Android · Audio plugins</strong>
+  <strong>Browser DAW · Web Audio · Portable .dw projects · Android target · Separate VST ecosystem</strong>
 </p>
 
 <p align="center">
-  <strong>Language / Langue</strong><br>
-  <a href="#english">🇬🇧 English</a> ·
-  <a href="#francais">🇫🇷 Français</a>
+  <a href="#english">🇬🇧 English</a> · <a href="#francais">🇫🇷 Français</a>
 </p>
 
 ---
 
 <h2 id="english">🇬🇧 English</h2>
 
-This repository presents the public music-production work around **DAWWW-CORE** and **UnicorSoundEngine**.
+This repository presents my music and MAO projects through two separate product lines:
 
-It is a public entry point for understanding the projects without exposing private source code, unreleased binaries, credentials, sensitive proof artifacts or buyer-only handover material.
+- **DAWWW-CORE** — a local-first browser DAW built around Web Audio and portable `.dw` projects.
+- **UnicorSoundEngine** — a separate VST instrument and effects ecosystem.
 
----
+DAWWW-CORE does not load native VST plugins in the browser.
 
-## Main lines
+## At a glance
 
-| Line | Public role |
-| --- | --- |
-| **DAWWW-CORE** | Main browser DAW / local-first music workspace, built around Web Audio, portable `.dw` projects, audio export, recovery workflows and an Android direction. |
-| **UnicorSoundEngine** | Separate VST / plugin ecosystem for instruments, effects, manuals, audition material, packaging and distribution. |
-
-The distinction is important: **DAWWW-CORE does not load native VST plugins in the browser.**
-
-DAWWW-CORE is the browser DAW. UnicorSoundEngine is the separate plugin line.
+| Line | Public status | Main focus |
+| --- | --- | --- |
+| **DAWWW-CORE desktop** | Implemented · stabilisation and release preparation | Browser DAW, playback, editing, save / reopen, export |
+| **`.dw` project format** | Implemented | Portable local-first project continuity |
+| **Android target** | Active test target | Capacitor integration and device validation |
+| **UnicorSoundEngine** | Separate product line | VST instruments, FX, manuals, packaging and distribution |
+| **FX and audition tools** | Supporting product tools | Listening review, presets, documentation and release decisions |
 
 ---
 
 ## DAWWW-CORE
 
-DAWWW-CORE is centered on project continuity.
-
-A music session should be able to survive the full workflow:
+DAWWW-CORE is built around a practical project loop:
 
 ```text
-create → save → reopen → recover → export → continue
+create → save → reopen → edit → export → continue
 ```
 
-The public project story is built around:
+The project brings together arranger, sequencer, piano roll, mixer, instruments, sampler, built-in effects, automation, export and recovery workflows in a browser-based studio.
 
-- browser-first music production;
-- Web Audio runtime work;
-- portable `.dw` project handling;
-- arranger, sequencer, piano roll and mixer surfaces;
-- instruments, sampler, effects, automation and modulation;
-- audio export and recovery workflows;
-- Android direction through Capacitor;
-- QA and proof material prepared for deeper review.
+The `.dw` format is central: it gives the project a portable container and makes continuity easier to test, explain and review.
+
+[DAWWW-CORE overview](docs/dawww-core.md) · [Project overview](docs/project-overview.md) · [Public proof summary](docs/proof-summary.md)
 
 ---
 
 ## UnicorSoundEngine
 
-UnicorSoundEngine is the separate plugin and audio-product branch.
+UnicorSoundEngine is the separate native plugin line. It covers:
 
-It can include:
+- VST instruments and effects;
+- presets and listening review;
+- manuals and product documentation;
+- packaging, product pages and download flows.
 
-- VST instruments;
-- VST effects;
-- manuals;
-- presets;
-- audition material;
-- packaging;
-- product pages;
-- store and download flows.
+FX repositories and the audition panel are supporting parts of this product line rather than separate top-level products.
 
-This line belongs to the same music-tech portfolio, but it is not the runtime of DAWWW-CORE.
+[UnicorSoundEngine](docs/unicorsoundengine.md) · [FX line](docs/fx-line.md) · [Audition and review](docs/audition-review.md)
 
 ---
 
-## Public pack / buyer proof pack
+## Review the project
 
-The documentation is separated into two levels.
+A useful first review can focus on:
 
-| Level | Role |
-| --- | --- |
-| **Public pack** | First-level presentation: deck, one-pager, selected visuals, lightweight technical appendix and public links. |
-| **Buyer proof pack** | Controlled review material: claims policy, proof details, QA, limits, transfer notes, reruns and handover material. |
+- `.dw` save / reopen / recovery;
+- browser playback and editing;
+- audio export;
+- Android test boundaries;
+- listening quality, presets and manuals for UnicorSoundEngine.
 
-The public repository should stay readable and safe. The buyer proof pack is not meant to be published as-is.
+[Five-minute review](docs/quick-review.md) · [Current status](docs/current-status.md) · [FAQ](docs/faq.md)
 
----
+<details>
+<summary><strong>Extended documentation</strong></summary>
 
-## Documentation path
+- [Public pack](docs/public-pack.md)
+- [Visual index](docs/visual-index.md)
+- [Public roadmap](docs/public-roadmap.md)
+- [Open needs](docs/open-needs.md)
+- [Repository notice](NOTICE.md)
+- [Contact](CONTACT.md)
 
-| Page | Purpose |
-| --- | --- |
-| [`docs/project-overview.md`](docs/project-overview.md) | Public overview of DAWWW-CORE. |
-| [`docs/dawww-core.md`](docs/dawww-core.md) | DAWWW-CORE product surfaces and workflow. |
-| [`docs/unicorsoundengine.md`](docs/unicorsoundengine.md) | Separate plugin ecosystem. |
-| [`docs/fx-line.md`](docs/fx-line.md) | FX product family. |
-| [`docs/audition-review.md`](docs/audition-review.md) | Listening, presets, review and release decisions. |
-| [`docs/current-status.md`](docs/current-status.md) | Current public state and remaining presentation gaps. |
-| [`docs/proof-summary.md`](docs/proof-summary.md) | Public proof boundaries. |
-| [`docs/public-pack.md`](docs/public-pack.md) | Public pack structure and safe publication limits. |
-| [`docs/faq.md`](docs/faq.md) | Frequently asked questions about scope, VST, `.dw`, Android and proof boundaries. |
-| [`docs/quick-review.md`](docs/quick-review.md) | Five-minute review path for external readers. |
-| [`docs/visual-index.md`](docs/visual-index.md) | Public visual material and missing visual proof. |
-| [`docs/public-roadmap.md`](docs/public-roadmap.md) | Short public documentation roadmap. |
-| [`NOTICE.md`](NOTICE.md) | Usage, rights and public repository boundaries. |
-| [`CONTACT.md`](CONTACT.md) | Contact channels for DAWWW-CORE, UnicorSoundEngine and general requests. |
-| [`docs/open-needs.md`](docs/open-needs.md) | Useful feedback, review and collaboration needs. |
+</details>
 
 ---
 
-## Useful review areas
+## Contact
 
-Useful feedback is concrete:
-
-- `.dw` save / reopen / recovery workflow;
-- browser playback and Web Audio behavior;
-- audio export scenarios;
-- Android readiness boundaries;
-- instrument and effect listening checks;
-- preset and manual clarity;
-- public documentation wording;
-- release-readiness gaps.
-
-<p align="right"><a href="#dawww-core-local-and-cross-device-mao-studio">↑ Back to top</a> · <a href="#francais">Français</a></p>
+- DAWWW-CORE: [contact@dawww-core-local.com](mailto:contact@dawww-core-local.com)
+- General / UnicorSoundEngine: [unicornwhodev@gmail.com](mailto:unicornwhodev@gmail.com)
 
 ---
 
 <h2 id="francais">🇫🇷 Français</h2>
 
-Ce dépôt présente publiquement le travail MAO autour de **DAWWW-CORE** et **UnicorSoundEngine**.
+Ce dépôt présente mes projets musique et MAO autour de deux lignes séparées :
 
-Il sert de point d’entrée pour comprendre les projets sans exposer les sources privées, les binaires non publiés, les credentials, les artefacts de preuve sensibles ou la matière de handover réservée aux acheteurs.
+- **DAWWW-CORE** — un DAW navigateur local-first basé sur Web Audio et les projets portables `.dw`.
+- **UnicorSoundEngine** — un écosystème séparé d’instruments et effets VST.
 
----
+DAWWW-CORE ne charge pas de VST natifs dans le navigateur.
 
-## Lignes principales
+## Vue rapide
 
-| Ligne | Rôle public |
-| --- | --- |
-| **DAWWW-CORE** | DAW navigateur / workspace musical local-first, basé sur Web Audio, les projets portables `.dw`, l’export audio, la récupération et une direction Android. |
-| **UnicorSoundEngine** | Écosystème VST / plugin séparé pour instruments, effets, manuels, audition, packaging et distribution. |
-
-La distinction est importante : **DAWWW-CORE ne charge pas de VST natifs dans le navigateur.**
-
-DAWWW-CORE est le DAW navigateur. UnicorSoundEngine est la ligne plugin séparée.
-
----
+| Ligne | État public | Axe principal |
+| --- | --- | --- |
+| **DAWWW-CORE desktop** | Implémenté · stabilisation et préparation release | DAW navigateur, playback, édition, sauvegarde / réouverture, export |
+| **Format `.dw`** | Implémenté | Continuité projet portable et local-first |
+| **Cible Android** | Cible de test active | Intégration Capacitor et validation appareils |
+| **UnicorSoundEngine** | Ligne produit séparée | Instruments VST, FX, manuels, packaging et distribution |
+| **FX et outils d’audition** | Outils produit de support | Écoute, presets, documentation et décisions de release |
 
 ## DAWWW-CORE
 
-DAWWW-CORE est centré sur la continuité projet.
-
-Une session musicale doit pouvoir survivre au workflow complet :
+DAWWW-CORE est construit autour d’une boucle simple :
 
 ```text
-créer → sauvegarder → rouvrir → récupérer → exporter → continuer
+créer → sauvegarder → rouvrir → modifier → exporter → continuer
 ```
 
-Le récit public du projet repose sur :
+Le projet réunit arrangeur, séquenceur, piano roll, mixer, instruments, sampler, effets intégrés, automation, export et récupération dans un studio navigateur.
 
-- production musicale browser-first ;
-- runtime Web Audio ;
-- gestion projet portable `.dw` ;
-- surfaces arrangeur, séquenceur, piano roll et mixer ;
-- instruments, sampler, effets, automation et modulation ;
-- workflows d’export audio et récupération ;
-- direction Android via Capacitor ;
-- matière QA et preuve préparée pour une revue plus profonde.
-
----
+[DAWWW-CORE](docs/dawww-core.md) · [Vue projet](docs/project-overview.md) · [Résumé des preuves](docs/proof-summary.md)
 
 ## UnicorSoundEngine
 
-UnicorSoundEngine est la branche plugin et produit audio séparée.
+UnicorSoundEngine est la ligne plugin native séparée : instruments, effets, presets, écoute, manuels, packaging, pages produit et téléchargements.
 
-Elle peut inclure :
+[UnicorSoundEngine](docs/unicorsoundengine.md) · [Ligne FX](docs/fx-line.md) · [Audition et revue](docs/audition-review.md)
 
-- instruments VST ;
-- effets VST ;
-- manuels ;
-- presets ;
-- audition ;
-- packaging ;
-- pages produit ;
-- store et téléchargements.
+## Revoir le projet
 
-Cette ligne appartient au même portfolio music-tech, mais elle n’est pas le runtime de DAWWW-CORE.
+Les retours les plus utiles concernent `.dw`, sauvegarde / réouverture, playback, export, Android, qualité d’écoute, presets et documentation.
 
----
+[Revue en cinq minutes](docs/quick-review.md) · [État actuel](docs/current-status.md) · [FAQ](docs/faq.md)
 
-## Pack public / buyer proof pack
+<details>
+<summary><strong>Documentation étendue</strong></summary>
 
-La documentation est séparée en deux niveaux.
+- [Pack public](docs/public-pack.md)
+- [Index visuel](docs/visual-index.md)
+- [Roadmap publique](docs/public-roadmap.md)
+- [Besoins ouverts](docs/open-needs.md)
+- [Notice](NOTICE.md)
+- [Contact](CONTACT.md)
 
-| Niveau | Rôle |
-| --- | --- |
-| **Pack public** | Présentation de premier niveau : deck, one-pager, visuels sélectionnés, appendice technique léger et liens publics. |
-| **Buyer proof pack** | Matière de revue contrôlée : politique de claims, preuves, QA, limites, notes de transfert, reruns et handover. |
+</details>
 
-Le dépôt public doit rester lisible et sûr. Le buyer proof pack n’est pas destiné à être publié tel quel.
+## Contact
 
----
-
-## Parcours documentation
-
-| Page | Rôle |
-| --- | --- |
-| [`docs/project-overview.md`](docs/project-overview.md) | Vue publique de DAWWW-CORE. |
-| [`docs/dawww-core.md`](docs/dawww-core.md) | Surfaces produit et workflow DAWWW-CORE. |
-| [`docs/unicorsoundengine.md`](docs/unicorsoundengine.md) | Écosystème plugin séparé. |
-| [`docs/fx-line.md`](docs/fx-line.md) | Famille produit FX. |
-| [`docs/audition-review.md`](docs/audition-review.md) | Écoute, presets, revue et décisions release. |
-| [`docs/current-status.md`](docs/current-status.md) | État public actuel et manques de présentation. |
-| [`docs/proof-summary.md`](docs/proof-summary.md) | Limites de preuve publique. |
-| [`docs/public-pack.md`](docs/public-pack.md) | Structure du pack public et limites de publication. |
-| [`docs/faq.md`](docs/faq.md) | Questions fréquentes sur le scope, les VST, `.dw`, Android et les limites de preuve. |
-| [`docs/quick-review.md`](docs/quick-review.md) | Parcours de revue en cinq minutes pour lecteurs externes. |
-| [`docs/visual-index.md`](docs/visual-index.md) | Matière visuelle publique et preuves visuelles manquantes. |
-| [`docs/public-roadmap.md`](docs/public-roadmap.md) | Roadmap documentaire publique courte. |
-| [`NOTICE.md`](NOTICE.md) | Droits, usage et limites du dépôt public. |
-| [`CONTACT.md`](CONTACT.md) | Canaux de contact DAWWW-CORE, UnicorSoundEngine et demandes générales. |
-| [`docs/open-needs.md`](docs/open-needs.md) | Retours, revue et collaborations utiles. |
-
----
-
-## Axes de revue utiles
-
-Les retours utiles sont concrets :
-
-- workflow sauvegarde / réouverture / récupération `.dw` ;
-- playback navigateur et comportement Web Audio ;
-- scénarios d’export audio ;
-- limites de readiness Android ;
-- écoute des instruments et effets ;
-- clarté des presets et manuels ;
-- wording de documentation publique ;
-- lacunes de release-readiness.
-
-<p align="right"><a href="#dawww-core-local-and-cross-device-mao-studio">↑ Retour en haut</a> · <a href="#english">English</a></p>
+- DAWWW-CORE : [contact@dawww-core-local.com](mailto:contact@dawww-core-local.com)
+- Général / UnicorSoundEngine : [unicornwhodev@gmail.com](mailto:unicornwhodev@gmail.com)
