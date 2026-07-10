@@ -10,108 +10,67 @@
 
 <h2 id="english">🇬🇧 English</h2>
 
-This roadmap lists the next public improvements for the music repository.
+This roadmap tracks the next visible improvements for the public music showcase.
 
-It is not a product promise and does not replace private planning, QA or buyer proof material.
+It is not a release-date promise. Its purpose is to make the projects easier to understand and review from the outside.
 
-The purpose is to keep the public showcase readable, current and safe.
+## Priority outcomes
 
----
-
-## Current priority
-
-The current public priority is presentation quality.
-
-The repository should remain:
-
-- short;
-- readable;
-- safe;
-- external-reader oriented;
-- clear about the separation between DAWWW-CORE and UnicorSoundEngine;
-- careful with production claims.
-
----
-
-## Next public additions
-
-| Priority | Item | Purpose |
+| Priority | Outcome | Why it matters |
 | --- | --- | --- |
-| P1 | Add selected screenshots | Show DAWWW-CORE surfaces without exposing private material. |
-| P1 | Add visual index updates | Keep visuals easy to find and review. |
-| P1 | Add short public proof notes | Make `.dw`, export and recovery claims easier to understand. |
-| P1 | Add safe audio examples | Support listening review without publishing sensitive material. |
-| P1 | Add Android validation note | Clarify what is validated and what still needs fresh proof. |
-| P2 | Add plugin documentation summaries | Make UnicorSoundEngine easier to review. |
-| P2 | Add FX status summaries | Show which FX families are ready, pending or experimental. |
-| P2 | Clean obsolete files | Remove or archive confusing old docs. |
+| P1 | Publish a clean DAWWW-CORE workspace view | Makes the product immediately concrete. |
+| P1 | Show one `.dw` round trip | Demonstrates save, reopen and continued editing. |
+| P1 | Publish one export example | Connects the interface to an observable result. |
+| P1 | Add a current Android validation snapshot | Clarifies the real mobile test boundary. |
+| P1 | Present the seven UnicorSoundEngine instrument families | Makes the plugin line understandable at a glance. |
+| P1 | Add short listening examples | Supports sound-quality and preset review. |
+| P2 | Present the FX families | Gives the effect line a readable structure. |
+| P2 | Add selected manual and product-page previews | Shows product completion beyond code. |
+| P2 | Add one public-pack preview | Gives deeper reviewers a clear next step. |
 
----
+## DAWWW-CORE next public milestones
 
-## Proof to publish safely
+- workspace overview;
+- arranger or mixer preview;
+- `.dw` save / reopen demonstration;
+- audio export example;
+- recovery summary;
+- Android device-validation note;
+- concise known-limits section.
 
-Useful public proof can include:
+## UnicorSoundEngine next public milestones
 
-- screenshots;
-- short demo clips;
-- short audio exports;
-- `.dw` save / reopen summaries;
-- dated validation summaries;
-- known limits;
-- release-readiness notes.
+- one product-family visual;
+- seven instrument-family summaries;
+- selected plugin screenshots;
+- short audio demonstrations;
+- preset and manual previews;
+- FX family overview;
+- clear packaging and download status.
 
-Public proof should avoid raw private logs, sensitive artifacts, credentials or buyer handover material.
+## Documentation maintenance
 
----
+Documentation work should remain secondary to visible product evidence.
 
-## DAWWW-CORE public roadmap
+The maintenance rules are simple:
 
-Useful public improvements for DAWWW-CORE:
+- keep the README concise;
+- remove obsolete naming and duplicated explanations;
+- keep English complete and first;
+- keep French complete;
+- verify links after every structural change;
+- move private operational detail out of the public reading path.
 
-- add a clean workspace screenshot;
-- add an arranger or timeline screenshot;
-- add a piano roll or sequencer screenshot;
-- add a mixer screenshot;
-- add an export example;
-- summarize `.dw` save / reopen behavior;
-- summarize recovery behavior;
-- clarify Android test boundaries.
+## Completion signal
 
----
+The showcase can be considered publicly mature when a new visitor can understand, within a few minutes:
 
-## UnicorSoundEngine public roadmap
-
-Useful public improvements for UnicorSoundEngine:
-
-- list the main instrument families;
-- list the main FX families;
-- add short product summaries;
-- add manual links or summaries;
-- add preset review notes;
-- add listening examples when safe;
-- clarify packaging and distribution status.
-
----
-
-## Documentation cleanup
-
-Remaining cleanup should focus on:
-
-- removing obsolete internal notes;
-- removing old naming variants;
-- keeping the README short;
-- avoiding repeated explanations across pages;
-- checking all links after each new page;
-- ensuring English is complete and first;
-- ensuring French is complete, not a short summary.
-
----
-
-## Public roadmap limits
-
-This roadmap should not be read as a guarantee of release dates, production certification or feature delivery.
-
-It is a public documentation roadmap for the showcase repository.
+1. what DAWWW-CORE is;
+2. what the `.dw` workflow provides;
+3. what UnicorSoundEngine contains;
+4. what already exists visibly;
+5. what remains under validation;
+6. where to go for a deeper review.
 
 <p align="right"><a href="#public-roadmap">↑ Back to top</a> · <a href="#francais">Français</a></p>
 
@@ -119,107 +78,66 @@ It is a public documentation roadmap for the showcase repository.
 
 <h2 id="francais">🇫🇷 Français</h2>
 
-Cette roadmap liste les prochaines améliorations publiques du dépôt music.
+Cette roadmap suit les prochaines améliorations visibles de la vitrine musique publique.
 
-Ce n’est pas une promesse produit et elle ne remplace pas la planification privée, la QA ou le buyer proof pack.
+Ce n’est pas une promesse de date de sortie. Son objectif est de rendre les projets plus faciles à comprendre et à examiner de l’extérieur.
 
-Son rôle est de garder la vitrine publique lisible, actuelle et sûre.
+## Résultats prioritaires
 
----
-
-## Priorité actuelle
-
-La priorité publique actuelle est la qualité de présentation.
-
-Le dépôt doit rester :
-
-- court ;
-- lisible ;
-- sûr ;
-- orienté lecteur externe ;
-- clair sur la séparation entre DAWWW-CORE et UnicorSoundEngine ;
-- prudent sur les claims production.
-
----
-
-## Prochains ajouts publics
-
-| Priorité | Élément | Objectif |
+| Priorité | Résultat | Intérêt |
 | --- | --- | --- |
-| P1 | Ajouter des captures sélectionnées | Montrer les surfaces DAWWW-CORE sans exposer de matière privée. |
-| P1 | Mettre à jour l’index visuel | Garder les visuels faciles à trouver et à revoir. |
-| P1 | Ajouter de courtes notes de preuve publique | Rendre `.dw`, export et récupération plus compréhensibles. |
-| P1 | Ajouter des exemples audio sûrs | Soutenir la revue d’écoute sans publier de matière sensible. |
-| P1 | Ajouter une note de validation Android | Clarifier ce qui est validé et ce qui demande une preuve fraîche. |
-| P2 | Ajouter des résumés de docs plugin | Rendre UnicorSoundEngine plus facile à revoir. |
-| P2 | Ajouter des résumés d’état FX | Montrer les familles FX prêtes, en attente ou expérimentales. |
-| P2 | Nettoyer les fichiers obsolètes | Supprimer ou archiver les anciennes docs confuses. |
+| P1 | Publier une vue propre du workspace DAWWW-CORE | Rend le produit immédiatement concret. |
+| P1 | Montrer un aller-retour `.dw` | Démontre sauvegarde, réouverture et reprise de l’édition. |
+| P1 | Publier un exemple d’export | Relie l’interface à un résultat observable. |
+| P1 | Ajouter un état récent de validation Android | Clarifie la vraie limite des tests mobiles. |
+| P1 | Présenter les sept familles d’instruments UnicorSoundEngine | Rend la ligne plugin compréhensible en un coup d’œil. |
+| P1 | Ajouter de courts exemples d’écoute | Soutient la revue de la qualité sonore et des presets. |
+| P2 | Présenter les familles FX | Donne une structure lisible à la ligne d’effets. |
+| P2 | Ajouter des aperçus de manuels et pages produit | Montre l’avancement produit au-delà du code. |
+| P2 | Ajouter un aperçu du pack public | Donne une étape suivante claire aux lecteurs approfondis. |
 
----
+## Prochains jalons publics DAWWW-CORE
 
-## Preuves à publier sans risque
+- vue générale du workspace ;
+- aperçu de l’arrangeur ou du mixer ;
+- démonstration sauvegarde / réouverture `.dw` ;
+- exemple d’export audio ;
+- résumé de récupération ;
+- note de validation sur appareils Android ;
+- section concise des limites connues.
 
-Les preuves publiques utiles peuvent inclure :
+## Prochains jalons publics UnicorSoundEngine
 
-- captures ;
-- courtes démos ;
-- courts exports audio ;
-- résumés sauvegarde / réouverture `.dw` ;
-- synthèses de validation datées ;
-- limites connues ;
-- notes release-readiness.
+- un visuel de la famille produit ;
+- les résumés des sept familles d’instruments ;
+- des captures sélectionnées de plugins ;
+- de courtes démonstrations audio ;
+- des aperçus de presets et manuels ;
+- une vue des familles FX ;
+- un état clair du packaging et des téléchargements.
 
-La preuve publique doit éviter les logs privés bruts, artefacts sensibles, credentials ou matière de handover acheteur.
+## Maintenance documentaire
 
----
+Le travail documentaire doit rester secondaire par rapport aux preuves visibles du produit.
 
-## Roadmap publique DAWWW-CORE
+Les règles de maintenance sont simples :
 
-Améliorations publiques utiles pour DAWWW-CORE :
+- garder le README concis ;
+- supprimer les anciens noms et les explications dupliquées ;
+- conserver un anglais complet et placé en premier ;
+- conserver un français complet ;
+- vérifier les liens après chaque changement de structure ;
+- sortir les détails opérationnels privés du parcours public.
 
-- ajouter une capture propre du workspace ;
-- ajouter une capture arrangeur ou timeline ;
-- ajouter une capture piano roll ou séquenceur ;
-- ajouter une capture mixer ;
-- ajouter un exemple d’export ;
-- résumer le comportement sauvegarde / réouverture `.dw` ;
-- résumer le comportement de récupération ;
-- clarifier les limites de test Android.
+## Signal de maturité
 
----
+La vitrine pourra être considérée comme publiquement mature lorsqu’un nouveau visiteur pourra comprendre en quelques minutes :
 
-## Roadmap publique UnicorSoundEngine
-
-Améliorations publiques utiles pour UnicorSoundEngine :
-
-- lister les principales familles d’instruments ;
-- lister les principales familles FX ;
-- ajouter de courts résumés produit ;
-- ajouter des liens ou résumés de manuels ;
-- ajouter des notes de revue presets ;
-- ajouter des exemples d’écoute lorsque c’est sûr ;
-- clarifier l’état packaging et distribution.
-
----
-
-## Nettoyage documentation
-
-Le nettoyage restant doit se concentrer sur :
-
-- suppression des notes internes obsolètes ;
-- suppression des anciens variants de nom ;
-- maintien du README court ;
-- éviter les explications répétées entre pages ;
-- vérifier tous les liens après chaque nouvelle page ;
-- garantir un anglais complet et placé en premier ;
-- garantir un français complet, pas un résumé court.
-
----
-
-## Limites de la roadmap publique
-
-Cette roadmap ne doit pas être lue comme une garantie de dates de sortie, certification production ou livraison de fonctionnalités.
-
-C’est une roadmap documentaire publique pour le repo vitrine.
+1. ce qu’est DAWWW-CORE ;
+2. ce qu’apporte le workflow `.dw` ;
+3. ce que contient UnicorSoundEngine ;
+4. ce qui existe déjà visiblement ;
+5. ce qui reste en validation ;
+6. où aller pour une revue plus approfondie.
 
 <p align="right"><a href="#public-roadmap">↑ Retour en haut</a> · <a href="#english">English</a></p>
