@@ -10,93 +10,78 @@
 
 <h2 id="english">🇬🇧 English</h2>
 
-This page gives a public status summary for the music-tech repository.
+This page gives a concise public status of the music-tech showcase.
 
-It does not replace the buyer proof pack and does not certify production readiness by itself. It gives a readable overview of what is presented publicly and what still needs controlled validation.
+It focuses on what a visitor can understand today, what is already represented clearly, and what still needs visible public material.
 
----
+## Repository status
 
-## Public repository status
+The repository now presents two separate product lines:
 
-The repository is now structured as a public presentation layer around the music projects.
+- **DAWWW-CORE** — the main browser DAW project;
+- **UnicorSoundEngine** — the separate native plugin ecosystem.
 
-The visible path covers:
+Supporting pages cover FX, audition, public proof, current limits, visuals and contact.
 
-- DAWWW-CORE as the main browser DAW project;
-- UnicorSoundEngine as the separate plugin ecosystem;
-- the FX Line as a product family;
-- audition and review as quality-support layers;
-- public proof boundaries;
-- useful feedback and collaboration needs.
+## DAWWW-CORE
 
----
+DAWWW-CORE is presented around:
 
-## DAWWW-CORE status
-
-DAWWW-CORE is presented as the main music-production codebase.
-
-Publicly, it is framed around:
-
-- browser DAW direction;
-- Web Audio runtime;
+- a browser DAW built with Web Audio;
 - local-first project handling;
-- portable `.dw` project format;
-- audio export and recovery workflows;
-- Android direction through Capacitor;
-- QA and proof material reserved for deeper review.
+- portable `.dw` project continuity;
+- arranger, sequencer, piano roll and mixer surfaces;
+- instruments, sampler, effects and automation;
+- export and recovery workflows;
+- an Android target through Capacitor.
 
-Production-level claims should stay tied to fresh validation, artifacts or buyer-pack evidence.
+The public story is strongest around the project loop:
 
----
+```text
+create → save → reopen → edit → export → continue
+```
 
-## UnicorSoundEngine status
+## UnicorSoundEngine
 
-UnicorSoundEngine is presented as a separate plugin ecosystem.
+UnicorSoundEngine is the separate plugin and audio-product line.
 
-Publicly, it covers:
+It covers:
 
-- VST instruments;
+- seven instrument families;
 - VST effects;
-- manuals;
-- presets;
-- audition material;
-- packaging;
-- distribution and download surfaces.
+- presets and listening review;
+- manuals and product documentation;
+- packaging, product pages and download flows.
 
-It must remain clearly separated from DAWWW-CORE runtime.
+It remains separate from the DAWWW-CORE browser runtime.
 
----
+## What is already clear
 
-## Public proof status
+- the two product lines are separated correctly;
+- the `.dw` workflow is central and understandable;
+- the repository has a complete public reading path;
+- Android is described as a test target, not overclaimed;
+- public and private material are separated.
 
-The public proof summary explains what can be said safely without publishing sensitive artifacts.
+## What still needs visible material
 
-Detailed material such as exact commands, account-transfer notes, private test outputs, security details and handover material belongs in a controlled buyer proof pack.
+The main remaining work is not more documentation. It is public demonstration:
 
----
+1. add real DAWWW-CORE interface screenshots;
+2. add one short `.dw` save / reopen example;
+3. add one export example;
+4. add an Android validation snapshot;
+5. add UnicorSoundEngine product visuals and short audio examples.
 
-## What still needs work
+## Current priority
 
-The public repo can still be improved by adding:
+The priority is now presentation and proof density:
 
-- more screenshots or visual previews;
-- short audio examples where appropriate;
-- clearer links to public packs;
-- per-plugin documentation summaries;
-- real dated proof references when safe to publish;
-- a cleaner archive strategy for obsolete documents.
-
----
-
-## Current public priority
-
-The current priority is presentation quality:
-
-1. keep the reader path clear;
-2. avoid internal memo wording;
-3. separate DAWWW-CORE from UnicorSoundEngine;
-4. avoid unsupported production claims;
-5. make every public page useful to an external reader.
+- show more, explain less;
+- keep the README short;
+- avoid repeating the same product separation across every page;
+- attach important claims to a screenshot, demo, dated note or public artifact;
+- make UnicorSoundEngine as concrete as DAWWW-CORE.
 
 <p align="right"><a href="#current-status">↑ Back to top</a> · <a href="#francais">Français</a></p>
 
@@ -104,92 +89,77 @@ The current priority is presentation quality:
 
 <h2 id="francais">🇫🇷 Français</h2>
 
-Cette page donne un résumé public de l’état du dépôt music-tech.
+Cette page présente un état public concis de la vitrine music-tech.
 
-Elle ne remplace pas le buyer proof pack et ne certifie pas à elle seule une readiness production. Elle donne une vue lisible de ce qui est présenté publiquement et de ce qui demande encore une validation contrôlée.
+Elle se concentre sur ce qu’un visiteur peut comprendre aujourd’hui, ce qui est déjà clairement présenté et ce qui demande encore de la matière publique visible.
 
----
+## État du dépôt
 
-## État du dépôt public
+Le dépôt présente maintenant deux lignes produit séparées :
 
-Le dépôt est maintenant structuré comme une couche de présentation publique autour des projets musicaux.
+- **DAWWW-CORE** — le projet principal de DAW navigateur ;
+- **UnicorSoundEngine** — l’écosystème séparé de plugins natifs.
 
-Le parcours visible couvre :
+Des pages complémentaires couvrent les FX, l’audition, les preuves publiques, les limites actuelles, les visuels et les contacts.
 
-- DAWWW-CORE comme projet DAW navigateur principal ;
-- UnicorSoundEngine comme écosystème plugin séparé ;
-- la FX Line comme famille produit ;
-- l’audition et la revue comme couches de support qualité ;
-- les limites de preuve publique ;
-- les retours et collaborations utiles.
+## DAWWW-CORE
 
----
+DAWWW-CORE est présenté autour de :
 
-## État DAWWW-CORE
+- un DAW navigateur basé sur Web Audio ;
+- une gestion de projet local-first ;
+- la continuité portable des projets `.dw` ;
+- l’arrangeur, le séquenceur, le piano roll et le mixer ;
+- les instruments, le sampler, les effets et l’automation ;
+- les workflows d’export et de récupération ;
+- une cible Android via Capacitor.
 
-DAWWW-CORE est présenté comme le codebase MAO principal.
+Le récit public est le plus fort autour de cette boucle :
 
-Publiquement, il est cadré autour de :
+```text
+créer → sauvegarder → rouvrir → modifier → exporter → continuer
+```
 
-- direction DAW navigateur ;
-- runtime Web Audio ;
-- gestion projet local-first ;
-- format projet portable `.dw` ;
-- export audio et récupération ;
-- direction Android via Capacitor ;
-- matière QA et preuve réservée à une revue plus profonde.
+## UnicorSoundEngine
 
-Les claims production doivent rester liés à une validation fraîche, des artefacts ou des preuves du pack acheteur.
+UnicorSoundEngine est la ligne séparée de plugins et produits audio.
 
----
+Elle couvre :
 
-## État UnicorSoundEngine
+- sept familles d’instruments ;
+- des effets VST ;
+- les presets et la revue d’écoute ;
+- les manuels et la documentation produit ;
+- le packaging, les pages produit et les téléchargements.
 
-UnicorSoundEngine est présenté comme un écosystème plugin séparé.
+Elle reste séparée du runtime navigateur de DAWWW-CORE.
 
-Publiquement, il couvre :
+## Ce qui est déjà clair
 
-- instruments VST ;
-- effets VST ;
-- manuels ;
-- presets ;
-- audition ;
-- packaging ;
-- distribution et surfaces de téléchargement.
+- les deux lignes produit sont correctement séparées ;
+- le workflow `.dw` est central et compréhensible ;
+- le dépôt possède un parcours public complet ;
+- Android est présenté comme cible de test, sans surpromesse ;
+- la matière publique et la matière privée sont séparées.
 
-Il doit rester clairement séparé du runtime DAWWW-CORE.
+## Ce qui manque encore visuellement
 
----
+Le travail principal restant n’est pas d’ajouter plus de documentation. Il faut surtout montrer davantage :
 
-## État des preuves publiques
+1. ajouter de vraies captures de l’interface DAWWW-CORE ;
+2. ajouter un exemple court de sauvegarde / réouverture `.dw` ;
+3. ajouter un exemple d’export ;
+4. ajouter un état de validation Android ;
+5. ajouter des visuels UnicorSoundEngine et de courts exemples audio.
 
-Le résumé public des preuves explique ce qui peut être dit sans publier d’artefacts sensibles.
+## Priorité actuelle
 
-La matière détaillée comme les commandes exactes, notes de transfert comptes, sorties de tests privées, détails sécurité et handover appartient à un buyer proof pack contrôlé.
+La priorité est maintenant la présentation et la densité de preuve :
 
----
-
-## Ce qui manque encore
-
-Le dépôt public peut encore être amélioré avec :
-
-- plus de captures ou previews visuelles ;
-- de courts exemples audio lorsque c’est pertinent ;
-- des liens plus clairs vers les packs publics ;
-- des résumés de documentation par plugin ;
-- des références de preuve datées lorsqu’elles peuvent être publiées sans risque ;
-- une stratégie d’archive plus propre pour les documents obsolètes.
-
----
-
-## Priorité publique actuelle
-
-La priorité actuelle est la qualité de présentation :
-
-1. garder le parcours lecteur clair ;
-2. éviter le ton mémo interne ;
-3. séparer DAWWW-CORE d’UnicorSoundEngine ;
-4. éviter les claims production non supportés ;
-5. rendre chaque page utile à un lecteur externe.
+- montrer davantage et expliquer moins ;
+- garder le README court ;
+- éviter de répéter partout la séparation des produits ;
+- rattacher les affirmations importantes à une capture, une démonstration, une note datée ou un artefact public ;
+- rendre UnicorSoundEngine aussi concret que DAWWW-CORE.
 
 <p align="right"><a href="#current-status">↑ Retour en haut</a> · <a href="#english">English</a></p>
