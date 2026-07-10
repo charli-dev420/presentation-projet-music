@@ -5,11 +5,11 @@
 </p>
 
 <p align="center">
-  <strong>Browser DAW · Web Audio · Portable .dw projects · Android target · Separate VST ecosystem</strong>
+  <strong>Browser DAW - Web Audio - Portable .dw projects - Android target - Separate VST ecosystem</strong>
 </p>
 
 <p align="center">
-  <a href="#english">English</a> · <a href="#francais">Francais</a>
+  <a href="#english">English</a> - <a href="#francais">Francais</a>
 </p>
 
 ---
@@ -18,5 +18,11 @@
 
 This repository presents my music and MAO projects through two separate product lines:
 
-- **DAWWW-CORE** — a local-first browser DAW built around Web Audio and portable `.dw` projects.
-- **UnicorSoundEngine** — a separate
+- **DAWWW-CORE** - a local-first browser DAW built around Web Audio and portable `.dw` projects.
+- **UnicorSoundEngine** - a separate VST instrument and effects ecosystem.
+
+DAWWW-CORE does not load native VST plugins in the browser.
+
+## At a glance
+
+| Line | Public status
