@@ -9,4 +9,14 @@
 </p>
 
 <p align="center">
-  <a href="#english">🇬🇧 English</a> · <a href="#francais">🇫🇷
+  <a href="#english">English</a> · <a href="#francais">Francais</a>
+</p>
+
+---
+
+<h2 id="english">English</h2>
+
+This repository presents my music and MAO projects through two separate product lines:
+
+- **DAWWW-CORE** — a local-first browser DAW built around Web Audio and portable `.dw` projects.
+- **UnicorSoundEngine** — a separate
