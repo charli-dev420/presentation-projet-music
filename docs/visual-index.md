@@ -10,92 +10,61 @@
 
 <h2 id="english">🇬🇧 English</h2>
 
-This page lists the public visual material used or expected for the music repository.
+This page tracks the public visuals used by the music showcase and the next additions that would make the projects easier to understand.
 
-The goal is to keep visuals organized and to make the repository easier to review as a public showcase.
-
----
-
-## Current visible visual
+## Current visuals
 
 | Visual | Path | Role |
 | --- | --- | --- |
-| DAWWW-CORE banner | `assets/project-banners/daw-core.jpg` | Main README banner. |
+| DAWWW-CORE banner | `assets/project-banners/daw-core.jpg` | Main repository identity. |
+| Music portfolio map | `assets/diagrams/music-portfolio-map.svg` | Separates DAWWW-CORE from UnicorSoundEngine. |
+| DAWWW-CORE project loop | `assets/diagrams/dawww-core-workflow.svg` | Shows the `.dw` continuity loop. |
 
----
+## Current visual reading
 
-## Visual material to add
+<p align="center">
+  <img src="../assets/diagrams/music-portfolio-map.svg" width="900" alt="Music portfolio map">
+</p>
 
-The repository can become stronger with selected public visuals.
+<p align="center">
+  <img src="../assets/diagrams/dawww-core-workflow.svg" width="900" alt="DAWWW-CORE project loop">
+</p>
 
-Recommended visual slots:
+These diagrams improve the structure of the showcase, but they do not replace real product screenshots or audio demonstrations.
 
-| Slot | Purpose | Status |
+## Next visuals to add
+
+| Priority | Visual | Purpose |
 | --- | --- | --- |
-| DAWWW-CORE UI screenshots | Show the browser DAW surfaces. | To add |
-| `.dw` workflow visual | Show save / reopen / project continuity. | To add |
-| Mixer / arranger screenshots | Show real DAW-like surfaces. | To add |
-| Export workflow screenshot | Support the export story. | To add |
-| Android preview | Show the Capacitor / Android direction without overclaiming. | To add |
-| UnicorSoundEngine visuals | Show the separate plugin product line. | To add |
-| FX visuals | Show effect families and product identity. | To add |
-| Public pack preview | Show selected deck or one-pager previews. | To add |
+| P1 | Full DAWWW-CORE workspace | Give an immediate view of the actual product. |
+| P1 | Arranger or mixer | Show a real production surface. |
+| P1 | `.dw` reopen example | Support the portable-project story. |
+| P1 | Export result | Connect the workflow to an observable output. |
+| P1 | UnicorSoundEngine product mosaic | Make the plugin line concrete. |
+| P2 | Android test snapshot | Show the device target with clear limits. |
+| P2 | FX family visual | Present the effect ecosystem. |
+| P2 | Public pack preview | Point to deeper presentation material. |
 
----
+## Selection rules
 
-## Visual rules
+A useful public visual should answer at least one question:
 
-Public visuals should stay safe and readable.
+- What does the product look like?
+- What part of the workflow does it show?
+- What claim does it support?
+- What should the reader review next?
 
-They should avoid exposing:
+Public visuals must avoid credentials, account screens, signing material, private source code, raw private QA output and sensitive handover material.
 
-- private source code;
-- credentials;
-- signing material;
-- private account screens;
-- unreleased sensitive binaries;
-- raw private QA outputs;
-- private buyer handover information.
+## Recommended README set
 
----
+The README should eventually contain no more than five strong visuals:
 
-## Useful screenshot types
-
-The most useful screenshots are not decorative only.
-
-They should help a reader understand the product:
-
-- DAW workspace overview;
-- arranger / timeline;
-- sequencer;
-- piano roll;
-- mixer;
-- instruments;
-- effects;
-- export panel;
-- `.dw` project save or reopen flow;
-- Android preview when safe.
-
----
-
-## Missing proof visuals
-
-The strongest future additions would be:
-
-- one screenshot showing the full DAWWW-CORE workspace;
-- one screenshot showing `.dw` project continuity;
-- one screenshot showing export;
-- one screenshot showing Android direction;
-- one visual separating DAWWW-CORE from UnicorSoundEngine;
-- one public pack preview.
-
----
-
-## Review note
-
-Visuals should support the public story without replacing proof.
-
-A screenshot can show that a surface exists, but detailed technical claims still need controlled proof, dated validation or a buyer proof pack.
+1. main banner;
+2. portfolio map;
+3. DAWWW-CORE workspace;
+4. `.dw` or export proof;
+5. UnicorSoundEngine product view.
 
 <p align="right"><a href="#visual-index">↑ Back to top</a> · <a href="#francais">Français</a></p>
 
@@ -103,91 +72,60 @@ A screenshot can show that a surface exists, but detailed technical claims still
 
 <h2 id="francais">🇫🇷 Français</h2>
 
-Cette page liste la matière visuelle publique utilisée ou attendue pour le dépôt music.
+Cette page suit les visuels publics utilisés par la vitrine musique et les prochains ajouts qui rendraient les projets plus faciles à comprendre.
 
-Le but est de garder les visuels organisés et de rendre le dépôt plus lisible comme vitrine publique.
-
----
-
-## Visuel visible actuel
+## Visuels actuels
 
 | Visuel | Chemin | Rôle |
 | --- | --- | --- |
-| Bannière DAWWW-CORE | `assets/project-banners/daw-core.jpg` | Bannière principale du README. |
+| Bannière DAWWW-CORE | `assets/project-banners/daw-core.jpg` | Identité principale du dépôt. |
+| Carte du portfolio musique | `assets/diagrams/music-portfolio-map.svg` | Sépare DAWWW-CORE d’UnicorSoundEngine. |
+| Boucle projet DAWWW-CORE | `assets/diagrams/dawww-core-workflow.svg` | Montre la continuité `.dw`. |
 
----
+## Lecture visuelle actuelle
 
-## Matière visuelle à ajouter
+<p align="center">
+  <img src="../assets/diagrams/music-portfolio-map.svg" width="900" alt="Carte du portfolio musique">
+</p>
 
-Le dépôt peut devenir plus solide avec des visuels publics sélectionnés.
+<p align="center">
+  <img src="../assets/diagrams/dawww-core-workflow.svg" width="900" alt="Boucle projet DAWWW-CORE">
+</p>
 
-Emplacements recommandés :
+Ces schémas améliorent la structure de la vitrine, mais ils ne remplacent pas de vraies captures produit ou des démonstrations audio.
 
-| Emplacement | Objectif | État |
+## Prochains visuels à ajouter
+
+| Priorité | Visuel | Objectif |
 | --- | --- | --- |
-| Captures UI DAWWW-CORE | Montrer les surfaces du DAW navigateur. | À ajouter |
-| Visuel workflow `.dw` | Montrer sauvegarde / réouverture / continuité projet. | À ajouter |
-| Captures mixer / arrangeur | Montrer de vraies surfaces type DAW. | À ajouter |
-| Capture workflow export | Soutenir le récit d’export. | À ajouter |
-| Preview Android | Montrer la direction Capacitor / Android sans surpromesse. | À ajouter |
-| Visuels UnicorSoundEngine | Montrer la ligne produit plugin séparée. | À ajouter |
-| Visuels FX | Montrer les familles d’effets et l’identité produit. | À ajouter |
-| Preview pack public | Montrer un aperçu deck ou one-pager sélectionné. | À ajouter |
+| P1 | Workspace DAWWW-CORE complet | Donner immédiatement une vue du produit réel. |
+| P1 | Arrangeur ou mixer | Montrer une vraie surface de production. |
+| P1 | Exemple de réouverture `.dw` | Soutenir la continuité de projet portable. |
+| P1 | Résultat d’export | Relier le workflow à une sortie observable. |
+| P1 | Mosaïque produit UnicorSoundEngine | Rendre la ligne plugin concrète. |
+| P2 | État de test Android | Montrer la cible appareil avec des limites claires. |
+| P2 | Visuel des familles FX | Présenter l’écosystème d’effets. |
+| P2 | Aperçu du pack public | Orienter vers la présentation approfondie. |
 
----
+## Règles de sélection
 
-## Règles visuelles
+Un visuel public utile doit répondre à au moins une question :
 
-Les visuels publics doivent rester sûrs et lisibles.
+- À quoi ressemble le produit ?
+- Quelle partie du workflow montre-t-il ?
+- Quelle affirmation soutient-il ?
+- Que doit examiner le lecteur ensuite ?
 
-Ils doivent éviter d’exposer :
+Les visuels publics doivent éviter les identifiants, écrans de comptes, éléments de signature, sources privées, sorties QA privées brutes et informations sensibles de transmission.
 
-- sources privées ;
-- credentials ;
-- éléments de signature ;
-- écrans de comptes privés ;
-- binaires sensibles non publiés ;
-- sorties QA privées brutes ;
-- informations de handover acheteur.
+## Ensemble recommandé pour le README
 
----
+Le README devrait finalement contenir au maximum cinq visuels forts :
 
-## Types de captures utiles
-
-Les captures les plus utiles ne sont pas seulement décoratives.
-
-Elles doivent aider un lecteur à comprendre le produit :
-
-- vue générale du workspace DAW ;
-- arrangeur / timeline ;
-- séquenceur ;
-- piano roll ;
-- mixer ;
-- instruments ;
-- effets ;
-- panneau d’export ;
-- flow sauvegarde ou réouverture `.dw` ;
-- preview Android lorsque c’est sûr.
-
----
-
-## Visuels de preuve manquants
-
-Les ajouts futurs les plus forts seraient :
-
-- une capture montrant le workspace DAWWW-CORE complet ;
-- une capture montrant la continuité projet `.dw` ;
-- une capture montrant l’export ;
-- une capture montrant la direction Android ;
-- un visuel séparant DAWWW-CORE de UnicorSoundEngine ;
-- un aperçu du pack public.
-
----
-
-## Note de revue
-
-Les visuels doivent soutenir le récit public sans remplacer la preuve.
-
-Une capture peut montrer qu’une surface existe, mais les claims techniques détaillés demandent encore une preuve contrôlée, une validation datée ou un buyer proof pack.
+1. bannière principale ;
+2. carte du portfolio ;
+3. workspace DAWWW-CORE ;
+4. preuve `.dw` ou export ;
+5. vue produit UnicorSoundEngine.
 
 <p align="right"><a href="#visual-index">↑ Retour en haut</a> · <a href="#english">English</a></p>
