@@ -1,185 +1,71 @@
 # FX Line
 
 <p align="center">
-  <strong>Language / Langue</strong><br>
-  <a href="#english">🇬🇧 English</a> ·
-  <a href="#francais">🇫🇷 Français</a>
+  <a href="#english">🇬🇧 English</a> · <a href="#francais">🇫🇷 Français</a>
 </p>
 
 ---
 
 <h2 id="english">🇬🇧 English</h2>
 
-The FX Line groups the audio effects work associated with UnicorSoundEngine.
+The FX Line groups the native audio effects associated with UnicorSoundEngine.
 
-It is a separate plugin-oriented product line. It should not be confused with DAWWW-CORE runtime effects or browser-loaded VST plugins.
-
----
-
-## Role of the FX Line
-
-The FX Line exists to organize audio processing tools as a readable product family.
-
-Each effect should be understandable through three simple questions:
-
-- what does it do musically;
-- how can it be tested or demonstrated;
-- what remains before it can be packaged or released.
-
----
+It is separate from the built-in Web Audio effects used inside DAWWW-CORE.
 
 ## Effect families
 
-The current public structure can group effects by treatment families:
-
-| Family | Purpose |
+| Family | Main role |
 | --- | --- |
-| **Analyzer** | Visual or technical reading of the signal. |
-| **Creative** | Sound-shaping tools with a stronger color or identity. |
-| **Delay** | Echo, repetition and time-based spacing. |
-| **Distortion** | Saturation, drive, clipping or harmonic coloration. |
-| **Doubler** | Width, duplication and thickening. |
-| **Dynamics** | Compression, limiting, expansion or level control. |
-| **EQ / Filter** | Tone shaping, filtering and frequency control. |
-| **Modulation** | Movement, variation and periodic parameter changes. |
-| **Pitch / Time** | Pitch manipulation, timing and transformation. |
-| **Reverb** | Space, depth and ambience. |
-| **Stereo** | Width, placement and spatial balance. |
+| **Analyzer** | Read and display the signal. |
+| **Dynamics** | Compression, limiting and level control. |
+| **EQ / Filter** | Tone shaping and frequency control. |
+| **Delay / Reverb** | Time, space and ambience. |
+| **Distortion / Texture** | Harmonic color and stronger sound transformation. |
+| **Doubler / Stereo** | Width, duplication and spatial placement. |
+| **Pitch / Modulation** | Pitch, movement and periodic variation. |
 
----
+## What each effect page should show
 
-## Product expectation
+- the musical role of the effect;
+- the main controls;
+- a before / after example;
+- current build and packaging status;
+- known limits;
+- supported plugin formats and tested DAWs when confirmed.
 
-A useful FX repository should not only show that an effect exists.
+## Review focus
 
-It should help a reader understand:
-
-- the audio role of the effect;
-- the current implementation status;
-- the available build target;
-- the controls exposed to the user;
-- the expected use cases;
-- the known limits;
-- what still needs listening, packaging or compatibility review.
-
----
-
-## Relationship with DAWWW-CORE
-
-DAWWW-CORE may include built-in Web Audio effects as part of the browser DAW.
-
-The FX Line is different. It belongs to the separate UnicorSoundEngine / VST ecosystem.
-
-This distinction keeps the public presentation clear:
-
-| DAWWW-CORE effects | FX Line |
-| --- | --- |
-| Browser / Web Audio context. | Native plugin-oriented product family. |
-| Part of the DAW workspace. | Part of UnicorSoundEngine. |
-| Not VST-hosted in the browser. | Built and presented as separate audio products. |
-
----
-
-## Useful review areas
-
-A useful review can focus on:
-
-- listening quality;
-- before / after examples;
-- preset usefulness;
-- control naming;
-- UI clarity;
-- build and packaging state;
-- DAW compatibility for native plugin releases;
-- documentation quality.
-
-<p align="right"><a href="#fx-line">↑ Back to top</a> · <a href="#francais">Français</a></p>
+The most useful review is listening-based: does the effect behave clearly, avoid unwanted artifacts and offer controls that match its musical purpose?
 
 ---
 
 <h2 id="francais">🇫🇷 Français</h2>
 
-La FX Line regroupe le travail autour des effets audio associés à UnicorSoundEngine.
+La FX Line regroupe les effets audio natifs associés à UnicorSoundEngine.
 
-C’est une ligne produit séparée, orientée plugins. Elle ne doit pas être confondue avec les effets runtime de DAWWW-CORE ni avec des VST chargés dans le navigateur.
-
----
-
-## Rôle de la FX Line
-
-La FX Line sert à organiser les traitements audio comme une famille produit lisible.
-
-Chaque effet doit pouvoir être compris à travers trois questions simples :
-
-- ce qu’il apporte musicalement ;
-- comment il peut être testé ou démontré ;
-- ce qu’il reste à faire avant packaging ou release.
-
----
+Elle est séparée des effets Web Audio intégrés dans DAWWW-CORE.
 
 ## Familles d’effets
 
-La structure publique peut regrouper les effets par familles de traitement :
-
-| Famille | Rôle |
+| Famille | Rôle principal |
 | --- | --- |
-| **Analyzer** | Lecture visuelle ou technique du signal. |
-| **Creative** | Traitements sonores avec une couleur ou une identité plus marquée. |
-| **Delay** | Écho, répétition et placement temporel. |
-| **Distortion** | Saturation, drive, clipping ou coloration harmonique. |
-| **Doubler** | Largeur, duplication et épaississement. |
-| **Dynamics** | Compression, limiting, expansion ou contrôle de niveau. |
-| **EQ / Filter** | Sculpture tonale, filtrage et contrôle fréquentiel. |
-| **Modulation** | Mouvement, variation et changements périodiques de paramètres. |
-| **Pitch / Time** | Manipulation de hauteur, timing et transformation. |
-| **Reverb** | Espace, profondeur et ambiance. |
-| **Stereo** | Largeur, placement et équilibre spatial. |
+| **Analyzer** | Lire et afficher le signal. |
+| **Dynamics** | Compression, limitation et contrôle du niveau. |
+| **EQ / Filter** | Sculpture tonale et contrôle fréquentiel. |
+| **Delay / Reverb** | Temps, espace et ambiance. |
+| **Distortion / Texture** | Couleur harmonique et transformation sonore plus marquée. |
+| **Doubler / Stereo** | Largeur, duplication et placement spatial. |
+| **Pitch / Modulation** | Hauteur, mouvement et variations périodiques. |
 
----
+## Ce que chaque page d’effet doit montrer
 
-## Attente produit
-
-Un repo FX utile ne doit pas seulement montrer qu’un effet existe.
-
-Il doit aider un lecteur à comprendre :
-
-- le rôle audio de l’effet ;
-- l’état actuel de l’implémentation ;
-- la cible de build disponible ;
-- les contrôles exposés à l’utilisateur ;
-- les usages attendus ;
+- le rôle musical de l’effet ;
+- les principaux contrôles ;
+- un exemple avant / après ;
+- l’état du build et du packaging ;
 - les limites connues ;
-- ce qui reste à écouter, packager ou valider côté compatibilité.
+- les formats plugin et DAW testés lorsqu’ils sont confirmés.
 
----
+## Axe de revue
 
-## Relation avec DAWWW-CORE
-
-DAWWW-CORE peut inclure des effets Web Audio intégrés au DAW navigateur.
-
-La FX Line est différente. Elle appartient à l’écosystème séparé UnicorSoundEngine / VST.
-
-Cette distinction garde la présentation publique claire :
-
-| Effets DAWWW-CORE | FX Line |
-| --- | --- |
-| Contexte navigateur / Web Audio. | Famille produit orientée plugins natifs. |
-| Partie du workspace DAW. | Partie d’UnicorSoundEngine. |
-| Pas de VST hosté dans le navigateur. | Présentée comme produits audio séparés. |
-
----
-
-## Axes de revue utiles
-
-Une revue utile peut porter sur :
-
-- qualité d’écoute ;
-- exemples avant / après ;
-- utilité des presets ;
-- nommage des contrôles ;
-- clarté de l’interface ;
-- état build et packaging ;
-- compatibilité DAW pour les releases plugins natives ;
-- qualité de documentation.
-
-<p align="right"><a href="#fx-line">↑ Retour en haut</a> · <a href="#english">English</a></p>
+La revue la plus utile repose sur l’écoute : l’effet se comporte-t-il clairement, évite-t-il les artefacts indésirables et propose-t-il des contrôles cohérents avec son rôle musical ?

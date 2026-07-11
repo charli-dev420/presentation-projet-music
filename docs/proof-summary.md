@@ -1,141 +1,51 @@
-# Public Proof Summary
+# Public proof summary
 
 <p align="center">
-  <strong>Language / Langue</strong><br>
-  <a href="#english">🇬🇧 English</a> ·
-  <a href="#francais">🇫🇷 Français</a>
+  <a href="#english">🇬🇧 English</a> · <a href="#francais">🇫🇷 Français</a>
 </p>
 
 ---
 
 <h2 id="english">🇬🇧 English</h2>
 
-This page explains which parts of the DAWWW-CORE story can be supported publicly and which details should stay in private technical review.
+Public proof should help an external reader connect a claim to something visible and understandable.
 
-## What can be stated publicly
+## Claim-to-evidence map
 
-DAWWW-CORE can be presented as a local-first browser DAW and music workspace with:
-
-- a Web Audio runtime;
-- portable `.dw` project continuity;
-- arranger, sequencer, piano roll and mixer surfaces;
-- instruments, sampler, effects, automation and modulation;
-- audio export and recovery workflows;
-- an Android target through Capacitor;
-- account and access surfaces;
-- prepared QA, security and provenance material.
-
-## Strongest public proof areas
-
-| Area | Useful public evidence |
+| Claim | Useful public evidence |
 | --- | --- |
-| **Product surface** | Real workspace, arranger, mixer and piano-roll screenshots. |
-| **Project continuity** | A short `.dw` save / reopen demonstration. |
-| **Audio behavior** | Export files, short demos and listening examples. |
-| **Recovery** | A concise recovery scenario or dated validation note. |
-| **Android** | A device-validation snapshot with clear limits. |
-| **UnicorSoundEngine** | Plugin screenshots, audio examples, presets and manuals. |
+| DAWWW-CORE has a real DAW workspace | Full interface screenshot or short demo. |
+| `.dw` supports project continuity | Save / close / reopen / verify example. |
+| Audio export works | Short exported audio file and export screenshot. |
+| Android is an active target | Dated device snapshot with tested scope and known limits. |
+| UnicorSoundEngine is a real product line | Product mosaic, plugin UI and listening examples. |
+| FX behave musically | Before / after audio and concise control notes. |
 
-## What should stay private
+## Public boundaries
 
-The public repository should not expose:
+The repository should not expose private source code, credentials, signing material, unreleased binaries, private account screens or raw security details.
 
-- private source code;
-- credentials, keys or signing material;
-- unreleased sensitive binaries;
-- private account screens;
-- raw private test outputs;
-- detailed security procedures;
-- transfer, negotiation or internal operational notes.
-
-These elements can be reviewed privately when relevant.
-
-## Claims to avoid
-
-The public repository should avoid statements stronger than the visible evidence:
-
-- universal Android production readiness;
-- guaranteed behavior on every device or browser;
-- automatic transfer of third-party accounts or stores;
-- native VST hosting inside DAWWW-CORE;
-- studio-grade certification of every instrument or effect without listening or export evidence;
-- old test notes presented as current validation without a rerun or dated artifact.
-
-## Current evidence gap
-
-The repository already explains the project clearly. The main remaining gap is visible evidence:
-
-1. real interface screenshots;
-2. one `.dw` round trip;
-3. one export example;
-4. one Android validation note;
-5. product and listening material for UnicorSoundEngine.
-
-<p align="right"><a href="#public-proof-summary">↑ Back to top</a> · <a href="#francais">Français</a></p>
+Deeper technical validation can be shared separately when needed, but the public repository should remain useful without requiring access to private material.
 
 ---
 
 <h2 id="francais">🇫🇷 Français</h2>
 
-Cette page explique quelles parties du récit DAWWW-CORE peuvent être soutenues publiquement et quels détails doivent rester dans une revue technique privée.
+Les preuves publiques doivent aider un lecteur externe à relier une affirmation à quelque chose de visible et compréhensible.
 
-## Ce qui peut être présenté publiquement
+## Carte affirmation / preuve
 
-DAWWW-CORE peut être présenté comme un DAW navigateur et un workspace musical local-first avec :
-
-- un runtime Web Audio ;
-- la continuité portable des projets `.dw` ;
-- l’arrangeur, le séquenceur, le piano roll et le mixer ;
-- les instruments, le sampler, les effets, l’automation et la modulation ;
-- les workflows d’export audio et de récupération ;
-- une cible Android via Capacitor ;
-- des surfaces de compte et d’accès ;
-- une matière QA, sécurité et provenance préparée.
-
-## Zones de preuve publique les plus fortes
-
-| Zone | Preuve publique utile |
+| Affirmation | Preuve publique utile |
 | --- | --- |
-| **Surface produit** | Vraies captures du workspace, de l’arrangeur, du mixer et du piano roll. |
-| **Continuité projet** | Courte démonstration de sauvegarde / réouverture `.dw`. |
-| **Comportement audio** | Fichiers exportés, démos courtes et exemples d’écoute. |
-| **Récupération** | Scénario concis ou note de validation datée. |
-| **Android** | État de validation sur appareils avec limites claires. |
-| **UnicorSoundEngine** | Captures de plugins, exemples audio, presets et manuels. |
+| DAWWW-CORE possède un vrai workspace DAW | Capture complète ou courte démonstration. |
+| `.dw` soutient la continuité projet | Exemple sauvegarde / fermeture / réouverture / vérification. |
+| L’export audio fonctionne | Court fichier audio exporté et capture du panneau d’export. |
+| Android est une cible active | Validation datée sur appareil avec périmètre testé et limites. |
+| UnicorSoundEngine est une vraie ligne produit | Mosaïque produit, interface plugin et exemples d’écoute. |
+| Les FX ont un comportement musical utile | Audio avant / après et notes courtes sur les contrôles. |
 
-## Ce qui doit rester privé
+## Limites publiques
 
-Le dépôt public ne doit pas exposer :
+Le dépôt ne doit pas exposer les sources privées, credentials, éléments de signature, binaires non publiés, écrans de comptes privés ou détails de sécurité bruts.
 
-- les sources privées ;
-- les identifiants, clés ou éléments de signature ;
-- les binaires sensibles non publiés ;
-- les écrans de comptes privés ;
-- les sorties de tests privées brutes ;
-- les procédures de sécurité détaillées ;
-- les notes de transfert, négociation ou fonctionnement interne.
-
-Ces éléments peuvent être examinés en privé lorsque c’est pertinent.
-
-## Affirmations à éviter
-
-Le dépôt public doit éviter les formulations plus fortes que les preuves visibles :
-
-- compatibilité Android universelle en production ;
-- comportement garanti sur tous les appareils ou navigateurs ;
-- transfert automatique des comptes ou boutiques tierces ;
-- hébergement de VST natifs dans DAWWW-CORE ;
-- certification studio de chaque instrument ou effet sans preuve d’écoute ou d’export ;
-- anciennes notes de test présentées comme validation actuelle sans nouvelle exécution ni artefact daté.
-
-## Manque actuel de preuves
-
-Le dépôt explique déjà clairement le projet. Le principal manque restant concerne les preuves visibles :
-
-1. de vraies captures d’interface ;
-2. un aller-retour `.dw` ;
-3. un exemple d’export ;
-4. une note de validation Android ;
-5. de la matière produit et d’écoute pour UnicorSoundEngine.
-
-<p align="right"><a href="#public-proof-summary">↑ Retour en haut</a> · <a href="#english">English</a></p>
+Une validation technique plus profonde peut être partagée séparément lorsque c’est nécessaire, mais le dépôt public doit rester utile sans accès à la matière privée.

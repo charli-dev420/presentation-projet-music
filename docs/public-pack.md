@@ -1,155 +1,59 @@
-# Public Pack
+# Public presentation pack
 
 <p align="center">
-  <strong>Language / Langue</strong><br>
-  <a href="#english">🇬🇧 English</a> ·
-  <a href="#francais">🇫🇷 Français</a>
+  <a href="#english">🇬🇧 English</a> · <a href="#francais">🇫🇷 Français</a>
 </p>
 
 ---
 
 <h2 id="english">🇬🇧 English</h2>
 
-The public pack is the first-level presentation material for DAWWW-CORE.
+The public presentation pack gathers the material needed to understand the projects quickly.
 
-It is designed for a reader who needs a quick, clean understanding of the project before any private technical review.
-
----
-
-## Purpose
-
-The public pack should explain DAWWW-CORE without exposing private source code, sensitive proof artifacts, credentials, account-transfer notes or buyer handover material.
-
-It gives a first view of the project through selected documents and visuals.
-
----
-
-## Typical content
-
-The public pack can include:
+## Recommended content
 
 | Item | Role |
 | --- | --- |
-| **Sales deck** | Short visual introduction to the project and its positioning. |
-| **One-pager** | Compact summary of the product, scope and public story. |
-| **Selected screenshots** | Visual proof that the product has real DAW surfaces. |
-| **Logo and visual assets** | Public identity material for the project. |
-| **Technical appendix** | Lightweight technical explanation without private proof dumps. |
-| **Public repository links** | Entry points for project reading and context. |
+| **README** | Main entry point and product separation. |
+| **One-pager** | Compact scope, value and status summary. |
+| **Selected screenshots** | Immediate product visibility. |
+| **Short demos** | `.dw`, export, Android and listening examples. |
+| **Technical summary** | Lightweight architecture and platform explanation. |
+| **Manual previews** | Product documentation examples. |
 
----
+## Reading order
 
-## Public pack boundaries
+1. Understand the two product lines.
+2. See the product surfaces.
+3. Review one complete DAWWW-CORE workflow.
+4. Listen to selected UnicorSoundEngine examples.
+5. Open deeper documentation only when needed.
 
-The public pack should stay readable and safe.
-
-It can describe the product, show selected visuals and summarize technical direction. It should not include:
-
-- credentials or keys;
-- private source code;
-- unreleased binaries;
-- raw private QA outputs;
-- detailed buyer handover steps;
-- account-transfer notes;
-- private pricing or negotiation material;
-- sensitive security details.
-
----
-
-## Relationship with the buyer proof pack
-
-The public pack gives a first understanding.
-
-The buyer proof pack is for controlled due diligence. It can contain deeper evidence, exact proof material, limits, reruns, transfer notes and handover details.
-
-The public pack should make the project understandable. The buyer proof pack should make the project verifiable.
-
----
-
-## Recommended public story
-
-A clear public story for DAWWW-CORE should focus on:
-
-- local-first browser DAW direction;
-- portable `.dw` project continuity;
-- Web Audio based music workspace;
-- arranger, sequencer, piano roll and mixer surfaces;
-- export and recovery workflows;
-- Android direction through Capacitor;
-- separation from the UnicorSoundEngine plugin line.
-
-<p align="right"><a href="#public-pack">↑ Back to top</a> · <a href="#francais">Français</a></p>
+Private source code, credentials, signing material and raw internal validation are not part of this public pack.
 
 ---
 
 <h2 id="francais">🇫🇷 Français</h2>
 
-Le pack public est le premier niveau de présentation de DAWWW-CORE.
+Le pack de présentation public rassemble la matière nécessaire pour comprendre rapidement les projets.
 
-Il s’adresse à un lecteur qui doit comprendre rapidement le projet avant une revue technique privée.
-
----
-
-## Objectif
-
-Le pack public doit expliquer DAWWW-CORE sans exposer les sources privées, les artefacts sensibles, les credentials, les notes de transfert de comptes ou la matière de handover acheteur.
-
-Il donne une première vue du projet à travers des documents et visuels sélectionnés.
-
----
-
-## Contenu type
-
-Le pack public peut inclure :
+## Contenu recommandé
 
 | Élément | Rôle |
 | --- | --- |
-| **Deck court** | Introduction visuelle au projet et à son positionnement. |
-| **One-pager** | Résumé compact du produit, du scope et du récit public. |
-| **Captures sélectionnées** | Preuve visuelle que le produit possède de vraies surfaces DAW. |
-| **Logo et assets visuels** | Matière d’identité publique du projet. |
-| **Appendice technique** | Explication technique légère sans dump de preuves privées. |
-| **Liens publics** | Points d’entrée pour lire le projet et son contexte. |
+| **README** | Point d’entrée principal et séparation des produits. |
+| **One-pager** | Résumé compact du périmètre, de la valeur et de l’état. |
+| **Captures sélectionnées** | Visibilité immédiate du produit. |
+| **Courtes démonstrations** | `.dw`, export, Android et exemples d’écoute. |
+| **Résumé technique** | Explication légère de l’architecture et des plateformes. |
+| **Aperçus de manuels** | Exemples de documentation produit. |
 
----
+## Ordre de lecture
 
-## Limites du pack public
+1. Comprendre les deux lignes produit.
+2. Voir les surfaces produit.
+3. Revoir un workflow DAWWW-CORE complet.
+4. Écouter des exemples UnicorSoundEngine sélectionnés.
+5. Ouvrir la documentation approfondie seulement si nécessaire.
 
-Le pack public doit rester lisible et sûr.
-
-Il peut décrire le produit, montrer des visuels sélectionnés et résumer la direction technique. Il ne doit pas inclure :
-
-- credentials ou clés ;
-- sources privées ;
-- binaires non publiés ;
-- sorties QA privées brutes ;
-- étapes détaillées de handover acheteur ;
-- notes de transfert de comptes ;
-- pricing privé ou notes de négociation ;
-- détails sécurité sensibles.
-
----
-
-## Relation avec le buyer proof pack
-
-Le pack public donne une première compréhension.
-
-Le buyer proof pack sert à une due diligence contrôlée. Il peut contenir les preuves plus profondes, la matière exacte de validation, les limites, les reruns, les notes de transfert et le handover.
-
-Le pack public doit rendre le projet compréhensible. Le buyer proof pack doit rendre le projet vérifiable.
-
----
-
-## Récit public recommandé
-
-Le récit public autour de DAWWW-CORE doit rester centré sur :
-
-- la direction DAW navigateur local-first ;
-- la continuité projet portable `.dw` ;
-- le workspace musical basé Web Audio ;
-- les surfaces arrangeur, séquenceur, piano roll et mixer ;
-- les workflows d’export et récupération ;
-- la direction Android via Capacitor ;
-- la séparation avec la ligne plugin UnicorSoundEngine.
-
-<p align="right"><a href="#public-pack">↑ Retour en haut</a> · <a href="#english">English</a></p>
+Les sources privées, credentials, éléments de signature et validations internes brutes ne font pas partie de ce pack public.

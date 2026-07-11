@@ -1,161 +1,109 @@
 # UnicorSoundEngine
 
 <p align="center">
-  <strong>Language / Langue</strong><br>
-  <a href="#english">🇬🇧 English</a> ·
-  <a href="#francais">🇫🇷 Français</a>
+  <a href="#english">🇬🇧 English</a> · <a href="#francais">🇫🇷 Français</a>
 </p>
 
 ---
 
 <h2 id="english">🇬🇧 English</h2>
 
-UnicorSoundEngine is the separate native plugin and audio-product line associated with the same music-tech portfolio as DAWWW-CORE.
+UnicorSoundEngine is the native plugin and audio-product line associated with the same music-tech portfolio as DAWWW-CORE.
 
-DAWWW-CORE is the browser DAW. UnicorSoundEngine is the VST instrument and effects ecosystem.
+It is a separate product family, not the DAWWW-CORE runtime.
 
-## Product family
-
-The instrument line is organised around seven families:
+## Instrument families
 
 | Family | Product role |
 | --- | --- |
-| **Piano** | Keyboard and piano-oriented sound design. |
-| **Percussion** | Percussive and rhythmic instruments. |
-| **Bass** | Bass-focused synthesis and presets. |
-| **Guitar** | Guitar-oriented instrument design. |
-| **Drum** | Drum kits, hits and rhythmic production. |
-| **Orchestral** | Orchestral and ensemble-oriented sounds. |
-| **Rare instruments** | Less common timbres and experimental instrument sources. |
+| **Piano** | Keyboard and piano-oriented sounds. |
+| **Percussion** | Percussive and rhythmic material. |
+| **Bass** | Low-frequency and bass-focused instruments. |
+| **Guitar** | Guitar-oriented timbres and playable textures. |
+| **Drum** | Drum and kit-oriented products. |
+| **Orchestral** | Ensemble and orchestral material. |
+| **Rare** | Less common instruments and distinctive timbres. |
 
-The broader product line also includes:
+## Product line
 
-- VST effects grouped by treatment family;
-- presets and listening-review material;
-- manuals and product documentation;
-- packaging, product pages and download flows.
+UnicorSoundEngine can include:
 
-## Product direction
-
-UnicorSoundEngine is designed as a readable product family, not as a scattered collection of audio experiments.
-
-Each release should make clear:
-
-- what the instrument or effect is for;
-- what sound family it covers;
-- what presets and documentation are included;
-- what platforms and DAWs are supported;
-- what remains under review or validation.
+- native instruments;
+- native effects;
+- presets and preset families;
+- manuals and product notes;
+- listening and comparison examples;
+- packaging, versioning and distribution surfaces.
 
 ## Relationship with DAWWW-CORE
 
 | DAWWW-CORE | UnicorSoundEngine |
 | --- | --- |
-| Browser DAW and local-first music workspace. | Separate native plugin ecosystem. |
-| Web Audio runtime. | VST instruments and effects. |
-| Portable `.dw` project continuity. | Presets, manuals, packaging and distribution. |
-| Built-in browser instruments and effects. | Products intended for compatible native DAW hosts. |
+| Browser DAW using Web Audio. | Native plugin product line. |
+| Portable `.dw` projects. | Instruments, FX, presets and manuals. |
+| Built-in browser effects. | Separate plugin releases. |
 
 DAWWW-CORE does not load native VST plugins in the browser.
 
-## What a public review should show
+## What a public reader should see
 
-A useful public presentation should include:
+A convincing public presentation should include:
 
-1. one visual showing the seven instrument families;
-2. selected plugin interface screenshots;
-3. short audio demonstrations;
-4. preset examples;
-5. manual or product-page previews;
-6. clear packaging and compatibility notes.
-
-## Review focus
-
-The most useful feedback concerns:
-
-- sound quality;
-- preset usefulness and naming;
-- product differentiation;
-- interface clarity;
-- manual readability;
-- DAW compatibility;
-- packaging and download experience.
-
-<p align="right"><a href="#unicorsoundengine">↑ Back to top</a> · <a href="#francais">Français</a></p>
+- one visual showing the seven instrument families;
+- at least one complete instrument interface;
+- at least one FX interface;
+- short listening examples;
+- clear product and manual links;
+- a concise status for what is ready, in review or experimental.
 
 ---
 
 <h2 id="francais">🇫🇷 Français</h2>
 
-UnicorSoundEngine est la ligne séparée de plugins natifs et de produits audio associée au même portfolio music-tech que DAWWW-CORE.
+UnicorSoundEngine est la ligne de plugins natifs et de produits audio associée au même portfolio music-tech que DAWWW-CORE.
 
-DAWWW-CORE est le DAW navigateur. UnicorSoundEngine est l’écosystème d’instruments et d’effets VST.
+Il s’agit d’une famille produit séparée, pas du runtime de DAWWW-CORE.
 
-## Famille produit
-
-La ligne d’instruments est organisée autour de sept familles :
+## Familles d’instruments
 
 | Famille | Rôle produit |
 | --- | --- |
-| **Piano** | Conception sonore orientée claviers et pianos. |
-| **Percussion** | Instruments percussifs et rythmiques. |
-| **Bass** | Synthèse et presets orientés basses. |
-| **Guitar** | Conception d’instruments orientée guitare. |
-| **Drum** | Kits, impacts et production rythmique. |
-| **Orchestral** | Sons orchestraux et ensembles. |
-| **Instruments rares** | Timbres moins courants et sources instrumentales expérimentales. |
+| **Piano** | Sons orientés claviers et pianos. |
+| **Percussion** | Matière percussive et rythmique. |
+| **Bass** | Instruments centrés sur les basses fréquences. |
+| **Guitar** | Timbres et textures orientés guitare. |
+| **Drum** | Produits orientés batterie et kits. |
+| **Orchestral** | Matière orchestrale et ensembles. |
+| **Rare** | Instruments moins courants et timbres distinctifs. |
 
-La ligne produit plus large comprend aussi :
+## Ligne produit
 
-- des effets VST regroupés par familles de traitement ;
-- des presets et de la matière pour la revue d’écoute ;
-- des manuels et de la documentation produit ;
-- le packaging, les pages produit et les téléchargements.
+UnicorSoundEngine peut inclure :
 
-## Direction produit
-
-UnicorSoundEngine est conçu comme une famille produit lisible, et non comme une collection dispersée d’expériences audio.
-
-Chaque sortie doit préciser :
-
-- à quoi sert l’instrument ou l’effet ;
-- quelle famille sonore il couvre ;
-- quels presets et documents sont inclus ;
-- quelles plateformes et quels DAW sont compatibles ;
-- ce qui reste en revue ou en validation.
+- des instruments natifs ;
+- des effets natifs ;
+- des presets et familles de presets ;
+- des manuels et notes produit ;
+- des exemples d’écoute et de comparaison ;
+- des surfaces de packaging, versioning et distribution.
 
 ## Relation avec DAWWW-CORE
 
 | DAWWW-CORE | UnicorSoundEngine |
 | --- | --- |
-| DAW navigateur et workspace musical local-first. | Écosystème séparé de plugins natifs. |
-| Runtime Web Audio. | Instruments et effets VST. |
-| Continuité portable des projets `.dw`. | Presets, manuels, packaging et distribution. |
-| Instruments et effets intégrés au navigateur. | Produits destinés aux hôtes DAW natifs compatibles. |
+| DAW navigateur utilisant Web Audio. | Ligne de produits plugins natifs. |
+| Projets portables `.dw`. | Instruments, FX, presets et manuels. |
+| Effets intégrés au navigateur. | Releases plugins séparées. |
 
-DAWWW-CORE ne charge pas de plugins VST natifs dans le navigateur.
+DAWWW-CORE ne charge pas de VST natifs dans le navigateur.
 
-## Ce qu’une présentation publique doit montrer
+## Ce qu’un lecteur public doit pouvoir voir
 
-Une présentation publique utile devrait comprendre :
+Une présentation publique convaincante devrait inclure :
 
-1. un visuel présentant les sept familles d’instruments ;
-2. des captures sélectionnées des interfaces ;
-3. de courtes démonstrations audio ;
-4. des exemples de presets ;
-5. des aperçus de manuels ou pages produit ;
-6. des notes claires sur le packaging et la compatibilité.
-
-## Axes de revue
-
-Les retours les plus utiles concernent :
-
-- la qualité sonore ;
-- l’utilité et le nommage des presets ;
-- la différenciation des produits ;
-- la clarté des interfaces ;
-- la lisibilité des manuels ;
-- la compatibilité DAW ;
-- le packaging et l’expérience de téléchargement.
-
-<p align="right"><a href="#unicorsoundengine">↑ Retour en haut</a> · <a href="#english">English</a></p>
+- un visuel des sept familles d’instruments ;
+- au moins une interface complète d’instrument ;
+- au moins une interface FX ;
+- de courts exemples d’écoute ;
+- des liens clairs vers les produits et manuels ;
+- un état concis de ce qui est prêt, en revue ou expérimental.
