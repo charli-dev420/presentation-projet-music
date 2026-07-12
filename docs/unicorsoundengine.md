@@ -1,161 +1,107 @@
 # UnicorSoundEngine
 
 <p align="center">
-  <strong>Language / Langue</strong><br>
-  <a href="#english">🇬🇧 English</a> ·
-  <a href="#francais">🇫🇷 Français</a>
+  <a href="#english">🇬🇧 English</a> · <a href="#francais">🇫🇷 Français</a>
 </p>
 
 ---
 
 <h2 id="english">🇬🇧 English</h2>
 
-UnicorSoundEngine is the separate native plugin and audio-product line associated with the same music-tech portfolio as DAWWW-CORE.
+UnicorSoundEngine is a collection of native audio instruments and effects.
 
-DAWWW-CORE is the browser DAW. UnicorSoundEngine is the VST instrument and effects ecosystem.
+Each product is designed as its own musical tool, with a clear sound direction, a dedicated interface, presets and documentation.
 
-## Product family
+## Instrument families
 
-The instrument line is organised around seven families:
-
-| Family | Product role |
+| Family | What it explores |
 | --- | --- |
-| **Piano** | Keyboard and piano-oriented sound design. |
-| **Percussion** | Percussive and rhythmic instruments. |
-| **Bass** | Bass-focused synthesis and presets. |
-| **Guitar** | Guitar-oriented instrument design. |
-| **Drum** | Drum kits, hits and rhythmic production. |
-| **Orchestral** | Orchestral and ensemble-oriented sounds. |
-| **Rare instruments** | Less common timbres and experimental instrument sources. |
+| **Piano** | Piano, keyboard and expressive tonal sounds |
+| **Percussion** | Percussive instruments, hits and acoustic textures |
+| **Bass** | Bass instruments, weight and low-frequency character |
+| **Guitar** | Guitar-inspired tones, plucks and textures |
+| **Drum** | Drum synthesis, kits and rhythm-focused sounds |
+| **Orchestral** | Orchestral colors and cinematic instruments |
+| **Rare** | Unusual instruments and less familiar sound sources |
 
-The broader product line also includes:
+The seven families are intended to cover different musical roles rather than repeat the same instrument in different skins.
 
-- VST effects grouped by treatment family;
-- presets and listening-review material;
-- manuals and product documentation;
-- packaging, product pages and download flows.
+## Effects
 
-## Product direction
+The effects collection includes tools for:
 
-UnicorSoundEngine is designed as a readable product family, not as a scattered collection of audio experiments.
+- equalization and filtering;
+- dynamics;
+- distortion and saturation;
+- delay and reverb;
+- modulation;
+- stereo shaping;
+- pitch and time transformation;
+- signal analysis.
 
-Each release should make clear:
+[Explore the FX line](fx-line.md)
 
-- what the instrument or effect is for;
-- what sound family it covers;
-- what presets and documentation are included;
-- what platforms and DAWs are supported;
-- what remains under review or validation.
+## Presets and listening
 
-## Relationship with DAWWW-CORE
+Presets give each instrument or effect an immediate musical starting point.
 
-| DAWWW-CORE | UnicorSoundEngine |
-| --- | --- |
-| Browser DAW and local-first music workspace. | Separate native plugin ecosystem. |
-| Web Audio runtime. | VST instruments and effects. |
-| Portable `.dw` project continuity. | Presets, manuals, packaging and distribution. |
-| Built-in browser instruments and effects. | Products intended for compatible native DAW hosts. |
+Listening examples can present a sound as a single note, a chord or a short loop so it is easier to understand before using the plugin in a full project.
 
-DAWWW-CORE does not load native VST plugins in the browser.
+[Learn about listening and presets](audition-review.md)
 
-## What a public review should show
+## Separate from DAWWW-CORE
 
-A useful public presentation should include:
+UnicorSoundEngine products are native plugins made for compatible desktop DAWs.
 
-1. one visual showing the seven instrument families;
-2. selected plugin interface screenshots;
-3. short audio demonstrations;
-4. preset examples;
-5. manual or product-page previews;
-6. clear packaging and compatibility notes.
-
-## Review focus
-
-The most useful feedback concerns:
-
-- sound quality;
-- preset usefulness and naming;
-- product differentiation;
-- interface clarity;
-- manual readability;
-- DAW compatibility;
-- packaging and download experience.
-
-<p align="right"><a href="#unicorsoundengine">↑ Back to top</a> · <a href="#francais">Français</a></p>
+They are separate from the Web Audio instruments and effects built into DAWWW-CORE. DAWWW-CORE does not host native VST plugins inside the browser.
 
 ---
 
 <h2 id="francais">🇫🇷 Français</h2>
 
-UnicorSoundEngine est la ligne séparée de plugins natifs et de produits audio associée au même portfolio music-tech que DAWWW-CORE.
+UnicorSoundEngine est une collection d’instruments et d’effets audio natifs.
 
-DAWWW-CORE est le DAW navigateur. UnicorSoundEngine est l’écosystème d’instruments et d’effets VST.
+Chaque produit est conçu comme un outil musical à part entière, avec une direction sonore claire, une interface dédiée, des presets et une documentation.
 
-## Famille produit
+## Familles d’instruments
 
-La ligne d’instruments est organisée autour de sept familles :
-
-| Famille | Rôle produit |
+| Famille | Ce qu’elle explore |
 | --- | --- |
-| **Piano** | Conception sonore orientée claviers et pianos. |
-| **Percussion** | Instruments percussifs et rythmiques. |
-| **Bass** | Synthèse et presets orientés basses. |
-| **Guitar** | Conception d’instruments orientée guitare. |
-| **Drum** | Kits, impacts et production rythmique. |
-| **Orchestral** | Sons orchestraux et ensembles. |
-| **Instruments rares** | Timbres moins courants et sources instrumentales expérimentales. |
+| **Piano** | Pianos, claviers et sons tonals expressifs |
+| **Percussion** | Instruments percussifs, impacts et textures acoustiques |
+| **Bass** | Basses, poids et caractère des fréquences graves |
+| **Guitar** | Timbres inspirés de la guitare, sons pincés et textures |
+| **Drum** | Synthèse de batterie, kits et sons rythmiques |
+| **Orchestral** | Couleurs orchestrales et instruments cinématiques |
+| **Rare** | Instruments inhabituels et sources sonores moins familières |
 
-La ligne produit plus large comprend aussi :
+Les sept familles sont pensées pour couvrir des rôles musicaux différents, plutôt que pour répéter le même instrument sous plusieurs apparences.
 
-- des effets VST regroupés par familles de traitement ;
-- des presets et de la matière pour la revue d’écoute ;
-- des manuels et de la documentation produit ;
-- le packaging, les pages produit et les téléchargements.
+## Effets
 
-## Direction produit
+La collection d’effets comprend des outils pour :
 
-UnicorSoundEngine est conçu comme une famille produit lisible, et non comme une collection dispersée d’expériences audio.
+- l’égalisation et le filtrage ;
+- la dynamique ;
+- la distorsion et la saturation ;
+- le delay et la reverb ;
+- la modulation ;
+- le travail de la stéréo ;
+- la transformation de hauteur et de temps ;
+- l’analyse du signal.
 
-Chaque sortie doit préciser :
+[Découvrir la ligne FX](fx-line.md)
 
-- à quoi sert l’instrument ou l’effet ;
-- quelle famille sonore il couvre ;
-- quels presets et documents sont inclus ;
-- quelles plateformes et quels DAW sont compatibles ;
-- ce qui reste en revue ou en validation.
+## Presets et écoute
 
-## Relation avec DAWWW-CORE
+Les presets donnent à chaque instrument ou effet un point de départ musical immédiat.
 
-| DAWWW-CORE | UnicorSoundEngine |
-| --- | --- |
-| DAW navigateur et workspace musical local-first. | Écosystème séparé de plugins natifs. |
-| Runtime Web Audio. | Instruments et effets VST. |
-| Continuité portable des projets `.dw`. | Presets, manuels, packaging et distribution. |
-| Instruments et effets intégrés au navigateur. | Produits destinés aux hôtes DAW natifs compatibles. |
+Les exemples d’écoute peuvent présenter un son avec une note, un accord ou une courte boucle afin de le comprendre plus facilement avant de l’utiliser dans un projet complet.
 
-DAWWW-CORE ne charge pas de plugins VST natifs dans le navigateur.
+[En savoir plus sur l’écoute et les presets](audition-review.md)
 
-## Ce qu’une présentation publique doit montrer
+## Séparé de DAWWW-CORE
 
-Une présentation publique utile devrait comprendre :
+Les produits UnicorSoundEngine sont des plugins natifs destinés aux DAW desktop compatibles.
 
-1. un visuel présentant les sept familles d’instruments ;
-2. des captures sélectionnées des interfaces ;
-3. de courtes démonstrations audio ;
-4. des exemples de presets ;
-5. des aperçus de manuels ou pages produit ;
-6. des notes claires sur le packaging et la compatibilité.
-
-## Axes de revue
-
-Les retours les plus utiles concernent :
-
-- la qualité sonore ;
-- l’utilité et le nommage des presets ;
-- la différenciation des produits ;
-- la clarté des interfaces ;
-- la lisibilité des manuels ;
-- la compatibilité DAW ;
-- le packaging et l’expérience de téléchargement.
-
-<p align="right"><a href="#unicorsoundengine">↑ Retour en haut</a> · <a href="#english">English</a></p>
+Ils sont séparés des instruments et effets Web Audio intégrés à DAWWW-CORE. DAWWW-CORE ne charge pas de plugins VST natifs dans le navigateur.
