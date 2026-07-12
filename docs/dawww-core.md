@@ -1,177 +1,113 @@
 # DAWWW-CORE
 
 <p align="center">
-  <strong>Language / Langue</strong><br>
-  <a href="#english">🇬🇧 English</a> ·
-  <a href="#francais">🇫🇷 Français</a>
+  <a href="#english">🇬🇧 English</a> · <a href="#francais">🇫🇷 Français</a>
 </p>
 
 ---
 
 <h2 id="english">🇬🇧 English</h2>
 
-DAWWW-CORE is the main DAW product line presented in this repository.
+DAWWW-CORE is a local-first music studio that runs in the browser.
 
-It is a local-first browser music workspace built around Web Audio, portable `.dw` projects, audio export, recovery workflows and an Android direction through Capacitor.
+It is built for creating ideas, arranging tracks, editing notes, mixing audio and keeping projects portable from one session to the next.
 
----
+## Main workspace
 
-## Core workflow
+DAWWW-CORE brings together:
 
-The project is centered on a practical DAW workflow:
+| Tool | What it is for |
+| --- | --- |
+| **Arranger** | Organising sections, clips and the musical timeline |
+| **Sequencer** | Building patterns and rhythmic ideas |
+| **Piano roll** | Editing notes and phrases |
+| **Mixer** | Balancing tracks and audio layers |
+| **Instruments** | Creating sound directly in the browser |
+| **Sampler** | Working with sample-based material |
+| **Effects** | Shaping sound with built-in processing |
+| **Automation and modulation** | Moving parameters over time |
+| **Export** | Producing audio and stems |
+
+## Portable `.dw` projects
+
+The `.dw` format is the project container used by DAWWW-CORE.
+
+It can hold the structure and musical information needed to continue a session later:
 
 ```text
-create → save → reopen → recover → export → continue
+create → save → reopen → edit → export → continue
 ```
 
-This workflow is more important than a long feature list. It defines what DAWWW-CORE must preserve: the musical state, the project structure and the ability to continue working after closing and reopening a session.
+This keeps the project separate from the temporary state of a single browser tab.
 
----
+## Local-first direction
 
-## Main surfaces
+DAWWW-CORE is designed so that music projects can remain on the user’s device instead of depending entirely on a cloud service.
 
-DAWWW-CORE groups several music-production surfaces in one browser-based workspace:
+The focus is on practical continuity: opening the studio, working, saving the project and returning to it later.
 
-| Surface | Role |
-| --- | --- |
-| **Arranger** | Organize musical sections and timeline structure. |
-| **Sequencer** | Build patterns, rhythms and structured musical events. |
-| **Piano roll** | Edit notes and musical phrases. |
-| **Mixer** | Balance tracks and audio layers. |
-| **Instruments** | Produce sound inside the browser DAW. |
-| **Sampler** | Work with sample-based material. |
-| **Effects** | Shape sound through built-in Web Audio processing. |
-| **Automation / modulation** | Control parameter changes over time. |
-| **Export** | Render or prepare audio output. |
-| **Project handling** | Save, reopen and recover work through the local-first direction. |
+## Platforms
 
----
+The main version targets desktop browsers.
 
-## Project format
+An Android version is also maintained through Capacitor, bringing the same project direction to mobile devices.
 
-The `.dw` format is central to DAWWW-CORE.
+## Built-in audio path
 
-It gives the project a portable container and makes the local-first story concrete. The format helps frame the project as something that can be saved, moved, reopened and reviewed outside a temporary browser state.
+The instruments and effects inside DAWWW-CORE use the browser and Web Audio.
 
----
-
-## Platform scope
-
-DAWWW-CORE is presented publicly around two platform directions:
-
-- **desktop web** for the main browser DAW experience;
-- **Android through Capacitor** as a mobile target and validation path.
-
-Production-level Android claims require fresh validation and should not be treated as universal device certification from the public README alone.
-
----
-
-## What DAWWW-CORE is not
-
-DAWWW-CORE is not a native VST host.
-
-It does not load native VST plugins in the browser. Instruments and effects inside DAWWW-CORE belong to the browser/Web Audio path.
-
-The separate VST and plugin work belongs to UnicorSoundEngine.
-
----
-
-## Useful review focus
-
-A useful review of DAWWW-CORE should focus on concrete behavior:
-
-- project creation;
-- `.dw` save and reopen;
-- recovery behavior;
-- Web Audio playback and export;
-- timeline and editing workflow;
-- Android readiness boundaries;
-- documentation clarity;
-- release-readiness gaps.
-
-<p align="right"><a href="#dawww-core">↑ Back to top</a> · <a href="#francais">Français</a></p>
+Native VST plugins belong to the separate [UnicorSoundEngine](unicorsoundengine.md) line and are not loaded inside the browser studio.
 
 ---
 
 <h2 id="francais">🇫🇷 Français</h2>
 
-DAWWW-CORE est la ligne DAW principale présentée dans ce dépôt.
+DAWWW-CORE est un studio musical local-first qui fonctionne dans le navigateur.
 
-C’est un workspace musical navigateur local-first basé sur Web Audio, les projets portables `.dw`, l’export audio, la récupération de session et une direction Android via Capacitor.
+Il est conçu pour créer des idées, arranger des pistes, modifier des notes, mixer l’audio et garder les projets portables d’une session à l’autre.
 
----
+## Workspace principal
 
-## Workflow central
+DAWWW-CORE réunit :
 
-Le projet est centré sur un workflow DAW concret :
+| Outil | Utilité |
+| --- | --- |
+| **Arrangeur** | Organiser les sections, les clips et la timeline musicale |
+| **Séquenceur** | Construire des patterns et des idées rythmiques |
+| **Piano roll** | Modifier les notes et les phrases musicales |
+| **Mixer** | Équilibrer les pistes et les couches audio |
+| **Instruments** | Créer du son directement dans le navigateur |
+| **Sampler** | Travailler avec des contenus basés sur des samples |
+| **Effets** | Façonner le son avec des traitements intégrés |
+| **Automation et modulation** | Faire évoluer les paramètres dans le temps |
+| **Export** | Produire de l’audio et des stems |
+
+## Projets portables `.dw`
+
+Le format `.dw` est le conteneur projet utilisé par DAWWW-CORE.
+
+Il peut conserver la structure et les informations musicales nécessaires pour reprendre une session plus tard :
 
 ```text
-créer → sauvegarder → rouvrir → récupérer → exporter → continuer
+créer → sauvegarder → rouvrir → modifier → exporter → continuer
 ```
 
-Ce workflow est plus important qu’une longue liste de fonctionnalités. Il définit ce que DAWWW-CORE doit préserver : l’état musical, la structure du projet et la possibilité de continuer à travailler après fermeture et réouverture d’une session.
+Le projet ne dépend donc pas uniquement de l’état temporaire d’un onglet de navigateur.
 
----
+## Direction local-first
 
-## Surfaces principales
+DAWWW-CORE est conçu pour que les projets musicaux puissent rester sur l’appareil de l’utilisateur au lieu de dépendre entièrement d’un service cloud.
 
-DAWWW-CORE regroupe plusieurs surfaces MAO dans un workspace navigateur :
+L’objectif est simple : ouvrir le studio, travailler, sauvegarder le projet et le reprendre plus tard.
 
-| Surface | Rôle |
-| --- | --- |
-| **Arrangeur** | Organiser les sections musicales et la structure temporelle. |
-| **Séquenceur** | Construire des patterns, rythmes et événements musicaux. |
-| **Piano roll** | Éditer les notes et phrases musicales. |
-| **Mixer** | Équilibrer les pistes et couches audio. |
-| **Instruments** | Produire du son dans le DAW navigateur. |
-| **Sampler** | Travailler avec des sources sample-based. |
-| **Effets** | Façonner le son via des traitements Web Audio intégrés. |
-| **Automation / modulation** | Contrôler les changements de paramètres dans le temps. |
-| **Export** | Rendre ou préparer une sortie audio. |
-| **Gestion projet** | Sauvegarder, rouvrir et récupérer le travail dans la logique local-first. |
+## Plateformes
 
----
+La version principale cible les navigateurs desktop.
 
-## Format projet
+Une version Android est également maintenue via Capacitor afin d’étendre la même logique de projet aux appareils mobiles.
 
-Le format `.dw` est central dans DAWWW-CORE.
+## Chemin audio intégré
 
-Il donne au projet un conteneur portable et rend l’approche local-first concrète. Le format permet de présenter le projet comme un travail qui peut être sauvegardé, déplacé, rouvert et revu hors d’un simple état temporaire du navigateur.
+Les instruments et effets présents dans DAWWW-CORE utilisent le navigateur et Web Audio.
 
----
-
-## Périmètre plateforme
-
-DAWWW-CORE est présenté publiquement autour de deux directions plateforme :
-
-- **web desktop** pour l’expérience principale de DAW navigateur ;
-- **Android via Capacitor** comme cible mobile et piste de validation.
-
-Les claims Android production demandent une validation fraîche et ne doivent pas être lus comme une certification universelle sur tous les appareils depuis le README public seul.
-
----
-
-## Ce que DAWWW-CORE n’est pas
-
-DAWWW-CORE n’est pas un host VST natif.
-
-Il ne charge pas de VST natifs dans le navigateur. Les instruments et effets dans DAWWW-CORE appartiennent au chemin navigateur/Web Audio.
-
-Le travail VST et plugin séparé appartient à UnicorSoundEngine.
-
----
-
-## Axes de revue utiles
-
-Une revue utile de DAWWW-CORE doit se concentrer sur des comportements concrets :
-
-- création projet ;
-- sauvegarde et réouverture `.dw` ;
-- récupération ;
-- lecture et export Web Audio ;
-- workflow timeline et édition ;
-- limites de readiness Android ;
-- clarté de documentation ;
-- lacunes de release-readiness.
-
-<p align="right"><a href="#dawww-core">↑ Retour en haut</a> · <a href="#english">English</a></p>
+Les plugins VST natifs appartiennent à la ligne séparée [UnicorSoundEngine](unicorsoundengine.md) et ne sont pas chargés dans le studio navigateur.

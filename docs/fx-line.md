@@ -1,185 +1,89 @@
-# FX Line
+# UnicorSoundEngine FX Line
 
 <p align="center">
-  <strong>Language / Langue</strong><br>
-  <a href="#english">🇬🇧 English</a> ·
-  <a href="#francais">🇫🇷 Français</a>
+  <a href="#english">🇬🇧 English</a> · <a href="#francais">🇫🇷 Français</a>
 </p>
 
 ---
 
 <h2 id="english">🇬🇧 English</h2>
 
-The FX Line groups the audio effects work associated with UnicorSoundEngine.
-
-It is a separate plugin-oriented product line. It should not be confused with DAWWW-CORE runtime effects or browser-loaded VST plugins.
-
----
-
-## Role of the FX Line
-
-The FX Line exists to organize audio processing tools as a readable product family.
-
-Each effect should be understandable through three simple questions:
-
-- what does it do musically;
-- how can it be tested or demonstrated;
-- what remains before it can be packaged or released.
-
----
+The UnicorSoundEngine FX line brings together native audio effects for mixing, sound design and creative processing.
 
 ## Effect families
 
-The current public structure can group effects by treatment families:
-
-| Family | Purpose |
+| Family | Musical use |
 | --- | --- |
-| **Analyzer** | Visual or technical reading of the signal. |
-| **Creative** | Sound-shaping tools with a stronger color or identity. |
-| **Delay** | Echo, repetition and time-based spacing. |
-| **Distortion** | Saturation, drive, clipping or harmonic coloration. |
-| **Doubler** | Width, duplication and thickening. |
-| **Dynamics** | Compression, limiting, expansion or level control. |
-| **EQ / Filter** | Tone shaping, filtering and frequency control. |
-| **Modulation** | Movement, variation and periodic parameter changes. |
-| **Pitch / Time** | Pitch manipulation, timing and transformation. |
-| **Reverb** | Space, depth and ambience. |
-| **Stereo** | Width, placement and spatial balance. |
+| **Analyzer** | Reading the level, spectrum or shape of a signal |
+| **Creative** | Giving a sound a distinctive colour or unusual character |
+| **Delay** | Creating echoes, repetitions and rhythmic space |
+| **Distortion** | Adding saturation, drive and harmonic texture |
+| **Doubler** | Making sounds wider, thicker or layered |
+| **Dynamics** | Controlling level with compression, limiting or expansion |
+| **EQ and filter** | Shaping tone and frequency balance |
+| **Modulation** | Adding movement through chorus, flanging and related effects |
+| **Pitch and time** | Transforming pitch, timing or playback character |
+| **Reverb** | Creating depth, room and atmosphere |
+| **Stereo** | Adjusting width, placement and spatial balance |
 
----
+## Designed for musical use
 
-## Product expectation
+Each effect is built around a clear musical purpose. Controls are intended to stay understandable so that a sound can be shaped without turning the interface into a technical puzzle.
 
-A useful FX repository should not only show that an effect exists.
+Presets can provide quick starting points, while manual controls leave room for more precise adjustments.
 
-It should help a reader understand:
+## Listening examples
 
-- the audio role of the effect;
-- the current implementation status;
-- the available build target;
-- the controls exposed to the user;
-- the expected use cases;
-- the known limits;
-- what still needs listening, packaging or compatibility review.
+Before/after audio examples are the simplest way to hear what an effect adds to a sound.
 
----
+Short demonstrations can show subtle correction, stronger creative processing or the character of a particular preset.
 
-## Relationship with DAWWW-CORE
+[Audition and listening](audition-review.md)
 
-DAWWW-CORE may include built-in Web Audio effects as part of the browser DAW.
+## Separate from DAWWW-CORE effects
 
-The FX Line is different. It belongs to the separate UnicorSoundEngine / VST ecosystem.
+DAWWW-CORE contains browser-based effects built with Web Audio.
 
-This distinction keeps the public presentation clear:
-
-| DAWWW-CORE effects | FX Line |
-| --- | --- |
-| Browser / Web Audio context. | Native plugin-oriented product family. |
-| Part of the DAW workspace. | Part of UnicorSoundEngine. |
-| Not VST-hosted in the browser. | Built and presented as separate audio products. |
-
----
-
-## Useful review areas
-
-A useful review can focus on:
-
-- listening quality;
-- before / after examples;
-- preset usefulness;
-- control naming;
-- UI clarity;
-- build and packaging state;
-- DAW compatibility for native plugin releases;
-- documentation quality.
-
-<p align="right"><a href="#fx-line">↑ Back to top</a> · <a href="#francais">Français</a></p>
+The UnicorSoundEngine FX line contains separate native plugins intended for compatible DAWs.
 
 ---
 
 <h2 id="francais">🇫🇷 Français</h2>
 
-La FX Line regroupe le travail autour des effets audio associés à UnicorSoundEngine.
-
-C’est une ligne produit séparée, orientée plugins. Elle ne doit pas être confondue avec les effets runtime de DAWWW-CORE ni avec des VST chargés dans le navigateur.
-
----
-
-## Rôle de la FX Line
-
-La FX Line sert à organiser les traitements audio comme une famille produit lisible.
-
-Chaque effet doit pouvoir être compris à travers trois questions simples :
-
-- ce qu’il apporte musicalement ;
-- comment il peut être testé ou démontré ;
-- ce qu’il reste à faire avant packaging ou release.
-
----
+La ligne FX de UnicorSoundEngine rassemble des effets audio natifs destinés au mixage, au sound design et aux traitements créatifs.
 
 ## Familles d’effets
 
-La structure publique peut regrouper les effets par familles de traitement :
-
-| Famille | Rôle |
+| Famille | Utilité musicale |
 | --- | --- |
-| **Analyzer** | Lecture visuelle ou technique du signal. |
-| **Creative** | Traitements sonores avec une couleur ou une identité plus marquée. |
-| **Delay** | Écho, répétition et placement temporel. |
-| **Distortion** | Saturation, drive, clipping ou coloration harmonique. |
-| **Doubler** | Largeur, duplication et épaississement. |
-| **Dynamics** | Compression, limiting, expansion ou contrôle de niveau. |
-| **EQ / Filter** | Sculpture tonale, filtrage et contrôle fréquentiel. |
-| **Modulation** | Mouvement, variation et changements périodiques de paramètres. |
-| **Pitch / Time** | Manipulation de hauteur, timing et transformation. |
-| **Reverb** | Espace, profondeur et ambiance. |
-| **Stereo** | Largeur, placement et équilibre spatial. |
+| **Analyzer** | Lire le niveau, le spectre ou la forme d’un signal |
+| **Creative** | Donner au son une couleur marquée ou un caractère inhabituel |
+| **Delay** | Créer des échos, répétitions et espaces rythmiques |
+| **Distortion** | Ajouter saturation, drive et texture harmonique |
+| **Doubler** | Rendre les sons plus larges, plus épais ou plus denses |
+| **Dynamics** | Contrôler le niveau avec compression, limitation ou expansion |
+| **EQ et filtre** | Façonner le timbre et l’équilibre fréquentiel |
+| **Modulation** | Ajouter du mouvement avec chorus, flanging et effets proches |
+| **Pitch et time** | Transformer la hauteur, le timing ou le caractère de lecture |
+| **Reverb** | Créer de la profondeur, un espace et une atmosphère |
+| **Stereo** | Régler la largeur, le placement et l’équilibre spatial |
 
----
+## Pensés pour un usage musical
 
-## Attente produit
+Chaque effet est construit autour d’un objectif musical clair. Les contrôles sont conçus pour rester compréhensibles afin de façonner le son sans transformer l’interface en casse-tête technique.
 
-Un repo FX utile ne doit pas seulement montrer qu’un effet existe.
+Les presets offrent des points de départ rapides, tandis que les réglages manuels permettent des ajustements plus précis.
 
-Il doit aider un lecteur à comprendre :
+## Exemples d’écoute
 
-- le rôle audio de l’effet ;
-- l’état actuel de l’implémentation ;
-- la cible de build disponible ;
-- les contrôles exposés à l’utilisateur ;
-- les usages attendus ;
-- les limites connues ;
-- ce qui reste à écouter, packager ou valider côté compatibilité.
+Les exemples audio avant/après sont la manière la plus simple d’entendre ce qu’un effet apporte au son.
 
----
+De courtes démonstrations peuvent montrer une correction légère, un traitement créatif plus marqué ou le caractère d’un preset particulier.
 
-## Relation avec DAWWW-CORE
+[Audition et écoute](audition-review.md)
 
-DAWWW-CORE peut inclure des effets Web Audio intégrés au DAW navigateur.
+## Séparés des effets DAWWW-CORE
 
-La FX Line est différente. Elle appartient à l’écosystème séparé UnicorSoundEngine / VST.
+DAWWW-CORE contient des effets navigateur construits avec Web Audio.
 
-Cette distinction garde la présentation publique claire :
-
-| Effets DAWWW-CORE | FX Line |
-| --- | --- |
-| Contexte navigateur / Web Audio. | Famille produit orientée plugins natifs. |
-| Partie du workspace DAW. | Partie d’UnicorSoundEngine. |
-| Pas de VST hosté dans le navigateur. | Présentée comme produits audio séparés. |
-
----
-
-## Axes de revue utiles
-
-Une revue utile peut porter sur :
-
-- qualité d’écoute ;
-- exemples avant / après ;
-- utilité des presets ;
-- nommage des contrôles ;
-- clarté de l’interface ;
-- état build et packaging ;
-- compatibilité DAW pour les releases plugins natives ;
-- qualité de documentation.
-
-<p align="right"><a href="#fx-line">↑ Retour en haut</a> · <a href="#english">English</a></p>
+La ligne FX de UnicorSoundEngine contient des plugins natifs séparés destinés aux DAW compatibles.
